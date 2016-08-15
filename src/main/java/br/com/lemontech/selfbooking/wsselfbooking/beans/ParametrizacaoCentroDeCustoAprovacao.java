@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Classe Java de parametrizacaoCentroDeCustoAprovacao complex type.
+ * <p>Java class for parametrizacaoCentroDeCustoAprovacao complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="parametrizacaoCentroDeCustoAprovacao">
@@ -52,7 +52,7 @@ public class ParametrizacaoCentroDeCustoAprovacao
     protected Double valorAlcadaFinal;
 
     /**
-     * Obtém o valor da propriedade vencimento.
+     * Gets the value of the vencimento property.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class ParametrizacaoCentroDeCustoAprovacao
     }
 
     /**
-     * Define o valor da propriedade vencimento.
+     * Sets the value of the vencimento property.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class ParametrizacaoCentroDeCustoAprovacao
     }
 
     /**
-     * Obtém o valor da propriedade periodoViagemFinal.
+     * Gets the value of the periodoViagemFinal property.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class ParametrizacaoCentroDeCustoAprovacao
     }
 
     /**
-     * Define o valor da propriedade periodoViagemFinal.
+     * Sets the value of the periodoViagemFinal property.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class ParametrizacaoCentroDeCustoAprovacao
     }
 
     /**
-     * Obtém o valor da propriedade valorAlcadaInicial.
+     * Gets the value of the valorAlcadaInicial property.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class ParametrizacaoCentroDeCustoAprovacao
     }
 
     /**
-     * Define o valor da propriedade valorAlcadaInicial.
+     * Sets the value of the valorAlcadaInicial property.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class ParametrizacaoCentroDeCustoAprovacao
     }
 
     /**
-     * Obtém o valor da propriedade valorAlcadaFinal.
+     * Gets the value of the valorAlcadaFinal property.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class ParametrizacaoCentroDeCustoAprovacao
     }
 
     /**
-     * Define o valor da propriedade valorAlcadaFinal.
+     * Sets the value of the valorAlcadaFinal property.
      * 
      * @param value
      *     allowed object is

@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Classe Java de parametrizacaoCentroDeCustoSolicitacao complex type.
+ * <p>Java class for parametrizacaoCentroDeCustoSolicitacao complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="parametrizacaoCentroDeCustoSolicitacao">
@@ -39,7 +39,7 @@ public class ParametrizacaoCentroDeCustoSolicitacao
     protected XMLGregorianCalendar vencimento;
 
     /**
-     * Obtém o valor da propriedade vencimento.
+     * Gets the value of the vencimento property.
      * 
      * @return
      *     possible object is
@@ -51,7 +51,7 @@ public class ParametrizacaoCentroDeCustoSolicitacao
     }
 
     /**
-     * Define o valor da propriedade vencimento.
+     * Sets the value of the vencimento property.
      * 
      * @param value
      *     allowed object is

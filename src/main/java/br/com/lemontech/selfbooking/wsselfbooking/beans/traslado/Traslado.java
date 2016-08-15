@@ -10,9 +10,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Consolidadora;
 
 
 /**
- * <p>Classe Java de traslado complex type.
+ * <p>Java class for traslado complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="traslado">
@@ -152,7 +152,7 @@ public class Traslado {
     protected String unidadeOperacional;
 
     /**
-     * Obtém o valor da propriedade id.
+     * Gets the value of the id property.
      * 
      */
     public int getId() {
@@ -160,7 +160,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade id.
+     * Sets the value of the id property.
      * 
      */
     public void setId(int value) {
@@ -168,7 +168,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade dataOrigem.
+     * Gets the value of the dataOrigem property.
      * 
      * @return
      *     possible object is
@@ -180,7 +180,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade dataOrigem.
+     * Sets the value of the dataOrigem property.
      * 
      * @param value
      *     allowed object is
@@ -192,7 +192,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade paisOrigem.
+     * Gets the value of the paisOrigem property.
      * 
      * @return
      *     possible object is
@@ -204,7 +204,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade paisOrigem.
+     * Sets the value of the paisOrigem property.
      * 
      * @param value
      *     allowed object is
@@ -216,7 +216,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade estadoOrigem.
+     * Gets the value of the estadoOrigem property.
      * 
      * @return
      *     possible object is
@@ -228,7 +228,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade estadoOrigem.
+     * Sets the value of the estadoOrigem property.
      * 
      * @param value
      *     allowed object is
@@ -240,7 +240,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade cidadeOrigem.
+     * Gets the value of the cidadeOrigem property.
      * 
      * @return
      *     possible object is
@@ -252,7 +252,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade cidadeOrigem.
+     * Sets the value of the cidadeOrigem property.
      * 
      * @param value
      *     allowed object is
@@ -264,7 +264,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade enderecoOrigem.
+     * Gets the value of the enderecoOrigem property.
      * 
      * @return
      *     possible object is
@@ -276,7 +276,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade enderecoOrigem.
+     * Sets the value of the enderecoOrigem property.
      * 
      * @param value
      *     allowed object is
@@ -288,7 +288,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade paisDestino.
+     * Gets the value of the paisDestino property.
      * 
      * @return
      *     possible object is
@@ -300,7 +300,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade paisDestino.
+     * Sets the value of the paisDestino property.
      * 
      * @param value
      *     allowed object is
@@ -312,7 +312,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade estadoDestino.
+     * Gets the value of the estadoDestino property.
      * 
      * @return
      *     possible object is
@@ -324,7 +324,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade estadoDestino.
+     * Sets the value of the estadoDestino property.
      * 
      * @param value
      *     allowed object is
@@ -336,7 +336,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade cidadeDestino.
+     * Gets the value of the cidadeDestino property.
      * 
      * @return
      *     possible object is
@@ -348,7 +348,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade cidadeDestino.
+     * Sets the value of the cidadeDestino property.
      * 
      * @param value
      *     allowed object is
@@ -360,7 +360,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade enderecoDestino.
+     * Gets the value of the enderecoDestino property.
      * 
      * @return
      *     possible object is
@@ -372,7 +372,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade enderecoDestino.
+     * Sets the value of the enderecoDestino property.
      * 
      * @param value
      *     allowed object is
@@ -384,7 +384,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade valor.
+     * Gets the value of the valor property.
      * 
      * @return
      *     possible object is
@@ -396,7 +396,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade valor.
+     * Sets the value of the valor property.
      * 
      * @param value
      *     allowed object is
@@ -408,7 +408,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade taxa.
+     * Gets the value of the taxa property.
      * 
      * @return
      *     possible object is
@@ -420,7 +420,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade taxa.
+     * Sets the value of the taxa property.
      * 
      * @param value
      *     allowed object is
@@ -432,7 +432,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade taxaFee.
+     * Gets the value of the taxaFee property.
      * 
      * @return
      *     possible object is
@@ -444,7 +444,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade taxaFee.
+     * Sets the value of the taxaFee property.
      * 
      * @param value
      *     allowed object is
@@ -456,7 +456,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade moeda.
+     * Gets the value of the moeda property.
      * 
      * @return
      *     possible object is
@@ -468,7 +468,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade moeda.
+     * Sets the value of the moeda property.
      * 
      * @param value
      *     allowed object is
@@ -480,7 +480,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade codigoTipoPagamento.
+     * Gets the value of the codigoTipoPagamento property.
      * 
      * @return
      *     possible object is
@@ -492,7 +492,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade codigoTipoPagamento.
+     * Sets the value of the codigoTipoPagamento property.
      * 
      * @param value
      *     allowed object is
@@ -504,7 +504,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade fornecedor.
+     * Gets the value of the fornecedor property.
      * 
      * @return
      *     possible object is
@@ -516,7 +516,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade fornecedor.
+     * Sets the value of the fornecedor property.
      * 
      * @param value
      *     allowed object is
@@ -528,7 +528,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade codigoFornecedorBackOffice.
+     * Gets the value of the codigoFornecedorBackOffice property.
      * 
      * @return
      *     possible object is
@@ -540,7 +540,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade codigoFornecedorBackOffice.
+     * Sets the value of the codigoFornecedorBackOffice property.
      * 
      * @param value
      *     allowed object is
@@ -552,7 +552,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade modeloVeiculo.
+     * Gets the value of the modeloVeiculo property.
      * 
      * @return
      *     possible object is
@@ -564,7 +564,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade modeloVeiculo.
+     * Sets the value of the modeloVeiculo property.
      * 
      * @param value
      *     allowed object is
@@ -576,7 +576,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade nomeMotorista.
+     * Gets the value of the nomeMotorista property.
      * 
      * @return
      *     possible object is
@@ -588,7 +588,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade nomeMotorista.
+     * Sets the value of the nomeMotorista property.
      * 
      * @param value
      *     allowed object is
@@ -600,7 +600,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade contato.
+     * Gets the value of the contato property.
      * 
      * @return
      *     possible object is
@@ -612,7 +612,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade contato.
+     * Sets the value of the contato property.
      * 
      * @param value
      *     allowed object is
@@ -624,7 +624,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade observacaoOrcamento.
+     * Gets the value of the observacaoOrcamento property.
      * 
      * @return
      *     possible object is
@@ -636,7 +636,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade observacaoOrcamento.
+     * Sets the value of the observacaoOrcamento property.
      * 
      * @param value
      *     allowed object is
@@ -648,7 +648,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade obsemissor.
+     * Gets the value of the obsemissor property.
      * 
      * @return
      *     possible object is
@@ -660,7 +660,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade obsemissor.
+     * Sets the value of the obsemissor property.
      * 
      * @param value
      *     allowed object is
@@ -672,7 +672,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade codigoControleAgencia.
+     * Gets the value of the codigoControleAgencia property.
      * 
      * @return
      *     possible object is
@@ -684,7 +684,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade codigoControleAgencia.
+     * Sets the value of the codigoControleAgencia property.
      * 
      * @param value
      *     allowed object is
@@ -696,7 +696,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade dataCadastro.
+     * Gets the value of the dataCadastro property.
      * 
      * @return
      *     possible object is
@@ -708,7 +708,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade dataCadastro.
+     * Sets the value of the dataCadastro property.
      * 
      * @param value
      *     allowed object is
@@ -720,7 +720,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade dataVencimento.
+     * Gets the value of the dataVencimento property.
      * 
      * @return
      *     possible object is
@@ -732,7 +732,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade dataVencimento.
+     * Sets the value of the dataVencimento property.
      * 
      * @param value
      *     allowed object is
@@ -744,7 +744,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade aprovado.
+     * Gets the value of the aprovado property.
      * 
      */
     public boolean isAprovado() {
@@ -752,7 +752,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade aprovado.
+     * Sets the value of the aprovado property.
      * 
      */
     public void setAprovado(boolean value) {
@@ -760,7 +760,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade canceladoEmitido.
+     * Gets the value of the canceladoEmitido property.
      * 
      */
     public boolean isCanceladoEmitido() {
@@ -768,7 +768,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade canceladoEmitido.
+     * Sets the value of the canceladoEmitido property.
      * 
      */
     public void setCanceladoEmitido(boolean value) {
@@ -776,7 +776,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade consolidadora.
+     * Gets the value of the consolidadora property.
      * 
      * @return
      *     possible object is
@@ -788,7 +788,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade consolidadora.
+     * Sets the value of the consolidadora property.
      * 
      * @param value
      *     allowed object is
@@ -800,7 +800,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade nomeConsultorReserva.
+     * Gets the value of the nomeConsultorReserva property.
      * 
      * @return
      *     possible object is
@@ -812,7 +812,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade nomeConsultorReserva.
+     * Sets the value of the nomeConsultorReserva property.
      * 
      * @param value
      *     allowed object is
@@ -824,7 +824,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade nomeConsultorEmissao.
+     * Gets the value of the nomeConsultorEmissao property.
      * 
      * @return
      *     possible object is
@@ -836,7 +836,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade nomeConsultorEmissao.
+     * Sets the value of the nomeConsultorEmissao property.
      * 
      * @param value
      *     allowed object is
@@ -848,7 +848,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade justificativamaiortarifa.
+     * Gets the value of the justificativamaiortarifa property.
      * 
      * @return
      *     possible object is
@@ -860,7 +860,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade justificativamaiortarifa.
+     * Sets the value of the justificativamaiortarifa property.
      * 
      * @param value
      *     allowed object is
@@ -872,7 +872,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade sequenciaProdutoAgencia.
+     * Gets the value of the sequenciaProdutoAgencia property.
      * 
      * @return
      *     possible object is
@@ -884,7 +884,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade sequenciaProdutoAgencia.
+     * Sets the value of the sequenciaProdutoAgencia property.
      * 
      * @param value
      *     allowed object is
@@ -896,7 +896,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade statusPagamentoFatura.
+     * Gets the value of the statusPagamentoFatura property.
      * 
      * @return
      *     possible object is
@@ -908,7 +908,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade statusPagamentoFatura.
+     * Sets the value of the statusPagamentoFatura property.
      * 
      * @param value
      *     allowed object is
@@ -920,7 +920,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade statusCancelamento.
+     * Gets the value of the statusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -932,7 +932,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade statusCancelamento.
+     * Sets the value of the statusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -944,7 +944,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade taxaCancelamento.
+     * Gets the value of the taxaCancelamento property.
      * 
      * @return
      *     possible object is
@@ -956,7 +956,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade taxaCancelamento.
+     * Sets the value of the taxaCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -968,7 +968,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade dataModificacaoStatusCancelamento.
+     * Gets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -980,7 +980,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade dataModificacaoStatusCancelamento.
+     * Sets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -992,7 +992,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade nomeUsuarioModificouStatusCancelamento.
+     * Gets the value of the nomeUsuarioModificouStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -1004,7 +1004,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade nomeUsuarioModificouStatusCancelamento.
+     * Sets the value of the nomeUsuarioModificouStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -1016,7 +1016,7 @@ public class Traslado {
     }
 
     /**
-     * Obtém o valor da propriedade unidadeOperacional.
+     * Gets the value of the unidadeOperacional property.
      * 
      * @return
      *     possible object is
@@ -1028,7 +1028,7 @@ public class Traslado {
     }
 
     /**
-     * Define o valor da propriedade unidadeOperacional.
+     * Sets the value of the unidadeOperacional property.
      * 
      * @param value
      *     allowed object is

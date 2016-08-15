@@ -3,15 +3,14 @@ package br.com.lemontech.selfbooking.wsselfbooking.beans.aereo;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoColetaMulta;
 
 
 /**
- * <p>Classe Java de reemissao complex type.
+ * <p>Java class for reemissao complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="reemissao">
@@ -53,12 +52,11 @@ public class Reemissao {
     protected Double multa;
     protected String documentoMulta;
     protected String documentoCredito;
-    @XmlSchemaType(name = "string")
     protected TipoColetaMulta tipoColetaMulta;
     protected String taxaColeta;
 
     /**
-     * Obtém o valor da propriedade bilheteOriginal.
+     * Gets the value of the bilheteOriginal property.
      * 
      * @return
      *     possible object is
@@ -70,7 +68,7 @@ public class Reemissao {
     }
 
     /**
-     * Define o valor da propriedade bilheteOriginal.
+     * Sets the value of the bilheteOriginal property.
      * 
      * @param value
      *     allowed object is
@@ -82,7 +80,7 @@ public class Reemissao {
     }
 
     /**
-     * Obtém o valor da propriedade bilheteReemissao.
+     * Gets the value of the bilheteReemissao property.
      * 
      * @return
      *     possible object is
@@ -94,7 +92,7 @@ public class Reemissao {
     }
 
     /**
-     * Define o valor da propriedade bilheteReemissao.
+     * Sets the value of the bilheteReemissao property.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +104,7 @@ public class Reemissao {
     }
 
     /**
-     * Obtém o valor da propriedade credito.
+     * Gets the value of the credito property.
      * 
      * @return
      *     possible object is
@@ -118,7 +116,7 @@ public class Reemissao {
     }
 
     /**
-     * Define o valor da propriedade credito.
+     * Sets the value of the credito property.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +128,7 @@ public class Reemissao {
     }
 
     /**
-     * Obtém o valor da propriedade multa.
+     * Gets the value of the multa property.
      * 
      * @return
      *     possible object is
@@ -142,7 +140,7 @@ public class Reemissao {
     }
 
     /**
-     * Define o valor da propriedade multa.
+     * Sets the value of the multa property.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +152,7 @@ public class Reemissao {
     }
 
     /**
-     * Obtém o valor da propriedade documentoMulta.
+     * Gets the value of the documentoMulta property.
      * 
      * @return
      *     possible object is
@@ -166,7 +164,7 @@ public class Reemissao {
     }
 
     /**
-     * Define o valor da propriedade documentoMulta.
+     * Sets the value of the documentoMulta property.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +176,7 @@ public class Reemissao {
     }
 
     /**
-     * Obtém o valor da propriedade documentoCredito.
+     * Gets the value of the documentoCredito property.
      * 
      * @return
      *     possible object is
@@ -190,7 +188,7 @@ public class Reemissao {
     }
 
     /**
-     * Define o valor da propriedade documentoCredito.
+     * Sets the value of the documentoCredito property.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +200,7 @@ public class Reemissao {
     }
 
     /**
-     * Obtém o valor da propriedade tipoColetaMulta.
+     * Gets the value of the tipoColetaMulta property.
      * 
      * @return
      *     possible object is
@@ -214,7 +212,7 @@ public class Reemissao {
     }
 
     /**
-     * Define o valor da propriedade tipoColetaMulta.
+     * Sets the value of the tipoColetaMulta property.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +224,7 @@ public class Reemissao {
     }
 
     /**
-     * Obtém o valor da propriedade taxaColeta.
+     * Gets the value of the taxaColeta property.
      * 
      * @return
      *     possible object is
@@ -238,7 +236,7 @@ public class Reemissao {
     }
 
     /**
-     * Define o valor da propriedade taxaColeta.
+     * Sets the value of the taxaColeta property.
      * 
      * @param value
      *     allowed object is

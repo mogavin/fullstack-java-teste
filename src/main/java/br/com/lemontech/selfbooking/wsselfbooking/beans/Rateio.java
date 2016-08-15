@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de rateio complex type.
+ * <p>Java class for rateio complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="rateio">
@@ -49,7 +49,7 @@ public class Rateio {
     protected String descricaoSubCentroCusto;
 
     /**
-     * Obtém o valor da propriedade nomeCentroCusto.
+     * Gets the value of the nomeCentroCusto property.
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class Rateio {
     }
 
     /**
-     * Define o valor da propriedade nomeCentroCusto.
+     * Sets the value of the nomeCentroCusto property.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class Rateio {
     }
 
     /**
-     * Obtém o valor da propriedade nomeRegional.
+     * Gets the value of the nomeRegional property.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class Rateio {
     }
 
     /**
-     * Define o valor da propriedade nomeRegional.
+     * Sets the value of the nomeRegional property.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class Rateio {
     }
 
     /**
-     * Obtém o valor da propriedade valorPorcentagem.
+     * Gets the value of the valorPorcentagem property.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class Rateio {
     }
 
     /**
-     * Define o valor da propriedade valorPorcentagem.
+     * Sets the value of the valorPorcentagem property.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class Rateio {
     }
 
     /**
-     * Obtém o valor da propriedade nomeSubCentroCusto.
+     * Gets the value of the nomeSubCentroCusto property.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class Rateio {
     }
 
     /**
-     * Define o valor da propriedade nomeSubCentroCusto.
+     * Sets the value of the nomeSubCentroCusto property.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class Rateio {
     }
 
     /**
-     * Obtém o valor da propriedade descricaoCentroCusto.
+     * Gets the value of the descricaoCentroCusto property.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class Rateio {
     }
 
     /**
-     * Define o valor da propriedade descricaoCentroCusto.
+     * Sets the value of the descricaoCentroCusto property.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class Rateio {
     }
 
     /**
-     * Obtém o valor da propriedade descricaoSubCentroCusto.
+     * Gets the value of the descricaoSubCentroCusto property.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class Rateio {
     }
 
     /**
-     * Define o valor da propriedade descricaoSubCentroCusto.
+     * Sets the value of the descricaoSubCentroCusto property.
      * 
      * @param value
      *     allowed object is

@@ -23,9 +23,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoTarifa;
 
 
 /**
- * <p>Classe Java de hotel complex type.
+ * <p>Java class for hotel complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="hotel">
@@ -198,7 +198,6 @@ public class Hotel {
     protected int id;
     protected String codigoApartamento;
     protected String nome;
-    @XmlSchemaType(name = "string")
     protected TipoApartamento tipoApartamento;
     protected String source;
     protected String codigoHotelSource;
@@ -241,10 +240,8 @@ public class Hotel {
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar dataModificacaoStatusCancelamento;
     protected Integer usuarioModificouStatusCancelamento;
-    @XmlSchemaType(name = "string")
     protected CategoriaApartamento categoriaApartamento;
     protected String nomeEmissor;
-    @XmlSchemaType(name = "string")
     protected GarantiaNoShow garantiaNoShow;
     protected String titularCartaoNoShow;
     protected Boolean cartaoVirtualNoShow;
@@ -256,16 +253,13 @@ public class Hotel {
     protected Double taxaFee;
     protected boolean selfbook;
     protected boolean tarifaComissionada;
-    @XmlSchemaType(name = "string")
     protected Regime regime;
-    @XmlSchemaType(name = "string")
     protected TipoTarifa tipoTarifa;
     protected Integer quantidadeTipoTarifa;
     protected Double tarifa;
     protected Double valorCambio;
     protected Double earlyCheckin;
     protected Double lateCheckout;
-    @XmlSchemaType(name = "string")
     protected PlanoAlimentar planoAlimentar;
     protected Integer quantidadePlanoAlimentar;
     protected Double valorPlanoAlimentar;
@@ -287,7 +281,7 @@ public class Hotel {
     protected String estado;
 
     /**
-     * Obtém o valor da propriedade id.
+     * Gets the value of the id property.
      * 
      */
     public int getId() {
@@ -295,7 +289,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade id.
+     * Sets the value of the id property.
      * 
      */
     public void setId(int value) {
@@ -303,7 +297,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade codigoApartamento.
+     * Gets the value of the codigoApartamento property.
      * 
      * @return
      *     possible object is
@@ -315,7 +309,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade codigoApartamento.
+     * Sets the value of the codigoApartamento property.
      * 
      * @param value
      *     allowed object is
@@ -327,7 +321,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade nome.
+     * Gets the value of the nome property.
      * 
      * @return
      *     possible object is
@@ -339,7 +333,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade nome.
+     * Sets the value of the nome property.
      * 
      * @param value
      *     allowed object is
@@ -351,7 +345,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade tipoApartamento.
+     * Gets the value of the tipoApartamento property.
      * 
      * @return
      *     possible object is
@@ -363,7 +357,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade tipoApartamento.
+     * Sets the value of the tipoApartamento property.
      * 
      * @param value
      *     allowed object is
@@ -375,7 +369,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade source.
+     * Gets the value of the source property.
      * 
      * @return
      *     possible object is
@@ -387,7 +381,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade source.
+     * Sets the value of the source property.
      * 
      * @param value
      *     allowed object is
@@ -399,7 +393,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade codigoHotelSource.
+     * Gets the value of the codigoHotelSource property.
      * 
      * @return
      *     possible object is
@@ -411,7 +405,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade codigoHotelSource.
+     * Sets the value of the codigoHotelSource property.
      * 
      * @param value
      *     allowed object is
@@ -423,7 +417,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade checkIn.
+     * Gets the value of the checkIn property.
      * 
      * @return
      *     possible object is
@@ -435,7 +429,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade checkIn.
+     * Sets the value of the checkIn property.
      * 
      * @param value
      *     allowed object is
@@ -447,7 +441,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade checkOut.
+     * Gets the value of the checkOut property.
      * 
      * @return
      *     possible object is
@@ -459,7 +453,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade checkOut.
+     * Sets the value of the checkOut property.
      * 
      * @param value
      *     allowed object is
@@ -529,7 +523,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade localizador.
+     * Gets the value of the localizador property.
      * 
      * @return
      *     possible object is
@@ -541,7 +535,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade localizador.
+     * Sets the value of the localizador property.
      * 
      * @param value
      *     allowed object is
@@ -553,7 +547,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade codigoEmissor.
+     * Gets the value of the codigoEmissor property.
      * 
      * @return
      *     possible object is
@@ -565,7 +559,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade codigoEmissor.
+     * Sets the value of the codigoEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -577,7 +571,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade codigoReservador.
+     * Gets the value of the codigoReservador property.
      * 
      * @return
      *     possible object is
@@ -589,7 +583,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade codigoReservador.
+     * Sets the value of the codigoReservador property.
      * 
      * @param value
      *     allowed object is
@@ -601,7 +595,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade nomeReservador.
+     * Gets the value of the nomeReservador property.
      * 
      * @return
      *     possible object is
@@ -613,7 +607,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade nomeReservador.
+     * Sets the value of the nomeReservador property.
      * 
      * @param value
      *     allowed object is
@@ -625,7 +619,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade dataReserva.
+     * Gets the value of the dataReserva property.
      * 
      * @return
      *     possible object is
@@ -637,7 +631,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade dataReserva.
+     * Sets the value of the dataReserva property.
      * 
      * @param value
      *     allowed object is
@@ -649,7 +643,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade moeda.
+     * Gets the value of the moeda property.
      * 
      * @return
      *     possible object is
@@ -661,7 +655,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade moeda.
+     * Sets the value of the moeda property.
      * 
      * @param value
      *     allowed object is
@@ -673,7 +667,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade diaria.
+     * Gets the value of the diaria property.
      * 
      * @return
      *     possible object is
@@ -685,7 +679,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade diaria.
+     * Sets the value of the diaria property.
      * 
      * @param value
      *     allowed object is
@@ -697,7 +691,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade taxa.
+     * Gets the value of the taxa property.
      * 
      * @return
      *     possible object is
@@ -709,7 +703,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade taxa.
+     * Sets the value of the taxa property.
      * 
      * @param value
      *     allowed object is
@@ -721,7 +715,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade titularCartao.
+     * Gets the value of the titularCartao property.
      * 
      * @return
      *     possible object is
@@ -733,7 +727,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade titularCartao.
+     * Sets the value of the titularCartao property.
      * 
      * @param value
      *     allowed object is
@@ -745,7 +739,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade cartaoVirtual.
+     * Gets the value of the cartaoVirtual property.
      * 
      * @return
      *     possible object is
@@ -757,7 +751,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade cartaoVirtual.
+     * Sets the value of the cartaoVirtual property.
      * 
      * @param value
      *     allowed object is
@@ -769,7 +763,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade formaPagamento.
+     * Gets the value of the formaPagamento property.
      * 
      * @return
      *     possible object is
@@ -781,7 +775,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade formaPagamento.
+     * Sets the value of the formaPagamento property.
      * 
      * @param value
      *     allowed object is
@@ -822,7 +816,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade justificativaMaiorTarifa.
+     * Gets the value of the justificativaMaiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -834,7 +828,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade justificativaMaiorTarifa.
+     * Sets the value of the justificativaMaiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -846,7 +840,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade local.
+     * Gets the value of the local property.
      * 
      * @return
      *     possible object is
@@ -858,7 +852,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade local.
+     * Sets the value of the local property.
      * 
      * @param value
      *     allowed object is
@@ -870,7 +864,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade cidade.
+     * Gets the value of the cidade property.
      * 
      * @return
      *     possible object is
@@ -882,7 +876,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade cidade.
+     * Sets the value of the cidade property.
      * 
      * @param value
      *     allowed object is
@@ -894,7 +888,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade codigoFornecedor.
+     * Gets the value of the codigoFornecedor property.
      * 
      * @return
      *     possible object is
@@ -906,7 +900,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade codigoFornecedor.
+     * Sets the value of the codigoFornecedor property.
      * 
      * @param value
      *     allowed object is
@@ -918,7 +912,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade nacional.
+     * Gets the value of the nacional property.
      * 
      * @return
      *     possible object is
@@ -930,7 +924,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade nacional.
+     * Sets the value of the nacional property.
      * 
      * @param value
      *     allowed object is
@@ -942,7 +936,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade observacao.
+     * Gets the value of the observacao property.
      * 
      * @return
      *     possible object is
@@ -954,7 +948,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade observacao.
+     * Sets the value of the observacao property.
      * 
      * @param value
      *     allowed object is
@@ -966,7 +960,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade voucher.
+     * Gets the value of the voucher property.
      * 
      * @return
      *     possible object is
@@ -978,7 +972,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade voucher.
+     * Sets the value of the voucher property.
      * 
      * @param value
      *     allowed object is
@@ -990,7 +984,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade codigoReserva.
+     * Gets the value of the codigoReserva property.
      * 
      * @return
      *     possible object is
@@ -1002,7 +996,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade codigoReserva.
+     * Sets the value of the codigoReserva property.
      * 
      * @param value
      *     allowed object is
@@ -1014,7 +1008,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade codigoJustificativaMaiorTarifa.
+     * Gets the value of the codigoJustificativaMaiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -1026,7 +1020,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade codigoJustificativaMaiorTarifa.
+     * Sets the value of the codigoJustificativaMaiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -1038,7 +1032,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorIntegracao.
+     * Gets the value of the identificadorIntegracao property.
      * 
      * @return
      *     possible object is
@@ -1050,7 +1044,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade identificadorIntegracao.
+     * Sets the value of the identificadorIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -1062,7 +1056,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Gets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @return
      *     possible object is
@@ -1074,7 +1068,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Sets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @param value
      *     allowed object is
@@ -1086,7 +1080,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade remarks.
+     * Gets the value of the remarks property.
      * 
      * @return
      *     possible object is
@@ -1098,7 +1092,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade remarks.
+     * Sets the value of the remarks property.
      * 
      * @param value
      *     allowed object is
@@ -1110,7 +1104,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade statusCancelamento.
+     * Gets the value of the statusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -1122,7 +1116,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade statusCancelamento.
+     * Sets the value of the statusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -1134,7 +1128,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade taxaCancelamento.
+     * Gets the value of the taxaCancelamento property.
      * 
      * @return
      *     possible object is
@@ -1146,7 +1140,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade taxaCancelamento.
+     * Sets the value of the taxaCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -1158,7 +1152,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade dataModificacaoStatusCancelamento.
+     * Gets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -1170,7 +1164,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade dataModificacaoStatusCancelamento.
+     * Sets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -1182,7 +1176,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade usuarioModificouStatusCancelamento.
+     * Gets the value of the usuarioModificouStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -1194,7 +1188,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade usuarioModificouStatusCancelamento.
+     * Sets the value of the usuarioModificouStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -1206,7 +1200,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade categoriaApartamento.
+     * Gets the value of the categoriaApartamento property.
      * 
      * @return
      *     possible object is
@@ -1218,7 +1212,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade categoriaApartamento.
+     * Sets the value of the categoriaApartamento property.
      * 
      * @param value
      *     allowed object is
@@ -1230,7 +1224,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade nomeEmissor.
+     * Gets the value of the nomeEmissor property.
      * 
      * @return
      *     possible object is
@@ -1242,7 +1236,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade nomeEmissor.
+     * Sets the value of the nomeEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -1254,7 +1248,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade garantiaNoShow.
+     * Gets the value of the garantiaNoShow property.
      * 
      * @return
      *     possible object is
@@ -1266,7 +1260,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade garantiaNoShow.
+     * Sets the value of the garantiaNoShow property.
      * 
      * @param value
      *     allowed object is
@@ -1278,7 +1272,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade titularCartaoNoShow.
+     * Gets the value of the titularCartaoNoShow property.
      * 
      * @return
      *     possible object is
@@ -1290,7 +1284,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade titularCartaoNoShow.
+     * Sets the value of the titularCartaoNoShow property.
      * 
      * @param value
      *     allowed object is
@@ -1302,7 +1296,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade cartaoVirtualNoShow.
+     * Gets the value of the cartaoVirtualNoShow property.
      * 
      * @return
      *     possible object is
@@ -1314,7 +1308,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade cartaoVirtualNoShow.
+     * Sets the value of the cartaoVirtualNoShow property.
      * 
      * @param value
      *     allowed object is
@@ -1326,7 +1320,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade formaPagamentoGarantiaNoShow.
+     * Gets the value of the formaPagamentoGarantiaNoShow property.
      * 
      * @return
      *     possible object is
@@ -1338,7 +1332,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade formaPagamentoGarantiaNoShow.
+     * Sets the value of the formaPagamentoGarantiaNoShow property.
      * 
      * @param value
      *     allowed object is
@@ -1350,7 +1344,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade itensFaturamentoHotel.
+     * Gets the value of the itensFaturamentoHotel property.
      * 
      * @return
      *     possible object is
@@ -1362,7 +1356,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade itensFaturamentoHotel.
+     * Sets the value of the itensFaturamentoHotel property.
      * 
      * @param value
      *     allowed object is
@@ -1374,7 +1368,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade totalHotel.
+     * Gets the value of the totalHotel property.
      * 
      * @return
      *     possible object is
@@ -1386,7 +1380,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade totalHotel.
+     * Sets the value of the totalHotel property.
      * 
      * @param value
      *     allowed object is
@@ -1398,7 +1392,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade cancelado.
+     * Gets the value of the cancelado property.
      * 
      */
     public boolean isCancelado() {
@@ -1406,7 +1400,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade cancelado.
+     * Sets the value of the cancelado property.
      * 
      */
     public void setCancelado(boolean value) {
@@ -1414,7 +1408,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade identificadoresIntegracao.
+     * Gets the value of the identificadoresIntegracao property.
      * 
      * @return
      *     possible object is
@@ -1426,7 +1420,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade identificadoresIntegracao.
+     * Sets the value of the identificadoresIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -1438,7 +1432,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade taxaFee.
+     * Gets the value of the taxaFee property.
      * 
      * @return
      *     possible object is
@@ -1450,7 +1444,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade taxaFee.
+     * Sets the value of the taxaFee property.
      * 
      * @param value
      *     allowed object is
@@ -1462,7 +1456,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade selfbook.
+     * Gets the value of the selfbook property.
      * 
      */
     public boolean isSelfbook() {
@@ -1470,7 +1464,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade selfbook.
+     * Sets the value of the selfbook property.
      * 
      */
     public void setSelfbook(boolean value) {
@@ -1478,7 +1472,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade tarifaComissionada.
+     * Gets the value of the tarifaComissionada property.
      * 
      */
     public boolean isTarifaComissionada() {
@@ -1486,7 +1480,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade tarifaComissionada.
+     * Sets the value of the tarifaComissionada property.
      * 
      */
     public void setTarifaComissionada(boolean value) {
@@ -1494,7 +1488,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade regime.
+     * Gets the value of the regime property.
      * 
      * @return
      *     possible object is
@@ -1506,7 +1500,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade regime.
+     * Sets the value of the regime property.
      * 
      * @param value
      *     allowed object is
@@ -1518,7 +1512,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade tipoTarifa.
+     * Gets the value of the tipoTarifa property.
      * 
      * @return
      *     possible object is
@@ -1530,7 +1524,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade tipoTarifa.
+     * Sets the value of the tipoTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -1542,7 +1536,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade quantidadeTipoTarifa.
+     * Gets the value of the quantidadeTipoTarifa property.
      * 
      * @return
      *     possible object is
@@ -1554,7 +1548,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade quantidadeTipoTarifa.
+     * Sets the value of the quantidadeTipoTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -1566,7 +1560,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade tarifa.
+     * Gets the value of the tarifa property.
      * 
      * @return
      *     possible object is
@@ -1578,7 +1572,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade tarifa.
+     * Sets the value of the tarifa property.
      * 
      * @param value
      *     allowed object is
@@ -1590,7 +1584,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade valorCambio.
+     * Gets the value of the valorCambio property.
      * 
      * @return
      *     possible object is
@@ -1602,7 +1596,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade valorCambio.
+     * Sets the value of the valorCambio property.
      * 
      * @param value
      *     allowed object is
@@ -1614,7 +1608,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade earlyCheckin.
+     * Gets the value of the earlyCheckin property.
      * 
      * @return
      *     possible object is
@@ -1626,7 +1620,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade earlyCheckin.
+     * Sets the value of the earlyCheckin property.
      * 
      * @param value
      *     allowed object is
@@ -1638,7 +1632,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade lateCheckout.
+     * Gets the value of the lateCheckout property.
      * 
      * @return
      *     possible object is
@@ -1650,7 +1644,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade lateCheckout.
+     * Sets the value of the lateCheckout property.
      * 
      * @param value
      *     allowed object is
@@ -1662,7 +1656,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade planoAlimentar.
+     * Gets the value of the planoAlimentar property.
      * 
      * @return
      *     possible object is
@@ -1674,7 +1668,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade planoAlimentar.
+     * Sets the value of the planoAlimentar property.
      * 
      * @param value
      *     allowed object is
@@ -1686,7 +1680,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade quantidadePlanoAlimentar.
+     * Gets the value of the quantidadePlanoAlimentar property.
      * 
      * @return
      *     possible object is
@@ -1698,7 +1692,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade quantidadePlanoAlimentar.
+     * Sets the value of the quantidadePlanoAlimentar property.
      * 
      * @param value
      *     allowed object is
@@ -1710,7 +1704,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade valorPlanoAlimentar.
+     * Gets the value of the valorPlanoAlimentar property.
      * 
      * @return
      *     possible object is
@@ -1722,7 +1716,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade valorPlanoAlimentar.
+     * Sets the value of the valorPlanoAlimentar property.
      * 
      * @param value
      *     allowed object is
@@ -1734,7 +1728,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade prazoCancelamento.
+     * Gets the value of the prazoCancelamento property.
      * 
      * @return
      *     possible object is
@@ -1746,7 +1740,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade prazoCancelamento.
+     * Sets the value of the prazoCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -1758,7 +1752,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade consolidadora.
+     * Gets the value of the consolidadora property.
      * 
      * @return
      *     possible object is
@@ -1770,7 +1764,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade consolidadora.
+     * Sets the value of the consolidadora property.
      * 
      * @param value
      *     allowed object is
@@ -1782,7 +1776,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade online.
+     * Gets the value of the online property.
      * 
      */
     public boolean isOnline() {
@@ -1790,7 +1784,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade online.
+     * Sets the value of the online property.
      * 
      */
     public void setOnline(boolean value) {
@@ -1798,7 +1792,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade dataConfirmacaoReserva.
+     * Gets the value of the dataConfirmacaoReserva property.
      * 
      * @return
      *     possible object is
@@ -1810,7 +1804,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade dataConfirmacaoReserva.
+     * Sets the value of the dataConfirmacaoReserva property.
      * 
      * @param value
      *     allowed object is
@@ -1822,7 +1816,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade moedaBase.
+     * Gets the value of the moedaBase property.
      * 
      * @return
      *     possible object is
@@ -1834,7 +1828,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade moedaBase.
+     * Sets the value of the moedaBase property.
      * 
      * @param value
      *     allowed object is
@@ -1846,7 +1840,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade diariaBase.
+     * Gets the value of the diariaBase property.
      * 
      * @return
      *     possible object is
@@ -1858,7 +1852,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade diariaBase.
+     * Sets the value of the diariaBase property.
      * 
      * @param value
      *     allowed object is
@@ -1870,7 +1864,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade taxaBase.
+     * Gets the value of the taxaBase property.
      * 
      * @return
      *     possible object is
@@ -1882,7 +1876,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade taxaBase.
+     * Sets the value of the taxaBase property.
      * 
      * @param value
      *     allowed object is
@@ -1894,7 +1888,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade earlyCheckinBase.
+     * Gets the value of the earlyCheckinBase property.
      * 
      * @return
      *     possible object is
@@ -1906,7 +1900,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade earlyCheckinBase.
+     * Sets the value of the earlyCheckinBase property.
      * 
      * @param value
      *     allowed object is
@@ -1918,7 +1912,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade lateCheckoutBase.
+     * Gets the value of the lateCheckoutBase property.
      * 
      * @return
      *     possible object is
@@ -1930,7 +1924,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade lateCheckoutBase.
+     * Sets the value of the lateCheckoutBase property.
      * 
      * @param value
      *     allowed object is
@@ -1942,7 +1936,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade agenteOnline.
+     * Gets the value of the agenteOnline property.
      * 
      */
     public boolean isAgenteOnline() {
@@ -1950,7 +1944,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade agenteOnline.
+     * Sets the value of the agenteOnline property.
      * 
      */
     public void setAgenteOnline(boolean value) {
@@ -1958,7 +1952,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade importado.
+     * Gets the value of the importado property.
      * 
      */
     public boolean isImportado() {
@@ -1966,7 +1960,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade importado.
+     * Sets the value of the importado property.
      * 
      */
     public void setImportado(boolean value) {
@@ -1974,7 +1968,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade telefone.
+     * Gets the value of the telefone property.
      * 
      * @return
      *     possible object is
@@ -1986,7 +1980,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade telefone.
+     * Sets the value of the telefone property.
      * 
      * @param value
      *     allowed object is
@@ -1998,7 +1992,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade pais.
+     * Gets the value of the pais property.
      * 
      * @return
      *     possible object is
@@ -2010,7 +2004,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade pais.
+     * Sets the value of the pais property.
      * 
      * @param value
      *     allowed object is
@@ -2022,7 +2016,7 @@ public class Hotel {
     }
 
     /**
-     * Obtém o valor da propriedade estado.
+     * Gets the value of the estado property.
      * 
      * @return
      *     possible object is
@@ -2034,7 +2028,7 @@ public class Hotel {
     }
 
     /**
-     * Define o valor da propriedade estado.
+     * Sets the value of the estado property.
      * 
      * @param value
      *     allowed object is

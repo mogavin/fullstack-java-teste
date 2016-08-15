@@ -5,16 +5,15 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.Solicitacao;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.types.ResultadoAcao;
 
 
 /**
- * <p>Classe Java de pesquisarSolicitacaoResponse complex type.
+ * <p>Java class for pesquisarSolicitacaoResponse complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="pesquisarSolicitacaoResponse">
@@ -42,14 +41,13 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.ResultadoAcao;
 })
 public class PesquisarSolicitacaoResponse {
 
-    @XmlSchemaType(name = "string")
     protected ResultadoAcao resultadoAcao;
     protected Integer numeroSolicitacoes;
     protected List<Solicitacao> solicitacao;
     protected String mensagemRetorno;
 
     /**
-     * Obtém o valor da propriedade resultadoAcao.
+     * Gets the value of the resultadoAcao property.
      * 
      * @return
      *     possible object is
@@ -61,7 +59,7 @@ public class PesquisarSolicitacaoResponse {
     }
 
     /**
-     * Define o valor da propriedade resultadoAcao.
+     * Sets the value of the resultadoAcao property.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +71,7 @@ public class PesquisarSolicitacaoResponse {
     }
 
     /**
-     * Obtém o valor da propriedade numeroSolicitacoes.
+     * Gets the value of the numeroSolicitacoes property.
      * 
      * @return
      *     possible object is
@@ -85,7 +83,7 @@ public class PesquisarSolicitacaoResponse {
     }
 
     /**
-     * Define o valor da propriedade numeroSolicitacoes.
+     * Sets the value of the numeroSolicitacoes property.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +124,7 @@ public class PesquisarSolicitacaoResponse {
     }
 
     /**
-     * Obtém o valor da propriedade mensagemRetorno.
+     * Gets the value of the mensagemRetorno property.
      * 
      * @return
      *     possible object is
@@ -138,7 +136,7 @@ public class PesquisarSolicitacaoResponse {
     }
 
     /**
-     * Define o valor da propriedade mensagemRetorno.
+     * Sets the value of the mensagemRetorno property.
      * 
      * @param value
      *     allowed object is

@@ -6,15 +6,14 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Classe;
 
 
 /**
- * <p>Classe Java de aereoTarifa complex type.
+ * <p>Java class for aereoTarifa complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="aereoTarifa">
@@ -41,13 +40,12 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Classe;
 public class AereoTarifa {
 
     protected String acordo;
-    @XmlSchemaType(name = "string")
     protected Classe classe;
     @XmlElement(nillable = true)
     protected List<AereoTarifaPax> aereoTarifaPax;
 
     /**
-     * Obtém o valor da propriedade acordo.
+     * Gets the value of the acordo property.
      * 
      * @return
      *     possible object is
@@ -59,7 +57,7 @@ public class AereoTarifa {
     }
 
     /**
-     * Define o valor da propriedade acordo.
+     * Sets the value of the acordo property.
      * 
      * @param value
      *     allowed object is
@@ -71,7 +69,7 @@ public class AereoTarifa {
     }
 
     /**
-     * Obtém o valor da propriedade classe.
+     * Gets the value of the classe property.
      * 
      * @return
      *     possible object is
@@ -83,7 +81,7 @@ public class AereoTarifa {
     }
 
     /**
-     * Define o valor da propriedade classe.
+     * Sets the value of the classe property.
      * 
      * @param value
      *     allowed object is

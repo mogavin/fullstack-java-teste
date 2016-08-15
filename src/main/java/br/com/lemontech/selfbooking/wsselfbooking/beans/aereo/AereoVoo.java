@@ -12,9 +12,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Classe Java de aereoVoo complex type.
+ * <p>Java class for aereoVoo complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="aereoVoo">
@@ -88,7 +88,7 @@ public class AereoVoo {
     protected String tipoVoo;
 
     /**
-     * Obtém o valor da propriedade idAereoVoo.
+     * Gets the value of the idAereoVoo property.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade idAereoVoo.
+     * Sets the value of the idAereoVoo property.
      * 
      * @param value
      *     allowed object is
@@ -112,7 +112,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade origem.
+     * Gets the value of the origem property.
      * 
      * @return
      *     possible object is
@@ -124,7 +124,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade origem.
+     * Sets the value of the origem property.
      * 
      * @param value
      *     allowed object is
@@ -136,7 +136,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade dataSaida.
+     * Gets the value of the dataSaida property.
      * 
      * @return
      *     possible object is
@@ -148,7 +148,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade dataSaida.
+     * Sets the value of the dataSaida property.
      * 
      * @param value
      *     allowed object is
@@ -160,7 +160,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade destino.
+     * Gets the value of the destino property.
      * 
      * @return
      *     possible object is
@@ -172,7 +172,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade destino.
+     * Sets the value of the destino property.
      * 
      * @param value
      *     allowed object is
@@ -184,7 +184,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade dataChegada.
+     * Gets the value of the dataChegada property.
      * 
      * @return
      *     possible object is
@@ -196,7 +196,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade dataChegada.
+     * Sets the value of the dataChegada property.
      * 
      * @param value
      *     allowed object is
@@ -208,7 +208,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade cia.
+     * Gets the value of the cia property.
      * 
      * @return
      *     possible object is
@@ -220,7 +220,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade cia.
+     * Sets the value of the cia property.
      * 
      * @param value
      *     allowed object is
@@ -232,7 +232,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade ciaOperacao.
+     * Gets the value of the ciaOperacao property.
      * 
      * @return
      *     possible object is
@@ -244,7 +244,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade ciaOperacao.
+     * Sets the value of the ciaOperacao property.
      * 
      * @param value
      *     allowed object is
@@ -256,7 +256,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade aeronave.
+     * Gets the value of the aeronave property.
      * 
      * @return
      *     possible object is
@@ -268,7 +268,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade aeronave.
+     * Sets the value of the aeronave property.
      * 
      * @param value
      *     allowed object is
@@ -280,7 +280,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade numeroVoo.
+     * Gets the value of the numeroVoo property.
      * 
      * @return
      *     possible object is
@@ -292,7 +292,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade numeroVoo.
+     * Sets the value of the numeroVoo property.
      * 
      * @param value
      *     allowed object is
@@ -304,7 +304,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade milhas.
+     * Gets the value of the milhas property.
      * 
      * @return
      *     possible object is
@@ -316,7 +316,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade milhas.
+     * Sets the value of the milhas property.
      * 
      * @param value
      *     allowed object is
@@ -386,7 +386,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade aereoDetalheBaseTarifa.
+     * Gets the value of the aereoDetalheBaseTarifa property.
      * 
      * @return
      *     possible object is
@@ -398,7 +398,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade aereoDetalheBaseTarifa.
+     * Sets the value of the aereoDetalheBaseTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -410,7 +410,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade idClasse.
+     * Gets the value of the idClasse property.
      * 
      * @return
      *     possible object is
@@ -422,7 +422,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade idClasse.
+     * Sets the value of the idClasse property.
      * 
      * @param value
      *     allowed object is
@@ -434,7 +434,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade localizadorCia.
+     * Gets the value of the localizadorCia property.
      * 
      * @return
      *     possible object is
@@ -446,7 +446,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade localizadorCia.
+     * Sets the value of the localizadorCia property.
      * 
      * @param value
      *     allowed object is
@@ -458,7 +458,7 @@ public class AereoVoo {
     }
 
     /**
-     * Obtém o valor da propriedade tipoVoo.
+     * Gets the value of the tipoVoo property.
      * 
      * @return
      *     possible object is
@@ -470,7 +470,7 @@ public class AereoVoo {
     }
 
     /**
-     * Define o valor da propriedade tipoVoo.
+     * Sets the value of the tipoVoo property.
      * 
      * @param value
      *     allowed object is

@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de fornecedor complex type.
+ * <p>Java class for fornecedor complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="fornecedor">
@@ -131,7 +131,7 @@ public class Fornecedor
     protected String iata;
 
     /**
-     * Obtém o valor da propriedade nomeFornecedor.
+     * Gets the value of the nomeFornecedor property.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade nomeFornecedor.
+     * Sets the value of the nomeFornecedor property.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade razaoSocial.
+     * Gets the value of the razaoSocial property.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade razaoSocial.
+     * Sets the value of the razaoSocial property.
      * 
      * @param value
      *     allowed object is
@@ -179,7 +179,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade cnpj.
+     * Gets the value of the cnpj property.
      * 
      * @return
      *     possible object is
@@ -191,7 +191,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade cnpj.
+     * Sets the value of the cnpj property.
      * 
      * @param value
      *     allowed object is
@@ -203,7 +203,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade pais.
+     * Gets the value of the pais property.
      * 
      * @return
      *     possible object is
@@ -215,7 +215,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade pais.
+     * Sets the value of the pais property.
      * 
      * @param value
      *     allowed object is
@@ -227,7 +227,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade uf.
+     * Gets the value of the uf property.
      * 
      * @return
      *     possible object is
@@ -239,7 +239,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade uf.
+     * Sets the value of the uf property.
      * 
      * @param value
      *     allowed object is
@@ -251,7 +251,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade cidade.
+     * Gets the value of the cidade property.
      * 
      * @return
      *     possible object is
@@ -263,7 +263,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade cidade.
+     * Sets the value of the cidade property.
      * 
      * @param value
      *     allowed object is
@@ -275,7 +275,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade bairro.
+     * Gets the value of the bairro property.
      * 
      * @return
      *     possible object is
@@ -287,7 +287,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade bairro.
+     * Sets the value of the bairro property.
      * 
      * @param value
      *     allowed object is
@@ -299,7 +299,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade endereco.
+     * Gets the value of the endereco property.
      * 
      * @return
      *     possible object is
@@ -311,7 +311,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade endereco.
+     * Sets the value of the endereco property.
      * 
      * @param value
      *     allowed object is
@@ -323,7 +323,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade complementoEndereco.
+     * Gets the value of the complementoEndereco property.
      * 
      * @return
      *     possible object is
@@ -335,7 +335,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade complementoEndereco.
+     * Sets the value of the complementoEndereco property.
      * 
      * @param value
      *     allowed object is
@@ -347,7 +347,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade ddiTelefone.
+     * Gets the value of the ddiTelefone property.
      * 
      * @return
      *     possible object is
@@ -359,7 +359,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade ddiTelefone.
+     * Sets the value of the ddiTelefone property.
      * 
      * @param value
      *     allowed object is
@@ -371,7 +371,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade dddTelefone.
+     * Gets the value of the dddTelefone property.
      * 
      * @return
      *     possible object is
@@ -383,7 +383,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade dddTelefone.
+     * Sets the value of the dddTelefone property.
      * 
      * @param value
      *     allowed object is
@@ -395,7 +395,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade telefone.
+     * Gets the value of the telefone property.
      * 
      * @return
      *     possible object is
@@ -407,7 +407,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade telefone.
+     * Sets the value of the telefone property.
      * 
      * @param value
      *     allowed object is
@@ -419,7 +419,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade ddiFax.
+     * Gets the value of the ddiFax property.
      * 
      * @return
      *     possible object is
@@ -431,7 +431,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade ddiFax.
+     * Sets the value of the ddiFax property.
      * 
      * @param value
      *     allowed object is
@@ -443,7 +443,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade dddFax.
+     * Gets the value of the dddFax property.
      * 
      * @return
      *     possible object is
@@ -455,7 +455,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade dddFax.
+     * Sets the value of the dddFax property.
      * 
      * @param value
      *     allowed object is
@@ -467,7 +467,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade fax.
+     * Gets the value of the fax property.
      * 
      * @return
      *     possible object is
@@ -479,7 +479,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade fax.
+     * Sets the value of the fax property.
      * 
      * @param value
      *     allowed object is
@@ -491,7 +491,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade email.
+     * Gets the value of the email property.
      * 
      * @return
      *     possible object is
@@ -503,7 +503,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade email.
+     * Sets the value of the email property.
      * 
      * @param value
      *     allowed object is
@@ -515,7 +515,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade site.
+     * Gets the value of the site property.
      * 
      * @return
      *     possible object is
@@ -527,7 +527,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade site.
+     * Sets the value of the site property.
      * 
      * @param value
      *     allowed object is
@@ -539,7 +539,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade longitude.
+     * Gets the value of the longitude property.
      * 
      * @return
      *     possible object is
@@ -551,7 +551,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade longitude.
+     * Sets the value of the longitude property.
      * 
      * @param value
      *     allowed object is
@@ -563,7 +563,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade latitude.
+     * Gets the value of the latitude property.
      * 
      * @return
      *     possible object is
@@ -575,7 +575,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade latitude.
+     * Sets the value of the latitude property.
      * 
      * @param value
      *     allowed object is
@@ -587,7 +587,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade hotel.
+     * Gets the value of the hotel property.
      * 
      */
     public boolean isHotel() {
@@ -595,7 +595,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade hotel.
+     * Sets the value of the hotel property.
      * 
      */
     public void setHotel(boolean value) {
@@ -603,7 +603,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade carro.
+     * Gets the value of the carro property.
      * 
      */
     public boolean isCarro() {
@@ -611,7 +611,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade carro.
+     * Sets the value of the carro property.
      * 
      */
     public void setCarro(boolean value) {
@@ -619,7 +619,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade outro.
+     * Gets the value of the outro property.
      * 
      */
     public boolean isOutro() {
@@ -627,7 +627,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade outro.
+     * Sets the value of the outro property.
      * 
      */
     public void setOutro(boolean value) {
@@ -635,7 +635,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -643,7 +643,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {
@@ -651,7 +651,7 @@ public class Fornecedor
     }
 
     /**
-     * Obtém o valor da propriedade iata.
+     * Gets the value of the iata property.
      * 
      * @return
      *     possible object is
@@ -663,7 +663,7 @@ public class Fornecedor
     }
 
     /**
-     * Define o valor da propriedade iata.
+     * Sets the value of the iata property.
      * 
      * @param value
      *     allowed object is

@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de aereoVooAssento complex type.
+ * <p>Java class for aereoVooAssento complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="aereoVooAssento">
@@ -37,7 +37,7 @@ public class AereoVooAssento {
     protected String assento;
 
     /**
-     * Obtém o valor da propriedade passageiroRef.
+     * Gets the value of the passageiroRef property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class AereoVooAssento {
     }
 
     /**
-     * Define o valor da propriedade passageiroRef.
+     * Sets the value of the passageiroRef property.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class AereoVooAssento {
     }
 
     /**
-     * Obtém o valor da propriedade assento.
+     * Gets the value of the assento property.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class AereoVooAssento {
     }
 
     /**
-     * Define o valor da propriedade assento.
+     * Sets the value of the assento property.
      * 
      * @param value
      *     allowed object is

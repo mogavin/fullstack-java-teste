@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.fornecedor.FornecedorRef
 
 
 /**
- * <p>Classe Java de cadastrarFornecedorSourceRequest complex type.
+ * <p>Java class for cadastrarFornecedorSourceRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="cadastrarFornecedorSourceRequest">
@@ -45,7 +45,7 @@ public class CadastrarFornecedorSourceRequest {
     protected FornecedorRef fornecedorRef;
 
     /**
-     * Obtém o valor da propriedade source.
+     * Gets the value of the source property.
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class CadastrarFornecedorSourceRequest {
     }
 
     /**
-     * Define o valor da propriedade source.
+     * Sets the value of the source property.
      * 
      * @param value
      *     allowed object is
@@ -69,7 +69,7 @@ public class CadastrarFornecedorSourceRequest {
     }
 
     /**
-     * Obtém o valor da propriedade idFornecedorSource.
+     * Gets the value of the idFornecedorSource property.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class CadastrarFornecedorSourceRequest {
     }
 
     /**
-     * Define o valor da propriedade idFornecedorSource.
+     * Sets the value of the idFornecedorSource property.
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class CadastrarFornecedorSourceRequest {
     }
 
     /**
-     * Obtém o valor da propriedade fornecedorRef.
+     * Gets the value of the fornecedorRef property.
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class CadastrarFornecedorSourceRequest {
     }
 
     /**
-     * Define o valor da propriedade fornecedorRef.
+     * Sets the value of the fornecedorRef property.
      * 
      * @param value
      *     allowed object is

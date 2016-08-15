@@ -30,35 +30,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link TarifarioFornecedorCarroRef }
-     * 
-     */
-    public TarifarioFornecedorCarroRef createTarifarioFornecedorCarroRef() {
-        return new TarifarioFornecedorCarroRef();
-    }
-
-    /**
-     * Create an instance of {@link TarifarioFornecedorHotelRef }
-     * 
-     */
-    public TarifarioFornecedorHotelRef createTarifarioFornecedorHotelRef() {
-        return new TarifarioFornecedorHotelRef();
-    }
-
-    /**
      * Create an instance of {@link Fornecedor }
      * 
      */
     public Fornecedor createFornecedor() {
         return new Fornecedor();
-    }
-
-    /**
-     * Create an instance of {@link TarifarioFornecedorOutroRef }
-     * 
-     */
-    public TarifarioFornecedorOutroRef createTarifarioFornecedorOutroRef() {
-        return new TarifarioFornecedorOutroRef();
     }
 
     /**
@@ -70,11 +46,27 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link TarifarioFornecedorHotel }
+     * Create an instance of {@link FornecedorRef }
      * 
      */
-    public TarifarioFornecedorHotel createTarifarioFornecedorHotel() {
-        return new TarifarioFornecedorHotel();
+    public FornecedorRef createFornecedorRef() {
+        return new FornecedorRef();
+    }
+
+    /**
+     * Create an instance of {@link TarifarioFornecedorHotelRef }
+     * 
+     */
+    public TarifarioFornecedorHotelRef createTarifarioFornecedorHotelRef() {
+        return new TarifarioFornecedorHotelRef();
+    }
+
+    /**
+     * Create an instance of {@link TarifarioFornecedorOutroRef }
+     * 
+     */
+    public TarifarioFornecedorOutroRef createTarifarioFornecedorOutroRef() {
+        return new TarifarioFornecedorOutroRef();
     }
 
     /**
@@ -86,6 +78,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link TarifarioFornecedorHotel }
+     * 
+     */
+    public TarifarioFornecedorHotel createTarifarioFornecedorHotel() {
+        return new TarifarioFornecedorHotel();
+    }
+
+    /**
      * Create an instance of {@link TarifarioFornecedorOutro }
      * 
      */
@@ -94,11 +94,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link FornecedorRef }
+     * Create an instance of {@link TarifarioFornecedorCarroRef }
      * 
      */
-    public FornecedorRef createFornecedorRef() {
-        return new FornecedorRef();
+    public TarifarioFornecedorCarroRef createTarifarioFornecedorCarroRef() {
+        return new TarifarioFornecedorCarroRef();
     }
 
 }

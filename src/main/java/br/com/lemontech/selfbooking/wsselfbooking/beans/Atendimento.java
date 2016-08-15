@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de atendimento complex type.
+ * <p>Java class for atendimento complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="atendimento">
@@ -46,7 +46,7 @@ public class Atendimento {
     protected String nomeAgencia;
 
     /**
-     * Obtém o valor da propriedade posto.
+     * Gets the value of the posto property.
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class Atendimento {
     }
 
     /**
-     * Define o valor da propriedade posto.
+     * Sets the value of the posto property.
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class Atendimento {
     }
 
     /**
-     * Obtém o valor da propriedade email.
+     * Gets the value of the email property.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class Atendimento {
     }
 
     /**
-     * Define o valor da propriedade email.
+     * Sets the value of the email property.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class Atendimento {
     }
 
     /**
-     * Obtém o valor da propriedade telefone.
+     * Gets the value of the telefone property.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class Atendimento {
     }
 
     /**
-     * Define o valor da propriedade telefone.
+     * Sets the value of the telefone property.
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class Atendimento {
     }
 
     /**
-     * Obtém o valor da propriedade dddTel.
+     * Gets the value of the dddTel property.
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class Atendimento {
     }
 
     /**
-     * Define o valor da propriedade dddTel.
+     * Sets the value of the dddTel property.
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class Atendimento {
     }
 
     /**
-     * Obtém o valor da propriedade nomeAgencia.
+     * Gets the value of the nomeAgencia property.
      * 
      * @return
      *     possible object is
@@ -154,7 +154,7 @@ public class Atendimento {
     }
 
     /**
-     * Define o valor da propriedade nomeAgencia.
+     * Sets the value of the nomeAgencia property.
      * 
      * @param value
      *     allowed object is

@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.Regional;
 
 
 /**
- * <p>Classe Java de cadastrarRegionalRequest complex type.
+ * <p>Java class for cadastrarRegionalRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="cadastrarRegionalRequest">
@@ -37,7 +37,7 @@ public class CadastrarRegionalRequest {
     protected Regional regional;
 
     /**
-     * Obtém o valor da propriedade regional.
+     * Gets the value of the regional property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class CadastrarRegionalRequest {
     }
 
     /**
-     * Define o valor da propriedade regional.
+     * Sets the value of the regional property.
      * 
      * @param value
      *     allowed object is

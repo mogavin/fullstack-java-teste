@@ -10,9 +10,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.ParametrizacaoCentroDeCu
 
 
 /**
- * <p>Classe Java de deletarParametrizacaoCentroDeCustoRequest complex type.
+ * <p>Java class for deletarParametrizacaoCentroDeCustoRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="deletarParametrizacaoCentroDeCustoRequest">
@@ -51,7 +51,7 @@ public class DeletarParametrizacaoCentroDeCustoRequest {
     protected ParametrizacaoCentroDeCustoDebitoRef parametrizacaoCentroDeCustoDebitoRef;
 
     /**
-     * Obtém o valor da propriedade parametrizacaoCentroDeCustoAprovacaoRef.
+     * Gets the value of the parametrizacaoCentroDeCustoAprovacaoRef property.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class DeletarParametrizacaoCentroDeCustoRequest {
     }
 
     /**
-     * Define o valor da propriedade parametrizacaoCentroDeCustoAprovacaoRef.
+     * Sets the value of the parametrizacaoCentroDeCustoAprovacaoRef property.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class DeletarParametrizacaoCentroDeCustoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade parametrizacaoCentroDeCustoSolicitacaoRef.
+     * Gets the value of the parametrizacaoCentroDeCustoSolicitacaoRef property.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class DeletarParametrizacaoCentroDeCustoRequest {
     }
 
     /**
-     * Define o valor da propriedade parametrizacaoCentroDeCustoSolicitacaoRef.
+     * Sets the value of the parametrizacaoCentroDeCustoSolicitacaoRef property.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class DeletarParametrizacaoCentroDeCustoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade parametrizacaoCentroDeCustoDebitoRef.
+     * Gets the value of the parametrizacaoCentroDeCustoDebitoRef property.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class DeletarParametrizacaoCentroDeCustoRequest {
     }
 
     /**
-     * Define o valor da propriedade parametrizacaoCentroDeCustoDebitoRef.
+     * Sets the value of the parametrizacaoCentroDeCustoDebitoRef property.
      * 
      * @param value
      *     allowed object is

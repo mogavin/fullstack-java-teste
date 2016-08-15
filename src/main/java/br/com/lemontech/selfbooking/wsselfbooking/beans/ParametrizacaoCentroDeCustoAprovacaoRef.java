@@ -13,9 +13,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoViagem;
 
 
 /**
- * <p>Classe Java de parametrizacaoCentroDeCustoAprovacaoRef complex type.
+ * <p>Java class for parametrizacaoCentroDeCustoAprovacaoRef complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="parametrizacaoCentroDeCustoAprovacaoRef">
@@ -65,10 +65,8 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     @XmlElement(defaultValue = "0")
     protected Integer nivelDeAprovacao;
     @XmlElement(defaultValue = "TODOS")
-    @XmlSchemaType(name = "string")
     protected TipoViagem tipoDeViagemDaAprocacao;
     @XmlElement(defaultValue = "TODOS")
-    @XmlSchemaType(name = "string")
     protected TipoPassageiro tipoDePassageiro;
     @XmlElement(defaultValue = "false")
     protected Boolean aprovaSomenteAprovador;
@@ -78,7 +76,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     protected XMLGregorianCalendar periodoViagemInicial;
 
     /**
-     * Obtém o valor da propriedade funcionarioRef.
+     * Gets the value of the funcionarioRef property.
      * 
      * @return
      *     possible object is
@@ -90,7 +88,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade funcionarioRef.
+     * Sets the value of the funcionarioRef property.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +100,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade centroDeCustoRef.
+     * Gets the value of the centroDeCustoRef property.
      * 
      * @return
      *     possible object is
@@ -114,7 +112,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade centroDeCustoRef.
+     * Sets the value of the centroDeCustoRef property.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +124,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade subCentroDeCustoRef.
+     * Gets the value of the subCentroDeCustoRef property.
      * 
      * @return
      *     possible object is
@@ -138,7 +136,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade subCentroDeCustoRef.
+     * Sets the value of the subCentroDeCustoRef property.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +148,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade nivelDeAprovacao.
+     * Gets the value of the nivelDeAprovacao property.
      * 
      * @return
      *     possible object is
@@ -162,7 +160,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade nivelDeAprovacao.
+     * Sets the value of the nivelDeAprovacao property.
      * 
      * @param value
      *     allowed object is
@@ -174,7 +172,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade tipoDeViagemDaAprocacao.
+     * Gets the value of the tipoDeViagemDaAprocacao property.
      * 
      * @return
      *     possible object is
@@ -186,7 +184,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade tipoDeViagemDaAprocacao.
+     * Sets the value of the tipoDeViagemDaAprocacao property.
      * 
      * @param value
      *     allowed object is
@@ -198,7 +196,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade tipoDePassageiro.
+     * Gets the value of the tipoDePassageiro property.
      * 
      * @return
      *     possible object is
@@ -210,7 +208,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade tipoDePassageiro.
+     * Sets the value of the tipoDePassageiro property.
      * 
      * @param value
      *     allowed object is
@@ -222,7 +220,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade aprovaSomenteAprovador.
+     * Gets the value of the aprovaSomenteAprovador property.
      * 
      * @return
      *     possible object is
@@ -234,7 +232,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade aprovaSomenteAprovador.
+     * Sets the value of the aprovaSomenteAprovador property.
      * 
      * @param value
      *     allowed object is
@@ -246,7 +244,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade aprovaSomenteDentroDaPolitica.
+     * Gets the value of the aprovaSomenteDentroDaPolitica property.
      * 
      * @return
      *     possible object is
@@ -258,7 +256,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade aprovaSomenteDentroDaPolitica.
+     * Sets the value of the aprovaSomenteDentroDaPolitica property.
      * 
      * @param value
      *     allowed object is
@@ -270,7 +268,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade periodoViagemInicial.
+     * Gets the value of the periodoViagemInicial property.
      * 
      * @return
      *     possible object is
@@ -282,7 +280,7 @@ public class ParametrizacaoCentroDeCustoAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade periodoViagemInicial.
+     * Sets the value of the periodoViagemInicial property.
      * 
      * @param value
      *     allowed object is

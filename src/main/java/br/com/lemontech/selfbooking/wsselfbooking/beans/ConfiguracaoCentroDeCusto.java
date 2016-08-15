@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de configuracaoCentroDeCusto complex type.
+ * <p>Java class for configuracaoCentroDeCusto complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="configuracaoCentroDeCusto">
@@ -40,7 +40,7 @@ public class ConfiguracaoCentroDeCusto {
     protected JAXBElement<Boolean> debitaBudget;
 
     /**
-     * Obtém o valor da propriedade autoAprovavel.
+     * Gets the value of the autoAprovavel property.
      * 
      */
     public boolean isAutoAprovavel() {
@@ -48,7 +48,7 @@ public class ConfiguracaoCentroDeCusto {
     }
 
     /**
-     * Define o valor da propriedade autoAprovavel.
+     * Sets the value of the autoAprovavel property.
      * 
      */
     public void setAutoAprovavel(boolean value) {
@@ -56,7 +56,7 @@ public class ConfiguracaoCentroDeCusto {
     }
 
     /**
-     * Obtém o valor da propriedade debitaBudget.
+     * Gets the value of the debitaBudget property.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class ConfiguracaoCentroDeCusto {
     }
 
     /**
-     * Define o valor da propriedade debitaBudget.
+     * Sets the value of the debitaBudget property.
      * 
      * @param value
      *     allowed object is

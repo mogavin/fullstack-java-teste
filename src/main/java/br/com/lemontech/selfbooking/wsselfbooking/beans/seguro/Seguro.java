@@ -17,9 +17,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Remarks;
 
 
 /**
- * <p>Classe Java de seguro complex type.
+ * <p>Java class for seguro complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="seguro">
@@ -148,7 +148,7 @@ public class Seguro {
     protected String moeda;
 
     /**
-     * Obtém o valor da propriedade id.
+     * Gets the value of the id property.
      * 
      */
     public int getId() {
@@ -156,7 +156,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade id.
+     * Sets the value of the id property.
      * 
      */
     public void setId(int value) {
@@ -164,7 +164,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade nomeSeguro.
+     * Gets the value of the nomeSeguro property.
      * 
      * @return
      *     possible object is
@@ -176,7 +176,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade nomeSeguro.
+     * Sets the value of the nomeSeguro property.
      * 
      * @param value
      *     allowed object is
@@ -188,7 +188,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade nomeSeguradora.
+     * Gets the value of the nomeSeguradora property.
      * 
      * @return
      *     possible object is
@@ -200,7 +200,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade nomeSeguradora.
+     * Sets the value of the nomeSeguradora property.
      * 
      * @param value
      *     allowed object is
@@ -212,7 +212,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade dataInicialVigencia.
+     * Gets the value of the dataInicialVigencia property.
      * 
      * @return
      *     possible object is
@@ -224,7 +224,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade dataInicialVigencia.
+     * Sets the value of the dataInicialVigencia property.
      * 
      * @param value
      *     allowed object is
@@ -236,7 +236,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade dataFinalVigencia.
+     * Gets the value of the dataFinalVigencia property.
      * 
      * @return
      *     possible object is
@@ -248,7 +248,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade dataFinalVigencia.
+     * Sets the value of the dataFinalVigencia property.
      * 
      * @param value
      *     allowed object is
@@ -260,7 +260,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade origem.
+     * Gets the value of the origem property.
      * 
      * @return
      *     possible object is
@@ -272,7 +272,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade origem.
+     * Sets the value of the origem property.
      * 
      * @param value
      *     allowed object is
@@ -284,7 +284,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade destino.
+     * Gets the value of the destino property.
      * 
      * @return
      *     possible object is
@@ -296,7 +296,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade destino.
+     * Sets the value of the destino property.
      * 
      * @param value
      *     allowed object is
@@ -308,7 +308,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade certificado.
+     * Gets the value of the certificado property.
      * 
      * @return
      *     possible object is
@@ -320,7 +320,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade certificado.
+     * Sets the value of the certificado property.
      * 
      * @param value
      *     allowed object is
@@ -332,7 +332,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade valorPremio.
+     * Gets the value of the valorPremio property.
      * 
      * @return
      *     possible object is
@@ -344,7 +344,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade valorPremio.
+     * Sets the value of the valorPremio property.
      * 
      * @param value
      *     allowed object is
@@ -356,7 +356,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade coberturas.
+     * Gets the value of the coberturas property.
      * 
      * @return
      *     possible object is
@@ -368,7 +368,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade coberturas.
+     * Sets the value of the coberturas property.
      * 
      * @param value
      *     allowed object is
@@ -380,7 +380,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoEmissor.
+     * Gets the value of the codigoEmissor property.
      * 
      * @return
      *     possible object is
@@ -392,7 +392,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade codigoEmissor.
+     * Sets the value of the codigoEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -404,7 +404,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade nomeEmissor.
+     * Gets the value of the nomeEmissor property.
      * 
      * @return
      *     possible object is
@@ -416,7 +416,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade nomeEmissor.
+     * Sets the value of the nomeEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -428,7 +428,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoReservador.
+     * Gets the value of the codigoReservador property.
      * 
      * @return
      *     possible object is
@@ -440,7 +440,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade codigoReservador.
+     * Sets the value of the codigoReservador property.
      * 
      * @param value
      *     allowed object is
@@ -452,7 +452,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade nomeReservador.
+     * Gets the value of the nomeReservador property.
      * 
      * @return
      *     possible object is
@@ -464,7 +464,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade nomeReservador.
+     * Sets the value of the nomeReservador property.
      * 
      * @param value
      *     allowed object is
@@ -476,7 +476,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade dataReserva.
+     * Gets the value of the dataReserva property.
      * 
      * @return
      *     possible object is
@@ -488,7 +488,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade dataReserva.
+     * Sets the value of the dataReserva property.
      * 
      * @param value
      *     allowed object is
@@ -500,7 +500,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade obsEmissor.
+     * Gets the value of the obsEmissor property.
      * 
      * @return
      *     possible object is
@@ -512,7 +512,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade obsEmissor.
+     * Sets the value of the obsEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -524,7 +524,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade maiorTarifa.
+     * Gets the value of the maiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -536,7 +536,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade maiorTarifa.
+     * Sets the value of the maiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -548,7 +548,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade menorTarifa.
+     * Gets the value of the menorTarifa property.
      * 
      * @return
      *     possible object is
@@ -560,7 +560,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade menorTarifa.
+     * Sets the value of the menorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -572,7 +572,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade formaPagamento.
+     * Gets the value of the formaPagamento property.
      * 
      * @return
      *     possible object is
@@ -584,7 +584,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade formaPagamento.
+     * Sets the value of the formaPagamento property.
      * 
      * @param value
      *     allowed object is
@@ -625,7 +625,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade justificativaMaiorTarifa.
+     * Gets the value of the justificativaMaiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -637,7 +637,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade justificativaMaiorTarifa.
+     * Sets the value of the justificativaMaiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -649,7 +649,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade statusCancelamento.
+     * Gets the value of the statusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -661,7 +661,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade statusCancelamento.
+     * Sets the value of the statusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -673,7 +673,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade dataModificacaoStatusCancelamento.
+     * Gets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -685,7 +685,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade dataModificacaoStatusCancelamento.
+     * Sets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -697,7 +697,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade usuarioModificouStatusCancelamento.
+     * Gets the value of the usuarioModificouStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -709,7 +709,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade usuarioModificouStatusCancelamento.
+     * Sets the value of the usuarioModificouStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -721,7 +721,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoJustificativaMaiorTarifa.
+     * Gets the value of the codigoJustificativaMaiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -733,7 +733,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade codigoJustificativaMaiorTarifa.
+     * Sets the value of the codigoJustificativaMaiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -745,7 +745,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorIntegracao.
+     * Gets the value of the identificadorIntegracao property.
      * 
      * @return
      *     possible object is
@@ -757,7 +757,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade identificadorIntegracao.
+     * Sets the value of the identificadorIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -769,7 +769,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Gets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @return
      *     possible object is
@@ -781,7 +781,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Sets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @param value
      *     allowed object is
@@ -793,7 +793,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade remarks.
+     * Gets the value of the remarks property.
      * 
      * @return
      *     possible object is
@@ -805,7 +805,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade remarks.
+     * Sets the value of the remarks property.
      * 
      * @param value
      *     allowed object is
@@ -817,7 +817,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade totalSeguro.
+     * Gets the value of the totalSeguro property.
      * 
      * @return
      *     possible object is
@@ -829,7 +829,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade totalSeguro.
+     * Sets the value of the totalSeguro property.
      * 
      * @param value
      *     allowed object is
@@ -841,7 +841,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade cancelado.
+     * Gets the value of the cancelado property.
      * 
      */
     public boolean isCancelado() {
@@ -849,7 +849,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade cancelado.
+     * Sets the value of the cancelado property.
      * 
      */
     public void setCancelado(boolean value) {
@@ -857,7 +857,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade identificadoresIntegracao.
+     * Gets the value of the identificadoresIntegracao property.
      * 
      * @return
      *     possible object is
@@ -869,7 +869,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade identificadoresIntegracao.
+     * Sets the value of the identificadoresIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -881,7 +881,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade taxaFee.
+     * Gets the value of the taxaFee property.
      * 
      * @return
      *     possible object is
@@ -893,7 +893,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade taxaFee.
+     * Sets the value of the taxaFee property.
      * 
      * @param value
      *     allowed object is
@@ -905,7 +905,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade consolidadora.
+     * Gets the value of the consolidadora property.
      * 
      * @return
      *     possible object is
@@ -917,7 +917,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade consolidadora.
+     * Sets the value of the consolidadora property.
      * 
      * @param value
      *     allowed object is
@@ -929,7 +929,7 @@ public class Seguro {
     }
 
     /**
-     * Obtém o valor da propriedade moeda.
+     * Gets the value of the moeda property.
      * 
      * @return
      *     possible object is
@@ -941,7 +941,7 @@ public class Seguro {
     }
 
     /**
-     * Define o valor da propriedade moeda.
+     * Sets the value of the moeda property.
      * 
      * @param value
      *     allowed object is

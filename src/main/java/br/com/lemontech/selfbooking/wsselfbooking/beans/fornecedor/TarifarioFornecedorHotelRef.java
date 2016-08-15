@@ -4,7 +4,6 @@ package br.com.lemontech.selfbooking.wsselfbooking.beans.fornecedor;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.types.PerfilHospedagem;
@@ -12,9 +11,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoApartamento;
 
 
 /**
- * <p>Classe Java de tarifarioFornecedorHotelRef complex type.
+ * <p>Java class for tarifarioFornecedorHotelRef complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="tarifarioFornecedorHotelRef">
@@ -49,14 +48,12 @@ public class TarifarioFornecedorHotelRef {
     protected String identificadorBackofficeFornecedor;
     protected String identificadorBackofficeCliente;
     @XmlElement(required = true)
-    @XmlSchemaType(name = "string")
     protected PerfilHospedagem categoriaApartamento;
     @XmlElement(required = true)
-    @XmlSchemaType(name = "string")
     protected TipoApartamento tipoApartamento;
 
     /**
-     * Obtém o valor da propriedade identificadorBackofficeFornecedor.
+     * Gets the value of the identificadorBackofficeFornecedor property.
      * 
      * @return
      *     possible object is
@@ -68,7 +65,7 @@ public class TarifarioFornecedorHotelRef {
     }
 
     /**
-     * Define o valor da propriedade identificadorBackofficeFornecedor.
+     * Sets the value of the identificadorBackofficeFornecedor property.
      * 
      * @param value
      *     allowed object is
@@ -80,7 +77,7 @@ public class TarifarioFornecedorHotelRef {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorBackofficeCliente.
+     * Gets the value of the identificadorBackofficeCliente property.
      * 
      * @return
      *     possible object is
@@ -92,7 +89,7 @@ public class TarifarioFornecedorHotelRef {
     }
 
     /**
-     * Define o valor da propriedade identificadorBackofficeCliente.
+     * Sets the value of the identificadorBackofficeCliente property.
      * 
      * @param value
      *     allowed object is
@@ -104,7 +101,7 @@ public class TarifarioFornecedorHotelRef {
     }
 
     /**
-     * Obtém o valor da propriedade categoriaApartamento.
+     * Gets the value of the categoriaApartamento property.
      * 
      * @return
      *     possible object is
@@ -116,7 +113,7 @@ public class TarifarioFornecedorHotelRef {
     }
 
     /**
-     * Define o valor da propriedade categoriaApartamento.
+     * Sets the value of the categoriaApartamento property.
      * 
      * @param value
      *     allowed object is
@@ -128,7 +125,7 @@ public class TarifarioFornecedorHotelRef {
     }
 
     /**
-     * Obtém o valor da propriedade tipoApartamento.
+     * Gets the value of the tipoApartamento property.
      * 
      * @return
      *     possible object is
@@ -140,7 +137,7 @@ public class TarifarioFornecedorHotelRef {
     }
 
     /**
-     * Define o valor da propriedade tipoApartamento.
+     * Sets the value of the tipoApartamento property.
      * 
      * @param value
      *     allowed object is

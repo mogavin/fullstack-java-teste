@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de remark complex type.
+ * <p>Java class for remark complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="remark">
@@ -37,7 +37,7 @@ public class Remark {
     protected String valor;
 
     /**
-     * Obtém o valor da propriedade campo.
+     * Gets the value of the campo property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class Remark {
     }
 
     /**
-     * Define o valor da propriedade campo.
+     * Sets the value of the campo property.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class Remark {
     }
 
     /**
-     * Obtém o valor da propriedade valor.
+     * Gets the value of the valor property.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class Remark {
     }
 
     /**
-     * Define o valor da propriedade valor.
+     * Sets the value of the valor property.
      * 
      * @param value
      *     allowed object is

@@ -3,14 +3,13 @@ package br.com.lemontech.selfbooking.wsselfbooking.beans.types;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de identificador complex type.
+ * <p>Java class for identificador complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="identificador">
@@ -38,11 +37,10 @@ public class Identificador {
 
     protected String conector;
     protected String codigo;
-    @XmlSchemaType(name = "string")
     protected TipoIntegracao tipoIntegracao;
 
     /**
-     * Obtém o valor da propriedade conector.
+     * Gets the value of the conector property.
      * 
      * @return
      *     possible object is
@@ -54,7 +52,7 @@ public class Identificador {
     }
 
     /**
-     * Define o valor da propriedade conector.
+     * Sets the value of the conector property.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +64,7 @@ public class Identificador {
     }
 
     /**
-     * Obtém o valor da propriedade codigo.
+     * Gets the value of the codigo property.
      * 
      * @return
      *     possible object is
@@ -78,7 +76,7 @@ public class Identificador {
     }
 
     /**
-     * Define o valor da propriedade codigo.
+     * Sets the value of the codigo property.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +88,7 @@ public class Identificador {
     }
 
     /**
-     * Obtém o valor da propriedade tipoIntegracao.
+     * Gets the value of the tipoIntegracao property.
      * 
      * @return
      *     possible object is
@@ -102,7 +100,7 @@ public class Identificador {
     }
 
     /**
-     * Define o valor da propriedade tipoIntegracao.
+     * Sets the value of the tipoIntegracao property.
      * 
      * @param value
      *     allowed object is

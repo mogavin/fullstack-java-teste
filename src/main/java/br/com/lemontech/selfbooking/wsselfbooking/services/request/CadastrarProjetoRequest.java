@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.Projeto;
 
 
 /**
- * <p>Classe Java de cadastrarProjetoRequest complex type.
+ * <p>Java class for cadastrarProjetoRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="cadastrarProjetoRequest">
@@ -37,7 +37,7 @@ public class CadastrarProjetoRequest {
     protected Projeto projeto;
 
     /**
-     * Obtém o valor da propriedade projeto.
+     * Gets the value of the projeto property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class CadastrarProjetoRequest {
     }
 
     /**
-     * Define o valor da propriedade projeto.
+     * Sets the value of the projeto property.
      * 
      * @param value
      *     allowed object is

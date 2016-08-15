@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de agencia complex type.
+ * <p>Java class for agencia complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="agencia">
@@ -67,7 +67,7 @@ public class Agencia {
     protected String iata;
 
     /**
-     * Obtém o valor da propriedade nome.
+     * Gets the value of the nome property.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade nome.
+     * Sets the value of the nome property.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class Agencia {
     }
 
     /**
-     * Obtém o valor da propriedade razaoSocial.
+     * Gets the value of the razaoSocial property.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade razaoSocial.
+     * Sets the value of the razaoSocial property.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class Agencia {
     }
 
     /**
-     * Obtém o valor da propriedade endereco.
+     * Gets the value of the endereco property.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade endereco.
+     * Sets the value of the endereco property.
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class Agencia {
     }
 
     /**
-     * Obtém o valor da propriedade cidade.
+     * Gets the value of the cidade property.
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade cidade.
+     * Sets the value of the cidade property.
      * 
      * @param value
      *     allowed object is
@@ -163,7 +163,7 @@ public class Agencia {
     }
 
     /**
-     * Obtém o valor da propriedade estado.
+     * Gets the value of the estado property.
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade estado.
+     * Sets the value of the estado property.
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class Agencia {
     }
 
     /**
-     * Obtém o valor da propriedade pais.
+     * Gets the value of the pais property.
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade pais.
+     * Sets the value of the pais property.
      * 
      * @param value
      *     allowed object is
@@ -211,7 +211,7 @@ public class Agencia {
     }
 
     /**
-     * Obtém o valor da propriedade cep.
+     * Gets the value of the cep property.
      * 
      * @return
      *     possible object is
@@ -223,7 +223,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade cep.
+     * Sets the value of the cep property.
      * 
      * @param value
      *     allowed object is
@@ -235,7 +235,7 @@ public class Agencia {
     }
 
     /**
-     * Obtém o valor da propriedade telefone.
+     * Gets the value of the telefone property.
      * 
      * @return
      *     possible object is
@@ -247,7 +247,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade telefone.
+     * Sets the value of the telefone property.
      * 
      * @param value
      *     allowed object is
@@ -259,7 +259,7 @@ public class Agencia {
     }
 
     /**
-     * Obtém o valor da propriedade fax.
+     * Gets the value of the fax property.
      * 
      * @return
      *     possible object is
@@ -271,7 +271,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade fax.
+     * Sets the value of the fax property.
      * 
      * @param value
      *     allowed object is
@@ -283,7 +283,7 @@ public class Agencia {
     }
 
     /**
-     * Obtém o valor da propriedade email.
+     * Gets the value of the email property.
      * 
      * @return
      *     possible object is
@@ -295,7 +295,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade email.
+     * Sets the value of the email property.
      * 
      * @param value
      *     allowed object is
@@ -307,7 +307,7 @@ public class Agencia {
     }
 
     /**
-     * Obtém o valor da propriedade cnpj.
+     * Gets the value of the cnpj property.
      * 
      * @return
      *     possible object is
@@ -319,7 +319,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade cnpj.
+     * Sets the value of the cnpj property.
      * 
      * @param value
      *     allowed object is
@@ -331,7 +331,7 @@ public class Agencia {
     }
 
     /**
-     * Obtém o valor da propriedade iata.
+     * Gets the value of the iata property.
      * 
      * @return
      *     possible object is
@@ -343,7 +343,7 @@ public class Agencia {
     }
 
     /**
-     * Define o valor da propriedade iata.
+     * Sets the value of the iata property.
      * 
      * @param value
      *     allowed object is

@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.ParametrizacaoViajanteAp
 
 
 /**
- * <p>Classe Java de deletarParametrizacaoViajanteRequest complex type.
+ * <p>Java class for deletarParametrizacaoViajanteRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="deletarParametrizacaoViajanteRequest">
@@ -37,7 +37,7 @@ public class DeletarParametrizacaoViajanteRequest {
     protected ParametrizacaoViajanteAprovacaoRef parametrizacaoViajanteAprovacaoRef;
 
     /**
-     * Obtém o valor da propriedade parametrizacaoViajanteAprovacaoRef.
+     * Gets the value of the parametrizacaoViajanteAprovacaoRef property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class DeletarParametrizacaoViajanteRequest {
     }
 
     /**
-     * Define o valor da propriedade parametrizacaoViajanteAprovacaoRef.
+     * Sets the value of the parametrizacaoViajanteAprovacaoRef property.
      * 
      * @param value
      *     allowed object is

@@ -10,9 +10,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.fornecedor.TarifarioForn
 
 
 /**
- * <p>Classe Java de alterarStatusTarifarioRequest complex type.
+ * <p>Java class for alterarStatusTarifarioRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="alterarStatusTarifarioRequest">
@@ -54,7 +54,7 @@ public class AlterarStatusTarifarioRequest {
     protected TarifarioFornecedorOutroRef tarifarioOutroRef;
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -62,7 +62,7 @@ public class AlterarStatusTarifarioRequest {
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {
@@ -70,7 +70,7 @@ public class AlterarStatusTarifarioRequest {
     }
 
     /**
-     * Obtém o valor da propriedade tarifarioHotelRef.
+     * Gets the value of the tarifarioHotelRef property.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class AlterarStatusTarifarioRequest {
     }
 
     /**
-     * Define o valor da propriedade tarifarioHotelRef.
+     * Sets the value of the tarifarioHotelRef property.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class AlterarStatusTarifarioRequest {
     }
 
     /**
-     * Obtém o valor da propriedade tarifarioCarroRef.
+     * Gets the value of the tarifarioCarroRef property.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class AlterarStatusTarifarioRequest {
     }
 
     /**
-     * Define o valor da propriedade tarifarioCarroRef.
+     * Sets the value of the tarifarioCarroRef property.
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class AlterarStatusTarifarioRequest {
     }
 
     /**
-     * Obtém o valor da propriedade tarifarioOutroRef.
+     * Gets the value of the tarifarioOutroRef property.
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class AlterarStatusTarifarioRequest {
     }
 
     /**
-     * Define o valor da propriedade tarifarioOutroRef.
+     * Sets the value of the tarifarioOutroRef property.
      * 
      * @param value
      *     allowed object is

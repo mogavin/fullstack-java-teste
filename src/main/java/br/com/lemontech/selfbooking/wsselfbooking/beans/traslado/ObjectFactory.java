@@ -30,19 +30,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Traslados }
-     * 
-     */
-    public Traslados createTraslados() {
-        return new Traslados();
-    }
-
-    /**
      * Create an instance of {@link Traslado }
      * 
      */
     public Traslado createTraslado() {
         return new Traslado();
+    }
+
+    /**
+     * Create an instance of {@link Traslados }
+     * 
+     */
+    public Traslados createTraslados() {
+        return new Traslados();
     }
 
 }

@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de totais complex type.
+ * <p>Java class for totais complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="totais">
@@ -55,7 +55,7 @@ public class Totais {
     protected Double totalTraslados;
 
     /**
-     * Obtém o valor da propriedade totalSolicitacao.
+     * Gets the value of the totalSolicitacao property.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class Totais {
     }
 
     /**
-     * Define o valor da propriedade totalSolicitacao.
+     * Sets the value of the totalSolicitacao property.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class Totais {
     }
 
     /**
-     * Obtém o valor da propriedade totalAereos.
+     * Gets the value of the totalAereos property.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class Totais {
     }
 
     /**
-     * Define o valor da propriedade totalAereos.
+     * Sets the value of the totalAereos property.
      * 
      * @param value
      *     allowed object is
@@ -103,7 +103,7 @@ public class Totais {
     }
 
     /**
-     * Obtém o valor da propriedade totalHoteis.
+     * Gets the value of the totalHoteis property.
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public class Totais {
     }
 
     /**
-     * Define o valor da propriedade totalHoteis.
+     * Sets the value of the totalHoteis property.
      * 
      * @param value
      *     allowed object is
@@ -127,7 +127,7 @@ public class Totais {
     }
 
     /**
-     * Obtém o valor da propriedade totalCarros.
+     * Gets the value of the totalCarros property.
      * 
      * @return
      *     possible object is
@@ -139,7 +139,7 @@ public class Totais {
     }
 
     /**
-     * Define o valor da propriedade totalCarros.
+     * Sets the value of the totalCarros property.
      * 
      * @param value
      *     allowed object is
@@ -151,7 +151,7 @@ public class Totais {
     }
 
     /**
-     * Obtém o valor da propriedade totalOutros.
+     * Gets the value of the totalOutros property.
      * 
      * @return
      *     possible object is
@@ -163,7 +163,7 @@ public class Totais {
     }
 
     /**
-     * Define o valor da propriedade totalOutros.
+     * Sets the value of the totalOutros property.
      * 
      * @param value
      *     allowed object is
@@ -175,7 +175,7 @@ public class Totais {
     }
 
     /**
-     * Obtém o valor da propriedade totalFee.
+     * Gets the value of the totalFee property.
      * 
      * @return
      *     possible object is
@@ -187,7 +187,7 @@ public class Totais {
     }
 
     /**
-     * Define o valor da propriedade totalFee.
+     * Sets the value of the totalFee property.
      * 
      * @param value
      *     allowed object is
@@ -199,7 +199,7 @@ public class Totais {
     }
 
     /**
-     * Obtém o valor da propriedade totalSeguros.
+     * Gets the value of the totalSeguros property.
      * 
      * @return
      *     possible object is
@@ -211,7 +211,7 @@ public class Totais {
     }
 
     /**
-     * Define o valor da propriedade totalSeguros.
+     * Sets the value of the totalSeguros property.
      * 
      * @param value
      *     allowed object is
@@ -223,7 +223,7 @@ public class Totais {
     }
 
     /**
-     * Obtém o valor da propriedade totalTraslados.
+     * Gets the value of the totalTraslados property.
      * 
      * @return
      *     possible object is
@@ -235,7 +235,7 @@ public class Totais {
     }
 
     /**
-     * Define o valor da propriedade totalTraslados.
+     * Sets the value of the totalTraslados property.
      * 
      * @param value
      *     allowed object is

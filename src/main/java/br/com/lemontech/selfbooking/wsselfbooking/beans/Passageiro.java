@@ -12,9 +12,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoPassageiro;
 
 
 /**
- * <p>Classe Java de passageiro complex type.
+ * <p>Java class for passageiro complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="passageiro">
@@ -79,15 +79,12 @@ public class Passageiro {
     protected String sobrenome;
     protected String matricula;
     protected String departamento;
-    @XmlSchemaType(name = "string")
     protected TipoPassageiro tipoPassageiro;
-    @XmlSchemaType(name = "string")
     protected TipoDocumento tipoDocumento;
     protected String valorDocumento;
     protected String email;
     @XmlSchemaType(name = "date")
     protected XMLGregorianCalendar dataNascimento;
-    @XmlSchemaType(name = "string")
     protected Sexo sexo;
     protected String empresa;
     protected String telefone;
@@ -100,7 +97,7 @@ public class Passageiro {
     protected String nomeCompleto;
 
     /**
-     * Obtém o valor da propriedade idPassageiro.
+     * Gets the value of the idPassageiro property.
      * 
      */
     public int getIdPassageiro() {
@@ -108,7 +105,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade idPassageiro.
+     * Sets the value of the idPassageiro property.
      * 
      */
     public void setIdPassageiro(int value) {
@@ -116,7 +113,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade nome.
+     * Gets the value of the nome property.
      * 
      * @return
      *     possible object is
@@ -128,7 +125,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade nome.
+     * Sets the value of the nome property.
      * 
      * @param value
      *     allowed object is
@@ -140,7 +137,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade sobrenome.
+     * Gets the value of the sobrenome property.
      * 
      * @return
      *     possible object is
@@ -152,7 +149,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade sobrenome.
+     * Sets the value of the sobrenome property.
      * 
      * @param value
      *     allowed object is
@@ -164,7 +161,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade matricula.
+     * Gets the value of the matricula property.
      * 
      * @return
      *     possible object is
@@ -176,7 +173,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade matricula.
+     * Sets the value of the matricula property.
      * 
      * @param value
      *     allowed object is
@@ -188,7 +185,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade departamento.
+     * Gets the value of the departamento property.
      * 
      * @return
      *     possible object is
@@ -200,7 +197,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade departamento.
+     * Sets the value of the departamento property.
      * 
      * @param value
      *     allowed object is
@@ -212,7 +209,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade tipoPassageiro.
+     * Gets the value of the tipoPassageiro property.
      * 
      * @return
      *     possible object is
@@ -224,7 +221,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade tipoPassageiro.
+     * Sets the value of the tipoPassageiro property.
      * 
      * @param value
      *     allowed object is
@@ -236,7 +233,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade tipoDocumento.
+     * Gets the value of the tipoDocumento property.
      * 
      * @return
      *     possible object is
@@ -248,7 +245,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade tipoDocumento.
+     * Sets the value of the tipoDocumento property.
      * 
      * @param value
      *     allowed object is
@@ -260,7 +257,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade valorDocumento.
+     * Gets the value of the valorDocumento property.
      * 
      * @return
      *     possible object is
@@ -272,7 +269,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade valorDocumento.
+     * Sets the value of the valorDocumento property.
      * 
      * @param value
      *     allowed object is
@@ -284,7 +281,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade email.
+     * Gets the value of the email property.
      * 
      * @return
      *     possible object is
@@ -296,7 +293,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade email.
+     * Sets the value of the email property.
      * 
      * @param value
      *     allowed object is
@@ -308,7 +305,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade dataNascimento.
+     * Gets the value of the dataNascimento property.
      * 
      * @return
      *     possible object is
@@ -320,7 +317,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade dataNascimento.
+     * Sets the value of the dataNascimento property.
      * 
      * @param value
      *     allowed object is
@@ -332,7 +329,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade sexo.
+     * Gets the value of the sexo property.
      * 
      * @return
      *     possible object is
@@ -344,7 +341,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade sexo.
+     * Sets the value of the sexo property.
      * 
      * @param value
      *     allowed object is
@@ -356,7 +353,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade empresa.
+     * Gets the value of the empresa property.
      * 
      * @return
      *     possible object is
@@ -368,7 +365,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade empresa.
+     * Sets the value of the empresa property.
      * 
      * @param value
      *     allowed object is
@@ -380,7 +377,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade telefone.
+     * Gets the value of the telefone property.
      * 
      * @return
      *     possible object is
@@ -392,7 +389,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade telefone.
+     * Sets the value of the telefone property.
      * 
      * @param value
      *     allowed object is
@@ -404,7 +401,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade celular.
+     * Gets the value of the celular property.
      * 
      * @return
      *     possible object is
@@ -416,7 +413,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade celular.
+     * Sets the value of the celular property.
      * 
      * @param value
      *     allowed object is
@@ -428,7 +425,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade dddTel.
+     * Gets the value of the dddTel property.
      * 
      * @return
      *     possible object is
@@ -440,7 +437,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade dddTel.
+     * Sets the value of the dddTel property.
      * 
      * @param value
      *     allowed object is
@@ -452,7 +449,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade dddCel.
+     * Gets the value of the dddCel property.
      * 
      * @return
      *     possible object is
@@ -464,7 +461,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade dddCel.
+     * Sets the value of the dddCel property.
      * 
      * @param value
      *     allowed object is
@@ -476,7 +473,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade terceiro.
+     * Gets the value of the terceiro property.
      * 
      * @return
      *     possible object is
@@ -488,7 +485,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade terceiro.
+     * Sets the value of the terceiro property.
      * 
      * @param value
      *     allowed object is
@@ -500,7 +497,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade acompanhante.
+     * Gets the value of the acompanhante property.
      * 
      * @return
      *     possible object is
@@ -512,7 +509,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade acompanhante.
+     * Sets the value of the acompanhante property.
      * 
      * @param value
      *     allowed object is
@@ -524,7 +521,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade cpf.
+     * Gets the value of the cpf property.
      * 
      * @return
      *     possible object is
@@ -536,7 +533,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade cpf.
+     * Sets the value of the cpf property.
      * 
      * @param value
      *     allowed object is
@@ -548,7 +545,7 @@ public class Passageiro {
     }
 
     /**
-     * Obtém o valor da propriedade nomeCompleto.
+     * Gets the value of the nomeCompleto property.
      * 
      * @return
      *     possible object is
@@ -560,7 +557,7 @@ public class Passageiro {
     }
 
     /**
-     * Define o valor da propriedade nomeCompleto.
+     * Sets the value of the nomeCompleto property.
      * 
      * @param value
      *     allowed object is

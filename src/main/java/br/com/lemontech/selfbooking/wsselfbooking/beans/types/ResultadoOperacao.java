@@ -3,14 +3,13 @@ package br.com.lemontech.selfbooking.wsselfbooking.beans.types;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de resultadoOperacao complex type.
+ * <p>Java class for resultadoOperacao complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="resultadoOperacao">
@@ -34,12 +33,11 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class ResultadoOperacao {
 
-    @XmlSchemaType(name = "string")
     protected ResultadoAcao status;
     protected String mensagem;
 
     /**
-     * Obtém o valor da propriedade status.
+     * Gets the value of the status property.
      * 
      * @return
      *     possible object is
@@ -51,7 +49,7 @@ public class ResultadoOperacao {
     }
 
     /**
-     * Define o valor da propriedade status.
+     * Sets the value of the status property.
      * 
      * @param value
      *     allowed object is
@@ -63,7 +61,7 @@ public class ResultadoOperacao {
     }
 
     /**
-     * Obtém o valor da propriedade mensagem.
+     * Gets the value of the mensagem property.
      * 
      * @return
      *     possible object is
@@ -75,7 +73,7 @@ public class ResultadoOperacao {
     }
 
     /**
-     * Define o valor da propriedade mensagem.
+     * Sets the value of the mensagem property.
      * 
      * @param value
      *     allowed object is

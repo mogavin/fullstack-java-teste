@@ -3,15 +3,14 @@ package br.com.lemontech.selfbooking.wsselfbooking.beans.aereo;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoPax;
 
 
 /**
- * <p>Classe Java de aereoTarifaPax complex type.
+ * <p>Java class for aereoTarifaPax complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="aereoTarifaPax">
@@ -62,7 +61,6 @@ public class AereoTarifaPax {
     protected Double tarifa;
     protected Double taxa;
     protected Double taxaDu;
-    @XmlSchemaType(name = "string")
     protected TipoPax tipoPax;
     protected Integer quantidadePax;
     protected Double tarifaSemAcordo;
@@ -76,7 +74,7 @@ public class AereoTarifaPax {
     protected Double valorFullFare;
 
     /**
-     * Obtém o valor da propriedade tarifa.
+     * Gets the value of the tarifa property.
      * 
      * @return
      *     possible object is
@@ -88,7 +86,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade tarifa.
+     * Sets the value of the tarifa property.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +98,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade taxa.
+     * Gets the value of the taxa property.
      * 
      * @return
      *     possible object is
@@ -112,7 +110,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade taxa.
+     * Sets the value of the taxa property.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +122,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade taxaDu.
+     * Gets the value of the taxaDu property.
      * 
      * @return
      *     possible object is
@@ -136,7 +134,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade taxaDu.
+     * Sets the value of the taxaDu property.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +146,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade tipoPax.
+     * Gets the value of the tipoPax property.
      * 
      * @return
      *     possible object is
@@ -160,7 +158,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade tipoPax.
+     * Sets the value of the tipoPax property.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +170,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade quantidadePax.
+     * Gets the value of the quantidadePax property.
      * 
      * @return
      *     possible object is
@@ -184,7 +182,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade quantidadePax.
+     * Sets the value of the quantidadePax property.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +194,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade tarifaSemAcordo.
+     * Gets the value of the tarifaSemAcordo property.
      * 
      * @return
      *     possible object is
@@ -208,7 +206,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade tarifaSemAcordo.
+     * Sets the value of the tarifaSemAcordo property.
      * 
      * @param value
      *     allowed object is
@@ -220,7 +218,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade moeda.
+     * Gets the value of the moeda property.
      * 
      * @return
      *     possible object is
@@ -232,7 +230,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade moeda.
+     * Sets the value of the moeda property.
      * 
      * @param value
      *     allowed object is
@@ -244,7 +242,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade moedaBase.
+     * Gets the value of the moedaBase property.
      * 
      * @return
      *     possible object is
@@ -256,7 +254,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade moedaBase.
+     * Sets the value of the moedaBase property.
      * 
      * @param value
      *     allowed object is
@@ -268,7 +266,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade tarifaBase.
+     * Gets the value of the tarifaBase property.
      * 
      * @return
      *     possible object is
@@ -280,7 +278,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade tarifaBase.
+     * Sets the value of the tarifaBase property.
      * 
      * @param value
      *     allowed object is
@@ -292,7 +290,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade cotacao.
+     * Gets the value of the cotacao property.
      * 
      * @return
      *     possible object is
@@ -304,7 +302,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade cotacao.
+     * Sets the value of the cotacao property.
      * 
      * @param value
      *     allowed object is
@@ -316,7 +314,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade acordo.
+     * Gets the value of the acordo property.
      * 
      * @return
      *     possible object is
@@ -328,7 +326,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade acordo.
+     * Sets the value of the acordo property.
      * 
      * @param value
      *     allowed object is
@@ -340,7 +338,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade totalTarifaPax.
+     * Gets the value of the totalTarifaPax property.
      * 
      * @return
      *     possible object is
@@ -352,7 +350,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade totalTarifaPax.
+     * Sets the value of the totalTarifaPax property.
      * 
      * @param value
      *     allowed object is
@@ -364,7 +362,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade taxaFee.
+     * Gets the value of the taxaFee property.
      * 
      * @return
      *     possible object is
@@ -376,7 +374,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade taxaFee.
+     * Sets the value of the taxaFee property.
      * 
      * @param value
      *     allowed object is
@@ -388,7 +386,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Obtém o valor da propriedade valorFullFare.
+     * Gets the value of the valorFullFare property.
      * 
      * @return
      *     possible object is
@@ -400,7 +398,7 @@ public class AereoTarifaPax {
     }
 
     /**
-     * Define o valor da propriedade valorFullFare.
+     * Sets the value of the valorFullFare property.
      * 
      * @param value
      *     allowed object is

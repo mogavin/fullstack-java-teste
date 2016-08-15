@@ -4,15 +4,14 @@ package br.com.lemontech.selfbooking.wsselfbooking.beans;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoIntegracao;
 
 
 /**
- * <p>Classe Java de identificadorIntegracaoRef complex type.
+ * <p>Java class for identificadorIntegracaoRef complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="identificadorIntegracaoRef">
@@ -77,7 +76,6 @@ public class IdentificadorIntegracaoRef {
     @XmlElement(required = true)
     protected String identificadorIntegracao;
     @XmlElement(required = true)
-    @XmlSchemaType(name = "string")
     protected TipoIntegracao tipoIntegracao;
     @XmlElement(required = true)
     protected String tipoConector;
@@ -92,7 +90,7 @@ public class IdentificadorIntegracaoRef {
     protected Integer idTrasladoRef;
 
     /**
-     * Obtém o valor da propriedade identificadorIntegracao.
+     * Gets the value of the identificadorIntegracao property.
      * 
      * @return
      *     possible object is
@@ -104,7 +102,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Define o valor da propriedade identificadorIntegracao.
+     * Sets the value of the identificadorIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -116,7 +114,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade tipoIntegracao.
+     * Gets the value of the tipoIntegracao property.
      * 
      * @return
      *     possible object is
@@ -128,7 +126,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Define o valor da propriedade tipoIntegracao.
+     * Sets the value of the tipoIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -140,7 +138,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade tipoConector.
+     * Gets the value of the tipoConector property.
      * 
      * @return
      *     possible object is
@@ -152,7 +150,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Define o valor da propriedade tipoConector.
+     * Sets the value of the tipoConector property.
      * 
      * @param value
      *     allowed object is
@@ -164,7 +162,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade nomeConector.
+     * Gets the value of the nomeConector property.
      * 
      * @return
      *     possible object is
@@ -176,7 +174,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Define o valor da propriedade nomeConector.
+     * Sets the value of the nomeConector property.
      * 
      * @param value
      *     allowed object is
@@ -188,7 +186,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade idSolicitacaoRef.
+     * Gets the value of the idSolicitacaoRef property.
      * 
      */
     public int getIdSolicitacaoRef() {
@@ -196,7 +194,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Define o valor da propriedade idSolicitacaoRef.
+     * Sets the value of the idSolicitacaoRef property.
      * 
      */
     public void setIdSolicitacaoRef(int value) {
@@ -204,7 +202,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade idAereoRef.
+     * Gets the value of the idAereoRef property.
      * 
      * @return
      *     possible object is
@@ -216,7 +214,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Define o valor da propriedade idAereoRef.
+     * Sets the value of the idAereoRef property.
      * 
      * @param value
      *     allowed object is
@@ -228,7 +226,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade idHotelRef.
+     * Gets the value of the idHotelRef property.
      * 
      * @return
      *     possible object is
@@ -240,7 +238,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Define o valor da propriedade idHotelRef.
+     * Sets the value of the idHotelRef property.
      * 
      * @param value
      *     allowed object is
@@ -252,7 +250,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade idCarroRef.
+     * Gets the value of the idCarroRef property.
      * 
      * @return
      *     possible object is
@@ -264,7 +262,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Define o valor da propriedade idCarroRef.
+     * Sets the value of the idCarroRef property.
      * 
      * @param value
      *     allowed object is
@@ -276,7 +274,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade idOutroRef.
+     * Gets the value of the idOutroRef property.
      * 
      * @return
      *     possible object is
@@ -288,7 +286,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Define o valor da propriedade idOutroRef.
+     * Sets the value of the idOutroRef property.
      * 
      * @param value
      *     allowed object is
@@ -300,7 +298,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade idSeguroRef.
+     * Gets the value of the idSeguroRef property.
      * 
      * @return
      *     possible object is
@@ -312,7 +310,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Define o valor da propriedade idSeguroRef.
+     * Sets the value of the idSeguroRef property.
      * 
      * @param value
      *     allowed object is
@@ -324,7 +322,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade idTrasladoRef.
+     * Gets the value of the idTrasladoRef property.
      * 
      * @return
      *     possible object is
@@ -336,7 +334,7 @@ public class IdentificadorIntegracaoRef {
     }
 
     /**
-     * Define o valor da propriedade idTrasladoRef.
+     * Sets the value of the idTrasladoRef property.
      * 
      * @param value
      *     allowed object is

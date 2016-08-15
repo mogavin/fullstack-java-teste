@@ -10,9 +10,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.ResultadoOperacao;
 
 
 /**
- * <p>Classe Java de pesquisarVendasConsolidadoraResponse complex type.
+ * <p>Java class for pesquisarVendasConsolidadoraResponse complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="pesquisarVendasConsolidadoraResponse">
@@ -46,7 +46,7 @@ public class PesquisarVendasConsolidadoraResponse {
     protected Produtos produtos;
 
     /**
-     * Obtém o valor da propriedade resultadoOperacao.
+     * Gets the value of the resultadoOperacao property.
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class PesquisarVendasConsolidadoraResponse {
     }
 
     /**
-     * Define o valor da propriedade resultadoOperacao.
+     * Sets the value of the resultadoOperacao property.
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class PesquisarVendasConsolidadoraResponse {
     }
 
     /**
-     * Obtém o valor da propriedade numeroProdutos.
+     * Gets the value of the numeroProdutos property.
      * 
      */
     public int getNumeroProdutos() {
@@ -78,7 +78,7 @@ public class PesquisarVendasConsolidadoraResponse {
     }
 
     /**
-     * Define o valor da propriedade numeroProdutos.
+     * Sets the value of the numeroProdutos property.
      * 
      */
     public void setNumeroProdutos(int value) {
@@ -86,7 +86,7 @@ public class PesquisarVendasConsolidadoraResponse {
     }
 
     /**
-     * Obtém o valor da propriedade passageiros.
+     * Gets the value of the passageiros property.
      * 
      * @return
      *     possible object is
@@ -98,7 +98,7 @@ public class PesquisarVendasConsolidadoraResponse {
     }
 
     /**
-     * Define o valor da propriedade passageiros.
+     * Sets the value of the passageiros property.
      * 
      * @param value
      *     allowed object is
@@ -110,7 +110,7 @@ public class PesquisarVendasConsolidadoraResponse {
     }
 
     /**
-     * Obtém o valor da propriedade produtos.
+     * Gets the value of the produtos property.
      * 
      * @return
      *     possible object is
@@ -122,7 +122,7 @@ public class PesquisarVendasConsolidadoraResponse {
     }
 
     /**
-     * Define o valor da propriedade produtos.
+     * Sets the value of the produtos property.
      * 
      * @param value
      *     allowed object is

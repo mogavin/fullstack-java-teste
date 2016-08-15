@@ -1,6 +1,5 @@
-package br.com.lemontech.selfbooking.wsselfbooking.client;
+package br.com.lemontech.selfbooking.wsselfbooking.services;
 
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 import javax.xml.datatype.DatatypeConfigurationException;
@@ -9,8 +8,6 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 import org.joda.time.DateTime;
 
-import br.com.lemontech.selfbooking.wsselfbooking.services.WsSelfBooking;
-import br.com.lemontech.selfbooking.wsselfbooking.services.WsSelfBookingService;
 import br.com.lemontech.selfbooking.wsselfbooking.services.request.PesquisarSolicitacaoRequest;
 import br.com.lemontech.selfbooking.wsselfbooking.services.response.PesquisarSolicitacaoResponse;
 
@@ -19,7 +16,7 @@ public class PesquisaSolicitacaoClient {
 	public static void main(String[] args) throws DatatypeConfigurationException {
 		
 		DateTime hoje = new DateTime();
-		DateTime tresMesesAtras = hoje.minusMonths(3);
+		DateTime tresMesesAtras = hoje.minusYears(7);
 		
 		XMLGregorianCalendar xmlGregHoje = converterParaXMLGregorianCalendar(hoje.toGregorianCalendar());
 		System.err.println(xmlGregHoje);
@@ -32,15 +29,8 @@ public class PesquisaSolicitacaoClient {
 		
 		PesquisarSolicitacaoRequest pesquisarSolicitacao = new PesquisarSolicitacaoRequest();
 		pesquisarSolicitacao.setRegistroInicial(1);
-		pesquisarSolicitacao.setDataInicial(xmlGregHoje);
-		pesquisarSolicitacao.setDataFinal(xmlGregTresMesesAtras);
-		
-//		pesquisarSolicitacao.setIdSolicitacaoRef(10);
-//		pesquisarSolicitacao.setExibirCancelados(true);
-//		pesquisarSolicitacao.setExibirPendentesAprovacao(true);
-//		pesquisarSolicitacao.setExibirRemarks(true);
-//		pesquisarSolicitacao.setSincronizado(true);
-		
+		pesquisarSolicitacao.setDataInicial(xmlGregTresMesesAtras);
+		pesquisarSolicitacao.setDataFinal(xmlGregHoje);
 
 
 		PesquisarSolicitacaoResponse response = hello.pesquisarSolicitacao(

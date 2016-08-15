@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de pontoVenda complex type.
+ * <p>Java class for pontoVenda complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="pontoVenda">
@@ -40,7 +40,7 @@ public class PontoVenda {
     protected String pccLocalVenda;
 
     /**
-     * Obtém o valor da propriedade nomePontoVenda.
+     * Gets the value of the nomePontoVenda property.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class PontoVenda {
     }
 
     /**
-     * Define o valor da propriedade nomePontoVenda.
+     * Sets the value of the nomePontoVenda property.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class PontoVenda {
     }
 
     /**
-     * Obtém o valor da propriedade codBackOffice.
+     * Gets the value of the codBackOffice property.
      * 
      */
     public int getCodBackOffice() {
@@ -72,7 +72,7 @@ public class PontoVenda {
     }
 
     /**
-     * Define o valor da propriedade codBackOffice.
+     * Sets the value of the codBackOffice property.
      * 
      */
     public void setCodBackOffice(int value) {
@@ -80,7 +80,7 @@ public class PontoVenda {
     }
 
     /**
-     * Obtém o valor da propriedade pccLocalVenda.
+     * Gets the value of the pccLocalVenda property.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class PontoVenda {
     }
 
     /**
-     * Define o valor da propriedade pccLocalVenda.
+     * Sets the value of the pccLocalVenda property.
      * 
      * @param value
      *     allowed object is

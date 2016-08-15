@@ -10,9 +10,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.ParametrizacaoCentroDeCu
 
 
 /**
- * <p>Classe Java de cadastrarParametrizacaoCentroDeCustoRequest complex type.
+ * <p>Java class for cadastrarParametrizacaoCentroDeCustoRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="cadastrarParametrizacaoCentroDeCustoRequest">
@@ -51,7 +51,7 @@ public class CadastrarParametrizacaoCentroDeCustoRequest {
     protected ParametrizacaoCentroDeCustoDebito parametrizacaoCentroDeCustoDebito;
 
     /**
-     * Obtém o valor da propriedade parametrizacaoCentroDeCustoAprovacao.
+     * Gets the value of the parametrizacaoCentroDeCustoAprovacao property.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class CadastrarParametrizacaoCentroDeCustoRequest {
     }
 
     /**
-     * Define o valor da propriedade parametrizacaoCentroDeCustoAprovacao.
+     * Sets the value of the parametrizacaoCentroDeCustoAprovacao property.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class CadastrarParametrizacaoCentroDeCustoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade parametrizacaoCentroDeCustoSolicitacao.
+     * Gets the value of the parametrizacaoCentroDeCustoSolicitacao property.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class CadastrarParametrizacaoCentroDeCustoRequest {
     }
 
     /**
-     * Define o valor da propriedade parametrizacaoCentroDeCustoSolicitacao.
+     * Sets the value of the parametrizacaoCentroDeCustoSolicitacao property.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class CadastrarParametrizacaoCentroDeCustoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade parametrizacaoCentroDeCustoDebito.
+     * Gets the value of the parametrizacaoCentroDeCustoDebito property.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class CadastrarParametrizacaoCentroDeCustoRequest {
     }
 
     /**
-     * Define o valor da propriedade parametrizacaoCentroDeCustoDebito.
+     * Sets the value of the parametrizacaoCentroDeCustoDebito property.
      * 
      * @param value
      *     allowed object is

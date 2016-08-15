@@ -16,9 +16,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Remarks;
 
 
 /**
- * <p>Classe Java de aereo complex type.
+ * <p>Java class for aereo complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="aereo">
@@ -186,7 +186,7 @@ public class Aereo {
     protected boolean agenteOnline;
 
     /**
-     * Obtém o valor da propriedade id.
+     * Gets the value of the id property.
      * 
      */
     public int getId() {
@@ -194,7 +194,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade id.
+     * Sets the value of the id property.
      * 
      */
     public void setId(int value) {
@@ -202,7 +202,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade localizador.
+     * Gets the value of the localizador property.
      * 
      * @return
      *     possible object is
@@ -214,7 +214,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade localizador.
+     * Sets the value of the localizador property.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +226,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade localizadorGds.
+     * Gets the value of the localizadorGds property.
      * 
      * @return
      *     possible object is
@@ -238,7 +238,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade localizadorGds.
+     * Sets the value of the localizadorGds property.
      * 
      * @param value
      *     allowed object is
@@ -250,7 +250,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade source.
+     * Gets the value of the source property.
      * 
      * @return
      *     possible object is
@@ -262,7 +262,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade source.
+     * Sets the value of the source property.
      * 
      * @param value
      *     allowed object is
@@ -274,7 +274,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade codigoEmissor.
+     * Gets the value of the codigoEmissor property.
      * 
      * @return
      *     possible object is
@@ -286,7 +286,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade codigoEmissor.
+     * Sets the value of the codigoEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -298,7 +298,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade nomeEmissor.
+     * Gets the value of the nomeEmissor property.
      * 
      * @return
      *     possible object is
@@ -310,7 +310,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade nomeEmissor.
+     * Sets the value of the nomeEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -322,7 +322,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade emailEmissor.
+     * Gets the value of the emailEmissor property.
      * 
      * @return
      *     possible object is
@@ -334,7 +334,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade emailEmissor.
+     * Sets the value of the emailEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -346,7 +346,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade codigoReservador.
+     * Gets the value of the codigoReservador property.
      * 
      * @return
      *     possible object is
@@ -358,7 +358,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade codigoReservador.
+     * Sets the value of the codigoReservador property.
      * 
      * @param value
      *     allowed object is
@@ -370,7 +370,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade nomeReservador.
+     * Gets the value of the nomeReservador property.
      * 
      * @return
      *     possible object is
@@ -382,7 +382,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade nomeReservador.
+     * Sets the value of the nomeReservador property.
      * 
      * @param value
      *     allowed object is
@@ -394,7 +394,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade dataVencimento.
+     * Gets the value of the dataVencimento property.
      * 
      * @return
      *     possible object is
@@ -406,7 +406,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade dataVencimento.
+     * Sets the value of the dataVencimento property.
      * 
      * @param value
      *     allowed object is
@@ -418,7 +418,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade dataEmissao.
+     * Gets the value of the dataEmissao property.
      * 
      * @return
      *     possible object is
@@ -430,7 +430,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade dataEmissao.
+     * Sets the value of the dataEmissao property.
      * 
      * @param value
      *     allowed object is
@@ -442,7 +442,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade dataReserva.
+     * Gets the value of the dataReserva property.
      * 
      * @return
      *     possible object is
@@ -454,7 +454,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade dataReserva.
+     * Sets the value of the dataReserva property.
      * 
      * @param value
      *     allowed object is
@@ -466,7 +466,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade menorTarifa.
+     * Gets the value of the menorTarifa property.
      * 
      * @return
      *     possible object is
@@ -478,7 +478,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade menorTarifa.
+     * Sets the value of the menorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -490,7 +490,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade maiorTarifa.
+     * Gets the value of the maiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -502,7 +502,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade maiorTarifa.
+     * Sets the value of the maiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -514,7 +514,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade ciaMenorTarifa.
+     * Gets the value of the ciaMenorTarifa property.
      * 
      * @return
      *     possible object is
@@ -526,7 +526,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade ciaMenorTarifa.
+     * Sets the value of the ciaMenorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -538,7 +538,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade codigoFornecedor.
+     * Gets the value of the codigoFornecedor property.
      * 
      * @return
      *     possible object is
@@ -550,7 +550,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade codigoFornecedor.
+     * Sets the value of the codigoFornecedor property.
      * 
      * @param value
      *     allowed object is
@@ -591,7 +591,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade aereoTarifa.
+     * Gets the value of the aereoTarifa property.
      * 
      * @return
      *     possible object is
@@ -603,7 +603,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade aereoTarifa.
+     * Sets the value of the aereoTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -702,7 +702,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade selfbook.
+     * Gets the value of the selfbook property.
      * 
      */
     public boolean isSelfbook() {
@@ -710,7 +710,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade selfbook.
+     * Sets the value of the selfbook property.
      * 
      */
     public void setSelfbook(boolean value) {
@@ -718,7 +718,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade justificativaMaiorTarifa.
+     * Gets the value of the justificativaMaiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -730,7 +730,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade justificativaMaiorTarifa.
+     * Sets the value of the justificativaMaiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -742,7 +742,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade canceladoEmitido.
+     * Gets the value of the canceladoEmitido property.
      * 
      * @return
      *     possible object is
@@ -754,7 +754,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade canceladoEmitido.
+     * Sets the value of the canceladoEmitido property.
      * 
      * @param value
      *     allowed object is
@@ -766,7 +766,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade nacional.
+     * Gets the value of the nacional property.
      * 
      * @return
      *     possible object is
@@ -778,7 +778,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade nacional.
+     * Sets the value of the nacional property.
      * 
      * @param value
      *     allowed object is
@@ -790,7 +790,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade codigoJustificativaMaiorTarifa.
+     * Gets the value of the codigoJustificativaMaiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -802,7 +802,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade codigoJustificativaMaiorTarifa.
+     * Sets the value of the codigoJustificativaMaiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -814,7 +814,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade observacao.
+     * Gets the value of the observacao property.
      * 
      * @return
      *     possible object is
@@ -826,7 +826,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade observacao.
+     * Sets the value of the observacao property.
      * 
      * @param value
      *     allowed object is
@@ -838,7 +838,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade tipoVoo.
+     * Gets the value of the tipoVoo property.
      * 
      * @return
      *     possible object is
@@ -850,7 +850,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade tipoVoo.
+     * Sets the value of the tipoVoo property.
      * 
      * @param value
      *     allowed object is
@@ -862,7 +862,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorIntegracao.
+     * Gets the value of the identificadorIntegracao property.
      * 
      * @return
      *     possible object is
@@ -874,7 +874,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade identificadorIntegracao.
+     * Sets the value of the identificadorIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -886,7 +886,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Gets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @return
      *     possible object is
@@ -898,7 +898,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Sets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @param value
      *     allowed object is
@@ -910,7 +910,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade remarks.
+     * Gets the value of the remarks property.
      * 
      * @return
      *     possible object is
@@ -922,7 +922,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade remarks.
+     * Sets the value of the remarks property.
      * 
      * @param value
      *     allowed object is
@@ -934,7 +934,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade statusCancelamento.
+     * Gets the value of the statusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -946,7 +946,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade statusCancelamento.
+     * Sets the value of the statusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -958,7 +958,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade valorMulta.
+     * Gets the value of the valorMulta property.
      * 
      * @return
      *     possible object is
@@ -970,7 +970,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade valorMulta.
+     * Sets the value of the valorMulta property.
      * 
      * @param value
      *     allowed object is
@@ -982,7 +982,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade valorReembolso.
+     * Gets the value of the valorReembolso property.
      * 
      * @return
      *     possible object is
@@ -994,7 +994,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade valorReembolso.
+     * Sets the value of the valorReembolso property.
      * 
      * @param value
      *     allowed object is
@@ -1006,7 +1006,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade dataModificacaoStatusCancelamento.
+     * Gets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -1018,7 +1018,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade dataModificacaoStatusCancelamento.
+     * Sets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -1030,7 +1030,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade usuarioModificouStatusCancelamento.
+     * Gets the value of the usuarioModificouStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -1042,7 +1042,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade usuarioModificouStatusCancelamento.
+     * Sets the value of the usuarioModificouStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -1054,7 +1054,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade totalAereo.
+     * Gets the value of the totalAereo property.
      * 
      * @return
      *     possible object is
@@ -1066,7 +1066,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade totalAereo.
+     * Sets the value of the totalAereo property.
      * 
      * @param value
      *     allowed object is
@@ -1078,7 +1078,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade cancelado.
+     * Gets the value of the cancelado property.
      * 
      */
     public boolean isCancelado() {
@@ -1086,7 +1086,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade cancelado.
+     * Sets the value of the cancelado property.
      * 
      */
     public void setCancelado(boolean value) {
@@ -1094,7 +1094,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade identificadoresIntegracao.
+     * Gets the value of the identificadoresIntegracao property.
      * 
      * @return
      *     possible object is
@@ -1106,7 +1106,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade identificadoresIntegracao.
+     * Sets the value of the identificadoresIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -1118,7 +1118,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade reemissao.
+     * Gets the value of the reemissao property.
      * 
      * @return
      *     possible object is
@@ -1130,7 +1130,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade reemissao.
+     * Sets the value of the reemissao property.
      * 
      * @param value
      *     allowed object is
@@ -1142,7 +1142,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade consolidadora.
+     * Gets the value of the consolidadora property.
      * 
      * @return
      *     possible object is
@@ -1154,7 +1154,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade consolidadora.
+     * Sets the value of the consolidadora property.
      * 
      * @param value
      *     allowed object is
@@ -1166,7 +1166,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade autoEmissao.
+     * Gets the value of the autoEmissao property.
      * 
      */
     public boolean isAutoEmissao() {
@@ -1174,7 +1174,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade autoEmissao.
+     * Sets the value of the autoEmissao property.
      * 
      */
     public void setAutoEmissao(boolean value) {
@@ -1182,7 +1182,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade importado.
+     * Gets the value of the importado property.
      * 
      */
     public boolean isImportado() {
@@ -1190,7 +1190,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade importado.
+     * Sets the value of the importado property.
      * 
      */
     public void setImportado(boolean value) {
@@ -1198,7 +1198,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade online.
+     * Gets the value of the online property.
      * 
      */
     public boolean isOnline() {
@@ -1206,7 +1206,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade online.
+     * Sets the value of the online property.
      * 
      */
     public void setOnline(boolean value) {
@@ -1214,7 +1214,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade complementoJustificativaMaiorTarifa.
+     * Gets the value of the complementoJustificativaMaiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -1226,7 +1226,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade complementoJustificativaMaiorTarifa.
+     * Sets the value of the complementoJustificativaMaiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -1238,7 +1238,7 @@ public class Aereo {
     }
 
     /**
-     * Obtém o valor da propriedade agenteOnline.
+     * Gets the value of the agenteOnline property.
      * 
      */
     public boolean isAgenteOnline() {
@@ -1246,7 +1246,7 @@ public class Aereo {
     }
 
     /**
-     * Define o valor da propriedade agenteOnline.
+     * Sets the value of the agenteOnline property.
      * 
      */
     public void setAgenteOnline(boolean value) {

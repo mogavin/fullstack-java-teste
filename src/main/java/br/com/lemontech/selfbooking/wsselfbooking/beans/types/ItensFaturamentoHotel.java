@@ -5,14 +5,13 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de itensFaturamentoHotel complex type.
+ * <p>Java class for itensFaturamentoHotel complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="itensFaturamentoHotel">
@@ -34,7 +33,6 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class ItensFaturamentoHotel {
 
-    @XmlSchemaType(name = "string")
     protected List<ItenFaturamento> itenFaturamento;
 
     /**

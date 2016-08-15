@@ -19,9 +19,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoSolicitacao;
 
 
 /**
- * <p>Classe Java de solicitacao complex type.
+ * <p>Java class for solicitacao complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="solicitacao">
@@ -189,7 +189,6 @@ public class Solicitacao {
     protected String moedaAdiantamento;
     protected String controleCliente;
     protected Totais totais;
-    @XmlSchemaType(name = "string")
     protected StatusSolicitacao statusSolicitacao;
     protected IdentificadoresIntegracao identificadoresIntegracao;
     protected Boolean autoConclusao;
@@ -208,7 +207,6 @@ public class Solicitacao {
     protected String justificativaPrazoMinimo;
     protected String complementoJustificativaPrazoMinimo;
     protected Traslados traslados;
-    @XmlSchemaType(name = "string")
     protected TipoSolicitacao tipoSolicitacao;
     protected Integer idSolicitacaoPrincipal;
     protected String projeto;
@@ -222,7 +220,7 @@ public class Solicitacao {
     protected Passageiro aprovadorResponsavel;
 
     /**
-     * Obtém o valor da propriedade idSolicitacao.
+     * Gets the value of the idSolicitacao property.
      * 
      */
     public int getIdSolicitacao() {
@@ -230,7 +228,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade idSolicitacao.
+     * Sets the value of the idSolicitacao property.
      * 
      */
     public void setIdSolicitacao(int value) {
@@ -238,7 +236,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade localVenda.
+     * Gets the value of the localVenda property.
      * 
      * @return
      *     possible object is
@@ -250,7 +248,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade localVenda.
+     * Sets the value of the localVenda property.
      * 
      * @param value
      *     allowed object is
@@ -262,7 +260,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade dataAprovacao.
+     * Gets the value of the dataAprovacao property.
      * 
      * @return
      *     possible object is
@@ -274,7 +272,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade dataAprovacao.
+     * Sets the value of the dataAprovacao property.
      * 
      * @param value
      *     allowed object is
@@ -286,7 +284,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade descricaoCentroCusto.
+     * Gets the value of the descricaoCentroCusto property.
      * 
      * @return
      *     possible object is
@@ -298,7 +296,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade descricaoCentroCusto.
+     * Sets the value of the descricaoCentroCusto property.
      * 
      * @param value
      *     allowed object is
@@ -310,7 +308,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade descricaoSubCentroCusto.
+     * Gets the value of the descricaoSubCentroCusto property.
      * 
      * @return
      *     possible object is
@@ -322,7 +320,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade descricaoSubCentroCusto.
+     * Sets the value of the descricaoSubCentroCusto property.
      * 
      * @param value
      *     allowed object is
@@ -334,7 +332,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade dataCriacaoSv.
+     * Gets the value of the dataCriacaoSv property.
      * 
      * @return
      *     possible object is
@@ -346,7 +344,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade dataCriacaoSv.
+     * Sets the value of the dataCriacaoSv property.
      * 
      * @param value
      *     allowed object is
@@ -358,7 +356,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade codigoAutorizacaoViagem.
+     * Gets the value of the codigoAutorizacaoViagem property.
      * 
      * @return
      *     possible object is
@@ -370,7 +368,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade codigoAutorizacaoViagem.
+     * Sets the value of the codigoAutorizacaoViagem property.
      * 
      * @param value
      *     allowed object is
@@ -382,7 +380,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade codigoClienteFranquia.
+     * Gets the value of the codigoClienteFranquia property.
      * 
      * @return
      *     possible object is
@@ -394,7 +392,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade codigoClienteFranquia.
+     * Sets the value of the codigoClienteFranquia property.
      * 
      * @param value
      *     allowed object is
@@ -406,7 +404,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade solicitante.
+     * Gets the value of the solicitante property.
      * 
      * @return
      *     possible object is
@@ -418,7 +416,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade solicitante.
+     * Sets the value of the solicitante property.
      * 
      * @param value
      *     allowed object is
@@ -430,7 +428,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade aprovador.
+     * Gets the value of the aprovador property.
      * 
      * @return
      *     possible object is
@@ -442,7 +440,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade aprovador.
+     * Sets the value of the aprovador property.
      * 
      * @param value
      *     allowed object is
@@ -454,7 +452,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade atendimento.
+     * Gets the value of the atendimento property.
      * 
      * @return
      *     possible object is
@@ -466,7 +464,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade atendimento.
+     * Sets the value of the atendimento property.
      * 
      * @param value
      *     allowed object is
@@ -478,7 +476,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade dataConclusao.
+     * Gets the value of the dataConclusao property.
      * 
      * @return
      *     possible object is
@@ -490,7 +488,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade dataConclusao.
+     * Sets the value of the dataConclusao property.
      * 
      * @param value
      *     allowed object is
@@ -502,7 +500,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade regional.
+     * Gets the value of the regional property.
      * 
      * @return
      *     possible object is
@@ -514,7 +512,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade regional.
+     * Sets the value of the regional property.
      * 
      * @param value
      *     allowed object is
@@ -526,7 +524,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade centroDeCusto.
+     * Gets the value of the centroDeCusto property.
      * 
      * @return
      *     possible object is
@@ -538,7 +536,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade centroDeCusto.
+     * Sets the value of the centroDeCusto property.
      * 
      * @param value
      *     allowed object is
@@ -550,7 +548,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade subCentroDeCusto.
+     * Gets the value of the subCentroDeCusto property.
      * 
      * @return
      *     possible object is
@@ -562,7 +560,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade subCentroDeCusto.
+     * Sets the value of the subCentroDeCusto property.
      * 
      * @param value
      *     allowed object is
@@ -574,7 +572,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade contaContabil.
+     * Gets the value of the contaContabil property.
      * 
      * @return
      *     possible object is
@@ -586,7 +584,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade contaContabil.
+     * Sets the value of the contaContabil property.
      * 
      * @param value
      *     allowed object is
@@ -598,7 +596,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade nacional.
+     * Gets the value of the nacional property.
      * 
      */
     public boolean isNacional() {
@@ -606,7 +604,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade nacional.
+     * Sets the value of the nacional property.
      * 
      */
     public void setNacional(boolean value) {
@@ -614,7 +612,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade codigoCliente.
+     * Gets the value of the codigoCliente property.
      * 
      * @return
      *     possible object is
@@ -626,7 +624,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade codigoCliente.
+     * Sets the value of the codigoCliente property.
      * 
      * @param value
      *     allowed object is
@@ -638,7 +636,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade passageiros.
+     * Gets the value of the passageiros property.
      * 
      * @return
      *     possible object is
@@ -650,7 +648,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade passageiros.
+     * Sets the value of the passageiros property.
      * 
      * @param value
      *     allowed object is
@@ -662,7 +660,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade aereos.
+     * Gets the value of the aereos property.
      * 
      * @return
      *     possible object is
@@ -674,7 +672,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade aereos.
+     * Sets the value of the aereos property.
      * 
      * @param value
      *     allowed object is
@@ -686,7 +684,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade hoteis.
+     * Gets the value of the hoteis property.
      * 
      * @return
      *     possible object is
@@ -698,7 +696,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade hoteis.
+     * Sets the value of the hoteis property.
      * 
      * @param value
      *     allowed object is
@@ -710,7 +708,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade carros.
+     * Gets the value of the carros property.
      * 
      * @return
      *     possible object is
@@ -722,7 +720,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade carros.
+     * Sets the value of the carros property.
      * 
      * @param value
      *     allowed object is
@@ -734,7 +732,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade outros.
+     * Gets the value of the outros property.
      * 
      * @return
      *     possible object is
@@ -746,7 +744,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade outros.
+     * Sets the value of the outros property.
      * 
      * @param value
      *     allowed object is
@@ -758,7 +756,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade motivoViagem.
+     * Gets the value of the motivoViagem property.
      * 
      * @return
      *     possible object is
@@ -770,7 +768,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade motivoViagem.
+     * Sets the value of the motivoViagem property.
      * 
      * @param value
      *     allowed object is
@@ -782,7 +780,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade adiantamento.
+     * Gets the value of the adiantamento property.
      * 
      * @return
      *     possible object is
@@ -794,7 +792,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade adiantamento.
+     * Sets the value of the adiantamento property.
      * 
      * @param value
      *     allowed object is
@@ -806,7 +804,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade moedaAdiantamento.
+     * Gets the value of the moedaAdiantamento property.
      * 
      * @return
      *     possible object is
@@ -818,7 +816,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade moedaAdiantamento.
+     * Sets the value of the moedaAdiantamento property.
      * 
      * @param value
      *     allowed object is
@@ -830,7 +828,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade controleCliente.
+     * Gets the value of the controleCliente property.
      * 
      * @return
      *     possible object is
@@ -842,7 +840,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade controleCliente.
+     * Sets the value of the controleCliente property.
      * 
      * @param value
      *     allowed object is
@@ -854,7 +852,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade totais.
+     * Gets the value of the totais property.
      * 
      * @return
      *     possible object is
@@ -866,7 +864,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade totais.
+     * Sets the value of the totais property.
      * 
      * @param value
      *     allowed object is
@@ -878,7 +876,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade statusSolicitacao.
+     * Gets the value of the statusSolicitacao property.
      * 
      * @return
      *     possible object is
@@ -890,7 +888,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade statusSolicitacao.
+     * Sets the value of the statusSolicitacao property.
      * 
      * @param value
      *     allowed object is
@@ -902,7 +900,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade identificadoresIntegracao.
+     * Gets the value of the identificadoresIntegracao property.
      * 
      * @return
      *     possible object is
@@ -914,7 +912,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade identificadoresIntegracao.
+     * Sets the value of the identificadoresIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -926,7 +924,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade autoConclusao.
+     * Gets the value of the autoConclusao property.
      * 
      * @return
      *     possible object is
@@ -938,7 +936,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade autoConclusao.
+     * Sets the value of the autoConclusao property.
      * 
      * @param value
      *     allowed object is
@@ -950,7 +948,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade rateios.
+     * Gets the value of the rateios property.
      * 
      * @return
      *     possible object is
@@ -962,7 +960,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade rateios.
+     * Sets the value of the rateios property.
      * 
      * @param value
      *     allowed object is
@@ -974,7 +972,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade codigoUnidadeNegocio.
+     * Gets the value of the codigoUnidadeNegocio property.
      * 
      * @return
      *     possible object is
@@ -986,7 +984,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade codigoUnidadeNegocio.
+     * Sets the value of the codigoUnidadeNegocio property.
      * 
      * @param value
      *     allowed object is
@@ -998,7 +996,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade unidadeNegocio.
+     * Gets the value of the unidadeNegocio property.
      * 
      * @return
      *     possible object is
@@ -1010,7 +1008,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade unidadeNegocio.
+     * Sets the value of the unidadeNegocio property.
      * 
      * @param value
      *     allowed object is
@@ -1022,7 +1020,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade idCliente.
+     * Gets the value of the idCliente property.
      * 
      */
     public int getIdCliente() {
@@ -1030,7 +1028,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade idCliente.
+     * Sets the value of the idCliente property.
      * 
      */
     public void setIdCliente(int value) {
@@ -1038,7 +1036,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade seguros.
+     * Gets the value of the seguros property.
      * 
      * @return
      *     possible object is
@@ -1050,7 +1048,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade seguros.
+     * Sets the value of the seguros property.
      * 
      * @param value
      *     allowed object is
@@ -1062,7 +1060,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade agencia.
+     * Gets the value of the agencia property.
      * 
      * @return
      *     possible object is
@@ -1074,7 +1072,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade agencia.
+     * Sets the value of the agencia property.
      * 
      * @param value
      *     allowed object is
@@ -1086,7 +1084,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade filial.
+     * Gets the value of the filial property.
      * 
      * @return
      *     possible object is
@@ -1098,7 +1096,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade filial.
+     * Sets the value of the filial property.
      * 
      * @param value
      *     allowed object is
@@ -1110,7 +1108,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade instrucoesFaturamento.
+     * Gets the value of the instrucoesFaturamento property.
      * 
      * @return
      *     possible object is
@@ -1122,7 +1120,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade instrucoesFaturamento.
+     * Sets the value of the instrucoesFaturamento property.
      * 
      * @param value
      *     allowed object is
@@ -1134,7 +1132,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade frontOffice.
+     * Gets the value of the frontOffice property.
      * 
      * @return
      *     possible object is
@@ -1146,7 +1144,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade frontOffice.
+     * Sets the value of the frontOffice property.
      * 
      * @param value
      *     allowed object is
@@ -1158,7 +1156,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade complementoMotivoViagem.
+     * Gets the value of the complementoMotivoViagem property.
      * 
      * @return
      *     possible object is
@@ -1170,7 +1168,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade complementoMotivoViagem.
+     * Sets the value of the complementoMotivoViagem property.
      * 
      * @param value
      *     allowed object is
@@ -1182,7 +1180,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade pontoVenda.
+     * Gets the value of the pontoVenda property.
      * 
      * @return
      *     possible object is
@@ -1194,7 +1192,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade pontoVenda.
+     * Sets the value of the pontoVenda property.
      * 
      * @param value
      *     allowed object is
@@ -1206,7 +1204,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade observacao.
+     * Gets the value of the observacao property.
      * 
      * @return
      *     possible object is
@@ -1218,7 +1216,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade observacao.
+     * Sets the value of the observacao property.
      * 
      * @param value
      *     allowed object is
@@ -1230,7 +1228,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade justificativaPrazoMinimo.
+     * Gets the value of the justificativaPrazoMinimo property.
      * 
      * @return
      *     possible object is
@@ -1242,7 +1240,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade justificativaPrazoMinimo.
+     * Sets the value of the justificativaPrazoMinimo property.
      * 
      * @param value
      *     allowed object is
@@ -1254,7 +1252,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade complementoJustificativaPrazoMinimo.
+     * Gets the value of the complementoJustificativaPrazoMinimo property.
      * 
      * @return
      *     possible object is
@@ -1266,7 +1264,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade complementoJustificativaPrazoMinimo.
+     * Sets the value of the complementoJustificativaPrazoMinimo property.
      * 
      * @param value
      *     allowed object is
@@ -1278,7 +1276,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade traslados.
+     * Gets the value of the traslados property.
      * 
      * @return
      *     possible object is
@@ -1290,7 +1288,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade traslados.
+     * Sets the value of the traslados property.
      * 
      * @param value
      *     allowed object is
@@ -1302,7 +1300,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade tipoSolicitacao.
+     * Gets the value of the tipoSolicitacao property.
      * 
      * @return
      *     possible object is
@@ -1314,7 +1312,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade tipoSolicitacao.
+     * Sets the value of the tipoSolicitacao property.
      * 
      * @param value
      *     allowed object is
@@ -1326,7 +1324,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade idSolicitacaoPrincipal.
+     * Gets the value of the idSolicitacaoPrincipal property.
      * 
      * @return
      *     possible object is
@@ -1338,7 +1336,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade idSolicitacaoPrincipal.
+     * Sets the value of the idSolicitacaoPrincipal property.
      * 
      * @param value
      *     allowed object is
@@ -1350,7 +1348,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade projeto.
+     * Gets the value of the projeto property.
      * 
      * @return
      *     possible object is
@@ -1362,7 +1360,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade projeto.
+     * Sets the value of the projeto property.
      * 
      * @param value
      *     allowed object is
@@ -1374,7 +1372,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade contaContabilAereo.
+     * Gets the value of the contaContabilAereo property.
      * 
      * @return
      *     possible object is
@@ -1386,7 +1384,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade contaContabilAereo.
+     * Sets the value of the contaContabilAereo property.
      * 
      * @param value
      *     allowed object is
@@ -1398,7 +1396,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade contaContabilHotel.
+     * Gets the value of the contaContabilHotel property.
      * 
      * @return
      *     possible object is
@@ -1410,7 +1408,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade contaContabilHotel.
+     * Sets the value of the contaContabilHotel property.
      * 
      * @param value
      *     allowed object is
@@ -1422,7 +1420,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade contaContabilCarro.
+     * Gets the value of the contaContabilCarro property.
      * 
      * @return
      *     possible object is
@@ -1434,7 +1432,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade contaContabilCarro.
+     * Sets the value of the contaContabilCarro property.
      * 
      * @param value
      *     allowed object is
@@ -1446,7 +1444,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade contaContabilSeguro.
+     * Gets the value of the contaContabilSeguro property.
      * 
      * @return
      *     possible object is
@@ -1458,7 +1456,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade contaContabilSeguro.
+     * Sets the value of the contaContabilSeguro property.
      * 
      * @param value
      *     allowed object is
@@ -1470,7 +1468,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade contaContabilOutro.
+     * Gets the value of the contaContabilOutro property.
      * 
      * @return
      *     possible object is
@@ -1482,7 +1480,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade contaContabilOutro.
+     * Sets the value of the contaContabilOutro property.
      * 
      * @param value
      *     allowed object is
@@ -1494,7 +1492,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade contaContabilTraslado.
+     * Gets the value of the contaContabilTraslado property.
      * 
      * @return
      *     possible object is
@@ -1506,7 +1504,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade contaContabilTraslado.
+     * Sets the value of the contaContabilTraslado property.
      * 
      * @param value
      *     allowed object is
@@ -1518,7 +1516,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade descricaoProjeto.
+     * Gets the value of the descricaoProjeto property.
      * 
      * @return
      *     possible object is
@@ -1530,7 +1528,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade descricaoProjeto.
+     * Sets the value of the descricaoProjeto property.
      * 
      * @param value
      *     allowed object is
@@ -1542,7 +1540,7 @@ public class Solicitacao {
     }
 
     /**
-     * Obtém o valor da propriedade aprovadorResponsavel.
+     * Gets the value of the aprovadorResponsavel property.
      * 
      * @return
      *     possible object is
@@ -1554,7 +1552,7 @@ public class Solicitacao {
     }
 
     /**
-     * Define o valor da propriedade aprovadorResponsavel.
+     * Sets the value of the aprovadorResponsavel property.
      * 
      * @param value
      *     allowed object is

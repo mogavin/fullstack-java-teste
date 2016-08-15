@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de contaContabilRef complex type.
+ * <p>Java class for contaContabilRef complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="contaContabilRef">
@@ -67,7 +67,7 @@ public class ContaContabilRef {
     protected Boolean traslado;
 
     /**
-     * Obtém o valor da propriedade codigo.
+     * Gets the value of the codigo property.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Define o valor da propriedade codigo.
+     * Sets the value of the codigo property.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Obtém o valor da propriedade regionalRef.
+     * Gets the value of the regionalRef property.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Define o valor da propriedade regionalRef.
+     * Sets the value of the regionalRef property.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Obtém o valor da propriedade aereo.
+     * Gets the value of the aereo property.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Define o valor da propriedade aereo.
+     * Sets the value of the aereo property.
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Obtém o valor da propriedade hotel.
+     * Gets the value of the hotel property.
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Define o valor da propriedade hotel.
+     * Sets the value of the hotel property.
      * 
      * @param value
      *     allowed object is
@@ -163,7 +163,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Obtém o valor da propriedade carro.
+     * Gets the value of the carro property.
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Define o valor da propriedade carro.
+     * Sets the value of the carro property.
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Obtém o valor da propriedade seguro.
+     * Gets the value of the seguro property.
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Define o valor da propriedade seguro.
+     * Sets the value of the seguro property.
      * 
      * @param value
      *     allowed object is
@@ -211,7 +211,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Obtém o valor da propriedade outro.
+     * Gets the value of the outro property.
      * 
      * @return
      *     possible object is
@@ -223,7 +223,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Define o valor da propriedade outro.
+     * Sets the value of the outro property.
      * 
      * @param value
      *     allowed object is
@@ -235,7 +235,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Obtém o valor da propriedade traslado.
+     * Gets the value of the traslado property.
      * 
      * @return
      *     possible object is
@@ -247,7 +247,7 @@ public class ContaContabilRef {
     }
 
     /**
-     * Define o valor da propriedade traslado.
+     * Sets the value of the traslado property.
      * 
      * @param value
      *     allowed object is

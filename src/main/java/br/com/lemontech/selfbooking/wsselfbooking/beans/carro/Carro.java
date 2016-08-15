@@ -16,9 +16,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Remarks;
 
 
 /**
- * <p>Classe Java de carro complex type.
+ * <p>Java class for carro complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="carro">
@@ -189,7 +189,7 @@ public class Carro {
     protected String estado;
 
     /**
-     * Obtém o valor da propriedade id.
+     * Gets the value of the id property.
      * 
      */
     public int getId() {
@@ -197,7 +197,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade id.
+     * Sets the value of the id property.
      * 
      */
     public void setId(int value) {
@@ -205,7 +205,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade modelo.
+     * Gets the value of the modelo property.
      * 
      * @return
      *     possible object is
@@ -217,7 +217,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade modelo.
+     * Sets the value of the modelo property.
      * 
      * @param value
      *     allowed object is
@@ -229,7 +229,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade nomeLocadora.
+     * Gets the value of the nomeLocadora property.
      * 
      * @return
      *     possible object is
@@ -241,7 +241,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade nomeLocadora.
+     * Sets the value of the nomeLocadora property.
      * 
      * @param value
      *     allowed object is
@@ -253,7 +253,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade localRetirada.
+     * Gets the value of the localRetirada property.
      * 
      * @return
      *     possible object is
@@ -265,7 +265,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade localRetirada.
+     * Sets the value of the localRetirada property.
      * 
      * @param value
      *     allowed object is
@@ -277,7 +277,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade dataRetirada.
+     * Gets the value of the dataRetirada property.
      * 
      * @return
      *     possible object is
@@ -289,7 +289,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade dataRetirada.
+     * Sets the value of the dataRetirada property.
      * 
      * @param value
      *     allowed object is
@@ -301,7 +301,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade localDevolucao.
+     * Gets the value of the localDevolucao property.
      * 
      * @return
      *     possible object is
@@ -313,7 +313,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade localDevolucao.
+     * Sets the value of the localDevolucao property.
      * 
      * @param value
      *     allowed object is
@@ -325,7 +325,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade dataDevolucao.
+     * Gets the value of the dataDevolucao property.
      * 
      * @return
      *     possible object is
@@ -337,7 +337,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade dataDevolucao.
+     * Sets the value of the dataDevolucao property.
      * 
      * @param value
      *     allowed object is
@@ -349,7 +349,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade localizador.
+     * Gets the value of the localizador property.
      * 
      * @return
      *     possible object is
@@ -361,7 +361,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade localizador.
+     * Sets the value of the localizador property.
      * 
      * @param value
      *     allowed object is
@@ -373,7 +373,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoEmissor.
+     * Gets the value of the codigoEmissor property.
      * 
      * @return
      *     possible object is
@@ -385,7 +385,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade codigoEmissor.
+     * Sets the value of the codigoEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -397,7 +397,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoReservador.
+     * Gets the value of the codigoReservador property.
      * 
      * @return
      *     possible object is
@@ -409,7 +409,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade codigoReservador.
+     * Sets the value of the codigoReservador property.
      * 
      * @param value
      *     allowed object is
@@ -421,7 +421,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade nomeReservador.
+     * Gets the value of the nomeReservador property.
      * 
      * @return
      *     possible object is
@@ -433,7 +433,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade nomeReservador.
+     * Sets the value of the nomeReservador property.
      * 
      * @param value
      *     allowed object is
@@ -445,7 +445,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade source.
+     * Gets the value of the source property.
      * 
      * @return
      *     possible object is
@@ -457,7 +457,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade source.
+     * Sets the value of the source property.
      * 
      * @param value
      *     allowed object is
@@ -469,7 +469,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade dataReserva.
+     * Gets the value of the dataReserva property.
      * 
      * @return
      *     possible object is
@@ -481,7 +481,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade dataReserva.
+     * Sets the value of the dataReserva property.
      * 
      * @param value
      *     allowed object is
@@ -493,7 +493,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade diaria.
+     * Gets the value of the diaria property.
      * 
      * @return
      *     possible object is
@@ -505,7 +505,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade diaria.
+     * Sets the value of the diaria property.
      * 
      * @param value
      *     allowed object is
@@ -517,7 +517,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade taxa.
+     * Gets the value of the taxa property.
      * 
      * @return
      *     possible object is
@@ -529,7 +529,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade taxa.
+     * Sets the value of the taxa property.
      * 
      * @param value
      *     allowed object is
@@ -541,7 +541,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade taxaservico.
+     * Gets the value of the taxaservico property.
      * 
      * @return
      *     possible object is
@@ -553,7 +553,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade taxaservico.
+     * Sets the value of the taxaservico property.
      * 
      * @param value
      *     allowed object is
@@ -565,7 +565,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade formaPagamento.
+     * Gets the value of the formaPagamento property.
      * 
      * @return
      *     possible object is
@@ -577,7 +577,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade formaPagamento.
+     * Sets the value of the formaPagamento property.
      * 
      * @param value
      *     allowed object is
@@ -618,7 +618,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade justificativaMaiorTarifa.
+     * Gets the value of the justificativaMaiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -630,7 +630,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade justificativaMaiorTarifa.
+     * Sets the value of the justificativaMaiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -642,7 +642,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade cidade.
+     * Gets the value of the cidade property.
      * 
      * @return
      *     possible object is
@@ -654,7 +654,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade cidade.
+     * Sets the value of the cidade property.
      * 
      * @param value
      *     allowed object is
@@ -666,7 +666,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoFornecedor.
+     * Gets the value of the codigoFornecedor property.
      * 
      * @return
      *     possible object is
@@ -678,7 +678,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade codigoFornecedor.
+     * Sets the value of the codigoFornecedor property.
      * 
      * @param value
      *     allowed object is
@@ -690,7 +690,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade nacional.
+     * Gets the value of the nacional property.
      * 
      * @return
      *     possible object is
@@ -702,7 +702,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade nacional.
+     * Sets the value of the nacional property.
      * 
      * @param value
      *     allowed object is
@@ -714,7 +714,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade observacao.
+     * Gets the value of the observacao property.
      * 
      * @return
      *     possible object is
@@ -726,7 +726,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade observacao.
+     * Sets the value of the observacao property.
      * 
      * @param value
      *     allowed object is
@@ -738,7 +738,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade voucher.
+     * Gets the value of the voucher property.
      * 
      * @return
      *     possible object is
@@ -750,7 +750,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade voucher.
+     * Sets the value of the voucher property.
      * 
      * @param value
      *     allowed object is
@@ -762,7 +762,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoReserva.
+     * Gets the value of the codigoReserva property.
      * 
      * @return
      *     possible object is
@@ -774,7 +774,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade codigoReserva.
+     * Sets the value of the codigoReserva property.
      * 
      * @param value
      *     allowed object is
@@ -786,7 +786,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoJustificativaMaiorTarifa.
+     * Gets the value of the codigoJustificativaMaiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -798,7 +798,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade codigoJustificativaMaiorTarifa.
+     * Sets the value of the codigoJustificativaMaiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -810,7 +810,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorIntegracao.
+     * Gets the value of the identificadorIntegracao property.
      * 
      * @return
      *     possible object is
@@ -822,7 +822,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade identificadorIntegracao.
+     * Sets the value of the identificadorIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -834,7 +834,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Gets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @return
      *     possible object is
@@ -846,7 +846,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Sets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @param value
      *     allowed object is
@@ -858,7 +858,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade autorizacaoCartao.
+     * Gets the value of the autorizacaoCartao property.
      * 
      * @return
      *     possible object is
@@ -870,7 +870,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade autorizacaoCartao.
+     * Sets the value of the autorizacaoCartao property.
      * 
      * @param value
      *     allowed object is
@@ -882,7 +882,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade remarks.
+     * Gets the value of the remarks property.
      * 
      * @return
      *     possible object is
@@ -894,7 +894,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade remarks.
+     * Sets the value of the remarks property.
      * 
      * @param value
      *     allowed object is
@@ -906,7 +906,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade statusCancelamento.
+     * Gets the value of the statusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -918,7 +918,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade statusCancelamento.
+     * Sets the value of the statusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -930,7 +930,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade taxaCancelamento.
+     * Gets the value of the taxaCancelamento property.
      * 
      * @return
      *     possible object is
@@ -942,7 +942,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade taxaCancelamento.
+     * Sets the value of the taxaCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -954,7 +954,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade dataModificacaoStatusCancelamento.
+     * Gets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -966,7 +966,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade dataModificacaoStatusCancelamento.
+     * Sets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -978,7 +978,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade usuarioModificouStatusCancelamento.
+     * Gets the value of the usuarioModificouStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -990,7 +990,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade usuarioModificouStatusCancelamento.
+     * Sets the value of the usuarioModificouStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -1002,7 +1002,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade nomeEmissor.
+     * Gets the value of the nomeEmissor property.
      * 
      * @return
      *     possible object is
@@ -1014,7 +1014,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade nomeEmissor.
+     * Sets the value of the nomeEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -1026,7 +1026,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade valorHoraExtra.
+     * Gets the value of the valorHoraExtra property.
      * 
      * @return
      *     possible object is
@@ -1038,7 +1038,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade valorHoraExtra.
+     * Sets the value of the valorHoraExtra property.
      * 
      * @param value
      *     allowed object is
@@ -1050,7 +1050,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade valorDiariaExtra.
+     * Gets the value of the valorDiariaExtra property.
      * 
      * @return
      *     possible object is
@@ -1062,7 +1062,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade valorDiariaExtra.
+     * Sets the value of the valorDiariaExtra property.
      * 
      * @param value
      *     allowed object is
@@ -1074,7 +1074,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade totalCarro.
+     * Gets the value of the totalCarro property.
      * 
      * @return
      *     possible object is
@@ -1086,7 +1086,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade totalCarro.
+     * Sets the value of the totalCarro property.
      * 
      * @param value
      *     allowed object is
@@ -1098,7 +1098,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade cancelado.
+     * Gets the value of the cancelado property.
      * 
      */
     public boolean isCancelado() {
@@ -1106,7 +1106,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade cancelado.
+     * Sets the value of the cancelado property.
      * 
      */
     public void setCancelado(boolean value) {
@@ -1114,7 +1114,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade identificadoresIntegracao.
+     * Gets the value of the identificadoresIntegracao property.
      * 
      * @return
      *     possible object is
@@ -1126,7 +1126,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade identificadoresIntegracao.
+     * Sets the value of the identificadoresIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -1138,7 +1138,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade taxaFee.
+     * Gets the value of the taxaFee property.
      * 
      * @return
      *     possible object is
@@ -1150,7 +1150,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade taxaFee.
+     * Sets the value of the taxaFee property.
      * 
      * @param value
      *     allowed object is
@@ -1162,7 +1162,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade selfbook.
+     * Gets the value of the selfbook property.
      * 
      */
     public boolean isSelfbook() {
@@ -1170,7 +1170,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade selfbook.
+     * Sets the value of the selfbook property.
      * 
      */
     public void setSelfbook(boolean value) {
@@ -1178,7 +1178,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade consolidadora.
+     * Gets the value of the consolidadora property.
      * 
      * @return
      *     possible object is
@@ -1190,7 +1190,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade consolidadora.
+     * Sets the value of the consolidadora property.
      * 
      * @param value
      *     allowed object is
@@ -1202,7 +1202,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade moeda.
+     * Gets the value of the moeda property.
      * 
      * @return
      *     possible object is
@@ -1214,7 +1214,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade moeda.
+     * Sets the value of the moeda property.
      * 
      * @param value
      *     allowed object is
@@ -1226,7 +1226,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoLojaReserva.
+     * Gets the value of the codigoLojaReserva property.
      * 
      * @return
      *     possible object is
@@ -1238,7 +1238,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade codigoLojaReserva.
+     * Sets the value of the codigoLojaReserva property.
      * 
      * @param value
      *     allowed object is
@@ -1250,7 +1250,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade quantidadeDiaria.
+     * Gets the value of the quantidadeDiaria property.
      * 
      * @return
      *     possible object is
@@ -1262,7 +1262,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade quantidadeDiaria.
+     * Sets the value of the quantidadeDiaria property.
      * 
      * @param value
      *     allowed object is
@@ -1274,7 +1274,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade pais.
+     * Gets the value of the pais property.
      * 
      * @return
      *     possible object is
@@ -1286,7 +1286,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade pais.
+     * Sets the value of the pais property.
      * 
      * @param value
      *     allowed object is
@@ -1298,7 +1298,7 @@ public class Carro {
     }
 
     /**
-     * Obtém o valor da propriedade estado.
+     * Gets the value of the estado property.
      * 
      * @return
      *     possible object is
@@ -1310,7 +1310,7 @@ public class Carro {
     }
 
     /**
-     * Define o valor da propriedade estado.
+     * Sets the value of the estado property.
      * 
      * @param value
      *     allowed object is

@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Classe Java de aereoDetalheParada complex type.
+ * <p>Java class for aereoDetalheParada complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="aereoDetalheParada">
@@ -47,7 +47,7 @@ public class AereoDetalheParada {
     protected XMLGregorianCalendar dataChegada;
 
     /**
-     * Obtém o valor da propriedade origem.
+     * Gets the value of the origem property.
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class AereoDetalheParada {
     }
 
     /**
-     * Define o valor da propriedade origem.
+     * Sets the value of the origem property.
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class AereoDetalheParada {
     }
 
     /**
-     * Obtém o valor da propriedade dataSaida.
+     * Gets the value of the dataSaida property.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class AereoDetalheParada {
     }
 
     /**
-     * Define o valor da propriedade dataSaida.
+     * Sets the value of the dataSaida property.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class AereoDetalheParada {
     }
 
     /**
-     * Obtém o valor da propriedade destino.
+     * Gets the value of the destino property.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class AereoDetalheParada {
     }
 
     /**
-     * Define o valor da propriedade destino.
+     * Sets the value of the destino property.
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class AereoDetalheParada {
     }
 
     /**
-     * Obtém o valor da propriedade dataChegada.
+     * Gets the value of the dataChegada property.
      * 
      * @return
      *     possible object is
@@ -131,7 +131,7 @@ public class AereoDetalheParada {
     }
 
     /**
-     * Define o valor da propriedade dataChegada.
+     * Sets the value of the dataChegada property.
      * 
      * @param value
      *     allowed object is

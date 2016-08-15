@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de fornecedorRef complex type.
+ * <p>Java class for fornecedorRef complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="fornecedorRef">
@@ -41,7 +41,7 @@ public class FornecedorRef {
     protected String identificadorBackofficeFornecedor;
 
     /**
-     * Obtém o valor da propriedade identificadorBackofficeFornecedor.
+     * Gets the value of the identificadorBackofficeFornecedor property.
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class FornecedorRef {
     }
 
     /**
-     * Define o valor da propriedade identificadorBackofficeFornecedor.
+     * Sets the value of the identificadorBackofficeFornecedor property.
      * 
      * @param value
      *     allowed object is

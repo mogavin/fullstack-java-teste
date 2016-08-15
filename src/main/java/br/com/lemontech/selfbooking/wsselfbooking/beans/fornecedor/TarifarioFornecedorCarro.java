@@ -11,9 +11,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Moeda;
 
 
 /**
- * <p>Classe Java de tarifarioFornecedorCarro complex type.
+ * <p>Java class for tarifarioFornecedorCarro complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="tarifarioFornecedorCarro">
@@ -60,12 +60,11 @@ public class TarifarioFornecedorCarro
     protected double tarifaDiariaAdicional;
     protected double tarifaHoraAdicional;
     @XmlElement(required = true)
-    @XmlSchemaType(name = "string")
     protected Moeda moeda;
     protected boolean ativo;
 
     /**
-     * Obtém o valor da propriedade vencimento.
+     * Gets the value of the vencimento property.
      * 
      * @return
      *     possible object is
@@ -77,7 +76,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Define o valor da propriedade vencimento.
+     * Sets the value of the vencimento property.
      * 
      * @param value
      *     allowed object is
@@ -89,7 +88,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Obtém o valor da propriedade descricao.
+     * Gets the value of the descricao property.
      * 
      * @return
      *     possible object is
@@ -101,7 +100,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Define o valor da propriedade descricao.
+     * Sets the value of the descricao property.
      * 
      * @param value
      *     allowed object is
@@ -113,7 +112,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Obtém o valor da propriedade tarifa.
+     * Gets the value of the tarifa property.
      * 
      */
     public double getTarifa() {
@@ -121,7 +120,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Define o valor da propriedade tarifa.
+     * Sets the value of the tarifa property.
      * 
      */
     public void setTarifa(double value) {
@@ -129,7 +128,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Obtém o valor da propriedade seguro.
+     * Gets the value of the seguro property.
      * 
      */
     public double getSeguro() {
@@ -137,7 +136,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Define o valor da propriedade seguro.
+     * Sets the value of the seguro property.
      * 
      */
     public void setSeguro(double value) {
@@ -145,7 +144,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Obtém o valor da propriedade tarifaDiariaAdicional.
+     * Gets the value of the tarifaDiariaAdicional property.
      * 
      */
     public double getTarifaDiariaAdicional() {
@@ -153,7 +152,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Define o valor da propriedade tarifaDiariaAdicional.
+     * Sets the value of the tarifaDiariaAdicional property.
      * 
      */
     public void setTarifaDiariaAdicional(double value) {
@@ -161,7 +160,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Obtém o valor da propriedade tarifaHoraAdicional.
+     * Gets the value of the tarifaHoraAdicional property.
      * 
      */
     public double getTarifaHoraAdicional() {
@@ -169,7 +168,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Define o valor da propriedade tarifaHoraAdicional.
+     * Sets the value of the tarifaHoraAdicional property.
      * 
      */
     public void setTarifaHoraAdicional(double value) {
@@ -177,7 +176,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Obtém o valor da propriedade moeda.
+     * Gets the value of the moeda property.
      * 
      * @return
      *     possible object is
@@ -189,7 +188,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Define o valor da propriedade moeda.
+     * Sets the value of the moeda property.
      * 
      * @param value
      *     allowed object is
@@ -201,7 +200,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -209,7 +208,7 @@ public class TarifarioFornecedorCarro
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {

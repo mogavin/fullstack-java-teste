@@ -11,9 +11,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Sexo;
 
 
 /**
- * <p>Classe Java de funcionario complex type.
+ * <p>Java class for funcionario complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="funcionario">
@@ -86,7 +86,6 @@ public class Funcionario
     @XmlSchemaType(name = "date")
     protected XMLGregorianCalendar dataNascimento;
     @XmlElement(required = true)
-    @XmlSchemaType(name = "string")
     protected Sexo sexo;
     protected CentroDeCustoRef centroDeCustoRef;
     protected SubCentroDeCustoRef subCentroDeCustoRef;
@@ -98,7 +97,7 @@ public class Funcionario
     protected boolean ativo;
 
     /**
-     * Obtém o valor da propriedade nome.
+     * Gets the value of the nome property.
      * 
      * @return
      *     possible object is
@@ -110,7 +109,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade nome.
+     * Sets the value of the nome property.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +121,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade departamento.
+     * Gets the value of the departamento property.
      * 
      * @return
      *     possible object is
@@ -134,7 +133,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade departamento.
+     * Sets the value of the departamento property.
      * 
      * @param value
      *     allowed object is
@@ -146,7 +145,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade cargo.
+     * Gets the value of the cargo property.
      * 
      * @return
      *     possible object is
@@ -158,7 +157,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade cargo.
+     * Sets the value of the cargo property.
      * 
      * @param value
      *     allowed object is
@@ -170,7 +169,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade cpf.
+     * Gets the value of the cpf property.
      * 
      * @return
      *     possible object is
@@ -182,7 +181,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade cpf.
+     * Sets the value of the cpf property.
      * 
      * @param value
      *     allowed object is
@@ -194,7 +193,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade passaporte.
+     * Gets the value of the passaporte property.
      * 
      * @return
      *     possible object is
@@ -206,7 +205,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade passaporte.
+     * Sets the value of the passaporte property.
      * 
      * @param value
      *     allowed object is
@@ -218,7 +217,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade dataNascimento.
+     * Gets the value of the dataNascimento property.
      * 
      * @return
      *     possible object is
@@ -230,7 +229,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade dataNascimento.
+     * Sets the value of the dataNascimento property.
      * 
      * @param value
      *     allowed object is
@@ -242,7 +241,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade sexo.
+     * Gets the value of the sexo property.
      * 
      * @return
      *     possible object is
@@ -254,7 +253,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade sexo.
+     * Sets the value of the sexo property.
      * 
      * @param value
      *     allowed object is
@@ -266,7 +265,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade centroDeCustoRef.
+     * Gets the value of the centroDeCustoRef property.
      * 
      * @return
      *     possible object is
@@ -278,7 +277,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade centroDeCustoRef.
+     * Sets the value of the centroDeCustoRef property.
      * 
      * @param value
      *     allowed object is
@@ -290,7 +289,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade subCentroDeCustoRef.
+     * Gets the value of the subCentroDeCustoRef property.
      * 
      * @return
      *     possible object is
@@ -302,7 +301,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade subCentroDeCustoRef.
+     * Sets the value of the subCentroDeCustoRef property.
      * 
      * @param value
      *     allowed object is
@@ -314,7 +313,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade contato.
+     * Gets the value of the contato property.
      * 
      * @return
      *     possible object is
@@ -326,7 +325,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade contato.
+     * Sets the value of the contato property.
      * 
      * @param value
      *     allowed object is
@@ -338,7 +337,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade login.
+     * Gets the value of the login property.
      * 
      * @return
      *     possible object is
@@ -350,7 +349,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade login.
+     * Sets the value of the login property.
      * 
      * @param value
      *     allowed object is
@@ -362,7 +361,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade configuracao.
+     * Gets the value of the configuracao property.
      * 
      * @return
      *     possible object is
@@ -374,7 +373,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade configuracao.
+     * Sets the value of the configuracao property.
      * 
      * @param value
      *     allowed object is
@@ -386,7 +385,7 @@ public class Funcionario
     }
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -394,7 +393,7 @@ public class Funcionario
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {

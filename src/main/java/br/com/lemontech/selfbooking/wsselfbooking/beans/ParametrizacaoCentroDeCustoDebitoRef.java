@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de parametrizacaoCentroDeCustoDebitoRef complex type.
+ * <p>Java class for parametrizacaoCentroDeCustoDebitoRef complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="parametrizacaoCentroDeCustoDebitoRef">
@@ -48,7 +48,7 @@ public class ParametrizacaoCentroDeCustoDebitoRef {
     protected SubCentroDeCustoRef subCentroDeCustoRef;
 
     /**
-     * Obtém o valor da propriedade funcionarioRef.
+     * Gets the value of the funcionarioRef property.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class ParametrizacaoCentroDeCustoDebitoRef {
     }
 
     /**
-     * Define o valor da propriedade funcionarioRef.
+     * Sets the value of the funcionarioRef property.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class ParametrizacaoCentroDeCustoDebitoRef {
     }
 
     /**
-     * Obtém o valor da propriedade centroDeCustoRef.
+     * Gets the value of the centroDeCustoRef property.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class ParametrizacaoCentroDeCustoDebitoRef {
     }
 
     /**
-     * Define o valor da propriedade centroDeCustoRef.
+     * Sets the value of the centroDeCustoRef property.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class ParametrizacaoCentroDeCustoDebitoRef {
     }
 
     /**
-     * Obtém o valor da propriedade subCentroDeCustoRef.
+     * Gets the value of the subCentroDeCustoRef property.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class ParametrizacaoCentroDeCustoDebitoRef {
     }
 
     /**
-     * Define o valor da propriedade subCentroDeCustoRef.
+     * Sets the value of the subCentroDeCustoRef property.
      * 
      * @param value
      *     allowed object is

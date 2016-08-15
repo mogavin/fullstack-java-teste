@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.ContaContabil;
 
 
 /**
- * <p>Classe Java de cadastrarContaContabilRequest complex type.
+ * <p>Java class for cadastrarContaContabilRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="cadastrarContaContabilRequest">
@@ -37,7 +37,7 @@ public class CadastrarContaContabilRequest {
     protected ContaContabil contaContabil;
 
     /**
-     * Obtém o valor da propriedade contaContabil.
+     * Gets the value of the contaContabil property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class CadastrarContaContabilRequest {
     }
 
     /**
-     * Define o valor da propriedade contaContabil.
+     * Sets the value of the contaContabil property.
      * 
      * @param value
      *     allowed object is

@@ -11,9 +11,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Moeda;
 
 
 /**
- * <p>Classe Java de tarifarioFornecedorOutro complex type.
+ * <p>Java class for tarifarioFornecedorOutro complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="tarifarioFornecedorOutro">
@@ -59,12 +59,11 @@ public class TarifarioFornecedorOutro
     protected String descricao;
     protected double tarifa;
     @XmlElement(required = true)
-    @XmlSchemaType(name = "string")
     protected Moeda moeda;
     protected boolean ativo;
 
     /**
-     * Obtém o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Gets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @return
      *     possible object is
@@ -76,7 +75,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Define o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Sets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +87,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Obtém o valor da propriedade categoria.
+     * Gets the value of the categoria property.
      * 
      * @return
      *     possible object is
@@ -100,7 +99,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Define o valor da propriedade categoria.
+     * Sets the value of the categoria property.
      * 
      * @param value
      *     allowed object is
@@ -112,7 +111,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Obtém o valor da propriedade vencimento.
+     * Gets the value of the vencimento property.
      * 
      * @return
      *     possible object is
@@ -124,7 +123,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Define o valor da propriedade vencimento.
+     * Sets the value of the vencimento property.
      * 
      * @param value
      *     allowed object is
@@ -136,7 +135,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Obtém o valor da propriedade descricao.
+     * Gets the value of the descricao property.
      * 
      * @return
      *     possible object is
@@ -148,7 +147,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Define o valor da propriedade descricao.
+     * Sets the value of the descricao property.
      * 
      * @param value
      *     allowed object is
@@ -160,7 +159,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Obtém o valor da propriedade tarifa.
+     * Gets the value of the tarifa property.
      * 
      */
     public double getTarifa() {
@@ -168,7 +167,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Define o valor da propriedade tarifa.
+     * Sets the value of the tarifa property.
      * 
      */
     public void setTarifa(double value) {
@@ -176,7 +175,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Obtém o valor da propriedade moeda.
+     * Gets the value of the moeda property.
      * 
      * @return
      *     possible object is
@@ -188,7 +187,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Define o valor da propriedade moeda.
+     * Sets the value of the moeda property.
      * 
      * @param value
      *     allowed object is
@@ -200,7 +199,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -208,7 +207,7 @@ public class TarifarioFornecedorOutro
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {

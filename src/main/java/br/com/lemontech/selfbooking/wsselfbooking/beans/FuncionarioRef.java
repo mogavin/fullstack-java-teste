@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de funcionarioRef complex type.
+ * <p>Java class for funcionarioRef complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="funcionarioRef">
@@ -40,7 +40,7 @@ public class FuncionarioRef {
     protected String matricula;
 
     /**
-     * Obtém o valor da propriedade matricula.
+     * Gets the value of the matricula property.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class FuncionarioRef {
     }
 
     /**
-     * Define o valor da propriedade matricula.
+     * Sets the value of the matricula property.
      * 
      * @param value
      *     allowed object is

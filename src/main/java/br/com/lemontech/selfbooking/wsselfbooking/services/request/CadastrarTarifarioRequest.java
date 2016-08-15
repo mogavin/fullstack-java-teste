@@ -10,9 +10,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.fornecedor.TarifarioForn
 
 
 /**
- * <p>Classe Java de cadastrarTarifarioRequest complex type.
+ * <p>Java class for cadastrarTarifarioRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="cadastrarTarifarioRequest">
@@ -51,7 +51,7 @@ public class CadastrarTarifarioRequest {
     protected TarifarioFornecedorOutro tarifarioOutro;
 
     /**
-     * Obtém o valor da propriedade tarifarioHotel.
+     * Gets the value of the tarifarioHotel property.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class CadastrarTarifarioRequest {
     }
 
     /**
-     * Define o valor da propriedade tarifarioHotel.
+     * Sets the value of the tarifarioHotel property.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class CadastrarTarifarioRequest {
     }
 
     /**
-     * Obtém o valor da propriedade tarifarioCarro.
+     * Gets the value of the tarifarioCarro property.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class CadastrarTarifarioRequest {
     }
 
     /**
-     * Define o valor da propriedade tarifarioCarro.
+     * Sets the value of the tarifarioCarro property.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class CadastrarTarifarioRequest {
     }
 
     /**
-     * Obtém o valor da propriedade tarifarioOutro.
+     * Gets the value of the tarifarioOutro property.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class CadastrarTarifarioRequest {
     }
 
     /**
-     * Define o valor da propriedade tarifarioOutro.
+     * Sets the value of the tarifarioOutro property.
      * 
      * @param value
      *     allowed object is

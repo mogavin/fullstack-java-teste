@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de regional complex type.
+ * <p>Java class for regional complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="regional">
@@ -53,7 +53,7 @@ public class Regional
     protected Double taxaFee;
 
     /**
-     * Obtém o valor da propriedade descricao.
+     * Gets the value of the descricao property.
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class Regional
     }
 
     /**
-     * Define o valor da propriedade descricao.
+     * Sets the value of the descricao property.
      * 
      * @param value
      *     allowed object is
@@ -77,7 +77,7 @@ public class Regional
     }
 
     /**
-     * Obtém o valor da propriedade pcc.
+     * Gets the value of the pcc property.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class Regional
     }
 
     /**
-     * Define o valor da propriedade pcc.
+     * Sets the value of the pcc property.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class Regional
     }
 
     /**
-     * Obtém o valor da propriedade identificadorBackofficeCliente.
+     * Gets the value of the identificadorBackofficeCliente property.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class Regional
     }
 
     /**
-     * Define o valor da propriedade identificadorBackofficeCliente.
+     * Sets the value of the identificadorBackofficeCliente property.
      * 
      * @param value
      *     allowed object is
@@ -125,7 +125,7 @@ public class Regional
     }
 
     /**
-     * Obtém o valor da propriedade identificadorBackofficeFranquia.
+     * Gets the value of the identificadorBackofficeFranquia property.
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class Regional
     }
 
     /**
-     * Define o valor da propriedade identificadorBackofficeFranquia.
+     * Sets the value of the identificadorBackofficeFranquia property.
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class Regional
     }
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -157,7 +157,7 @@ public class Regional
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {
@@ -165,7 +165,7 @@ public class Regional
     }
 
     /**
-     * Obtém o valor da propriedade taxaFee.
+     * Gets the value of the taxaFee property.
      * 
      * @return
      *     possible object is
@@ -177,7 +177,7 @@ public class Regional
     }
 
     /**
-     * Define o valor da propriedade taxaFee.
+     * Sets the value of the taxaFee property.
      * 
      * @param value
      *     allowed object is

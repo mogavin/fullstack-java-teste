@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Classe Java de formaPagamento complex type.
+ * <p>Java class for formaPagamento complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="formaPagamento">
@@ -57,11 +57,10 @@ public class FormaPagamento {
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar vencimentoCartao;
     protected String numeroRequisicaoGov;
-    @XmlSchemaType(name = "string")
     protected EnumTipoFormaPagamento tipo;
 
     /**
-     * Obtém o valor da propriedade autorizacao.
+     * Gets the value of the autorizacao property.
      * 
      * @return
      *     possible object is
@@ -73,7 +72,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Define o valor da propriedade autorizacao.
+     * Sets the value of the autorizacao property.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +84,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Obtém o valor da propriedade numero.
+     * Gets the value of the numero property.
      * 
      * @return
      *     possible object is
@@ -97,7 +96,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Define o valor da propriedade numero.
+     * Sets the value of the numero property.
      * 
      * @param value
      *     allowed object is
@@ -109,7 +108,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Obtém o valor da propriedade parcelas.
+     * Gets the value of the parcelas property.
      * 
      * @return
      *     possible object is
@@ -121,7 +120,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Define o valor da propriedade parcelas.
+     * Sets the value of the parcelas property.
      * 
      * @param value
      *     allowed object is
@@ -133,7 +132,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Obtém o valor da propriedade valor.
+     * Gets the value of the valor property.
      * 
      * @return
      *     possible object is
@@ -145,7 +144,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Define o valor da propriedade valor.
+     * Sets the value of the valor property.
      * 
      * @param value
      *     allowed object is
@@ -157,7 +156,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Obtém o valor da propriedade formaPagameno.
+     * Gets the value of the formaPagameno property.
      * 
      * @return
      *     possible object is
@@ -169,7 +168,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Define o valor da propriedade formaPagameno.
+     * Sets the value of the formaPagameno property.
      * 
      * @param value
      *     allowed object is
@@ -181,7 +180,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Obtém o valor da propriedade vencimentoCartao.
+     * Gets the value of the vencimentoCartao property.
      * 
      * @return
      *     possible object is
@@ -193,7 +192,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Define o valor da propriedade vencimentoCartao.
+     * Sets the value of the vencimentoCartao property.
      * 
      * @param value
      *     allowed object is
@@ -205,7 +204,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Obtém o valor da propriedade numeroRequisicaoGov.
+     * Gets the value of the numeroRequisicaoGov property.
      * 
      * @return
      *     possible object is
@@ -217,7 +216,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Define o valor da propriedade numeroRequisicaoGov.
+     * Sets the value of the numeroRequisicaoGov property.
      * 
      * @param value
      *     allowed object is
@@ -229,7 +228,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Obtém o valor da propriedade tipo.
+     * Gets the value of the tipo property.
      * 
      * @return
      *     possible object is
@@ -241,7 +240,7 @@ public class FormaPagamento {
     }
 
     /**
-     * Define o valor da propriedade tipo.
+     * Sets the value of the tipo property.
      * 
      * @param value
      *     allowed object is

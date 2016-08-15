@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de fornecedorClienteRef complex type.
+ * <p>Java class for fornecedorClienteRef complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="fornecedorClienteRef">
@@ -38,7 +38,7 @@ public class FornecedorClienteRef
     protected String identificadorBackofficeCliente;
 
     /**
-     * Obtém o valor da propriedade identificadorBackofficeCliente.
+     * Gets the value of the identificadorBackofficeCliente property.
      * 
      * @return
      *     possible object is
@@ -50,7 +50,7 @@ public class FornecedorClienteRef
     }
 
     /**
-     * Define o valor da propriedade identificadorBackofficeCliente.
+     * Sets the value of the identificadorBackofficeCliente property.
      * 
      * @param value
      *     allowed object is

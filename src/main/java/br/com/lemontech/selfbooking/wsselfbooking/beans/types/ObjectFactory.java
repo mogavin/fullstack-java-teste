@@ -30,30 +30,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link FormaPagamento }
-     * 
-     */
-    public FormaPagamento createFormaPagamento() {
-        return new FormaPagamento();
-    }
-
-    /**
-     * Create an instance of {@link ResultadoOperacao }
-     * 
-     */
-    public ResultadoOperacao createResultadoOperacao() {
-        return new ResultadoOperacao();
-    }
-
-    /**
-     * Create an instance of {@link Cobertura }
-     * 
-     */
-    public Cobertura createCobertura() {
-        return new Cobertura();
-    }
-
-    /**
      * Create an instance of {@link IdentificadoresIntegracao }
      * 
      */
@@ -70,27 +46,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Consolidadora }
-     * 
-     */
-    public Consolidadora createConsolidadora() {
-        return new Consolidadora();
-    }
-
-    /**
      * Create an instance of {@link ItensFaturamentoHotel }
      * 
      */
     public ItensFaturamentoHotel createItensFaturamentoHotel() {
         return new ItensFaturamentoHotel();
-    }
-
-    /**
-     * Create an instance of {@link Coberturas }
-     * 
-     */
-    public Coberturas createCoberturas() {
-        return new Coberturas();
     }
 
     /**
@@ -102,11 +62,51 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link Consolidadora }
+     * 
+     */
+    public Consolidadora createConsolidadora() {
+        return new Consolidadora();
+    }
+
+    /**
+     * Create an instance of {@link ResultadoOperacao }
+     * 
+     */
+    public ResultadoOperacao createResultadoOperacao() {
+        return new ResultadoOperacao();
+    }
+
+    /**
+     * Create an instance of {@link FormaPagamento }
+     * 
+     */
+    public FormaPagamento createFormaPagamento() {
+        return new FormaPagamento();
+    }
+
+    /**
      * Create an instance of {@link Identificador }
      * 
      */
     public Identificador createIdentificador() {
         return new Identificador();
+    }
+
+    /**
+     * Create an instance of {@link Coberturas }
+     * 
+     */
+    public Coberturas createCoberturas() {
+        return new Coberturas();
+    }
+
+    /**
+     * Create an instance of {@link Cobertura }
+     * 
+     */
+    public Cobertura createCobertura() {
+        return new Cobertura();
     }
 
 }

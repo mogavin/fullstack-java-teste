@@ -30,75 +30,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link AlterarStatusTarifarioResponse }
+     * Create an instance of {@link AlterarStatusSubCentroDeCustoResponse }
      * 
      */
-    public AlterarStatusTarifarioResponse createAlterarStatusTarifarioResponse() {
-        return new AlterarStatusTarifarioResponse();
-    }
-
-    /**
-     * Create an instance of {@link CadastrarParametrizacaoViajanteResponse }
-     * 
-     */
-    public CadastrarParametrizacaoViajanteResponse createCadastrarParametrizacaoViajanteResponse() {
-        return new CadastrarParametrizacaoViajanteResponse();
-    }
-
-    /**
-     * Create an instance of {@link AlterarStatusProjetoResponse }
-     * 
-     */
-    public AlterarStatusProjetoResponse createAlterarStatusProjetoResponse() {
-        return new AlterarStatusProjetoResponse();
-    }
-
-    /**
-     * Create an instance of {@link AlterarStatusCentroDeCustoResponse }
-     * 
-     */
-    public AlterarStatusCentroDeCustoResponse createAlterarStatusCentroDeCustoResponse() {
-        return new AlterarStatusCentroDeCustoResponse();
-    }
-
-    /**
-     * Create an instance of {@link CadastrarSubCentroDeCustoResponse }
-     * 
-     */
-    public CadastrarSubCentroDeCustoResponse createCadastrarSubCentroDeCustoResponse() {
-        return new CadastrarSubCentroDeCustoResponse();
-    }
-
-    /**
-     * Create an instance of {@link CadastrarFornecedorSourceResponse }
-     * 
-     */
-    public CadastrarFornecedorSourceResponse createCadastrarFornecedorSourceResponse() {
-        return new CadastrarFornecedorSourceResponse();
-    }
-
-    /**
-     * Create an instance of {@link PesquisarSolicitacaoResponse }
-     * 
-     */
-    public PesquisarSolicitacaoResponse createPesquisarSolicitacaoResponse() {
-        return new PesquisarSolicitacaoResponse();
-    }
-
-    /**
-     * Create an instance of {@link SincronizarSolicitacaoResponse }
-     * 
-     */
-    public SincronizarSolicitacaoResponse createSincronizarSolicitacaoResponse() {
-        return new SincronizarSolicitacaoResponse();
-    }
-
-    /**
-     * Create an instance of {@link AlterarStatusRegionalResponse }
-     * 
-     */
-    public AlterarStatusRegionalResponse createAlterarStatusRegionalResponse() {
-        return new AlterarStatusRegionalResponse();
+    public AlterarStatusSubCentroDeCustoResponse createAlterarStatusSubCentroDeCustoResponse() {
+        return new AlterarStatusSubCentroDeCustoResponse();
     }
 
     /**
@@ -110,107 +46,35 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link AlterarStatusFuncionarioResponse }
+     * Create an instance of {@link SincronizarSolicitacaoResponse }
      * 
      */
-    public AlterarStatusFuncionarioResponse createAlterarStatusFuncionarioResponse() {
-        return new AlterarStatusFuncionarioResponse();
+    public SincronizarSolicitacaoResponse createSincronizarSolicitacaoResponse() {
+        return new SincronizarSolicitacaoResponse();
     }
 
     /**
-     * Create an instance of {@link AlterarStatusSubCentroDeCustoResponse }
+     * Create an instance of {@link AlterarStatusProjetoResponse }
      * 
      */
-    public AlterarStatusSubCentroDeCustoResponse createAlterarStatusSubCentroDeCustoResponse() {
-        return new AlterarStatusSubCentroDeCustoResponse();
+    public AlterarStatusProjetoResponse createAlterarStatusProjetoResponse() {
+        return new AlterarStatusProjetoResponse();
     }
 
     /**
-     * Create an instance of {@link CadastrarTarifarioResponse }
+     * Create an instance of {@link CadastrarParametrizacaoViajanteResponse }
      * 
      */
-    public CadastrarTarifarioResponse createCadastrarTarifarioResponse() {
-        return new CadastrarTarifarioResponse();
+    public CadastrarParametrizacaoViajanteResponse createCadastrarParametrizacaoViajanteResponse() {
+        return new CadastrarParametrizacaoViajanteResponse();
     }
 
     /**
-     * Create an instance of {@link CadastrarFuncionarioResponse }
+     * Create an instance of {@link CadastrarFornecedorSourceResponse }
      * 
      */
-    public CadastrarFuncionarioResponse createCadastrarFuncionarioResponse() {
-        return new CadastrarFuncionarioResponse();
-    }
-
-    /**
-     * Create an instance of {@link CadastrarRegionalResponse }
-     * 
-     */
-    public CadastrarRegionalResponse createCadastrarRegionalResponse() {
-        return new CadastrarRegionalResponse();
-    }
-
-    /**
-     * Create an instance of {@link PesquisarVendasConsolidadoraResponse }
-     * 
-     */
-    public PesquisarVendasConsolidadoraResponse createPesquisarVendasConsolidadoraResponse() {
-        return new PesquisarVendasConsolidadoraResponse();
-    }
-
-    /**
-     * Create an instance of {@link CadastrarCentroDeCustoResponse }
-     * 
-     */
-    public CadastrarCentroDeCustoResponse createCadastrarCentroDeCustoResponse() {
-        return new CadastrarCentroDeCustoResponse();
-    }
-
-    /**
-     * Create an instance of {@link CadastrarParametrizacaoCentroDeCustoResponse }
-     * 
-     */
-    public CadastrarParametrizacaoCentroDeCustoResponse createCadastrarParametrizacaoCentroDeCustoResponse() {
-        return new CadastrarParametrizacaoCentroDeCustoResponse();
-    }
-
-    /**
-     * Create an instance of {@link AlterarStatusContaContabilResponse }
-     * 
-     */
-    public AlterarStatusContaContabilResponse createAlterarStatusContaContabilResponse() {
-        return new AlterarStatusContaContabilResponse();
-    }
-
-    /**
-     * Create an instance of {@link DeletarParametrizacaoViajanteResponse }
-     * 
-     */
-    public DeletarParametrizacaoViajanteResponse createDeletarParametrizacaoViajanteResponse() {
-        return new DeletarParametrizacaoViajanteResponse();
-    }
-
-    /**
-     * Create an instance of {@link CadastrarFornecedorResponse }
-     * 
-     */
-    public CadastrarFornecedorResponse createCadastrarFornecedorResponse() {
-        return new CadastrarFornecedorResponse();
-    }
-
-    /**
-     * Create an instance of {@link InserirItemDespesaResponse }
-     * 
-     */
-    public InserirItemDespesaResponse createInserirItemDespesaResponse() {
-        return new InserirItemDespesaResponse();
-    }
-
-    /**
-     * Create an instance of {@link AlterarStatusFornecedorResponse }
-     * 
-     */
-    public AlterarStatusFornecedorResponse createAlterarStatusFornecedorResponse() {
-        return new AlterarStatusFornecedorResponse();
+    public CadastrarFornecedorSourceResponse createCadastrarFornecedorSourceResponse() {
+        return new CadastrarFornecedorSourceResponse();
     }
 
     /**
@@ -222,6 +86,22 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link CadastrarParametrizacaoCentroDeCustoResponse }
+     * 
+     */
+    public CadastrarParametrizacaoCentroDeCustoResponse createCadastrarParametrizacaoCentroDeCustoResponse() {
+        return new CadastrarParametrizacaoCentroDeCustoResponse();
+    }
+
+    /**
+     * Create an instance of {@link DeletarParametrizacaoCentroDeCustoResponse }
+     * 
+     */
+    public DeletarParametrizacaoCentroDeCustoResponse createDeletarParametrizacaoCentroDeCustoResponse() {
+        return new DeletarParametrizacaoCentroDeCustoResponse();
+    }
+
+    /**
      * Create an instance of {@link InserirIdentificadorIntegracaoResponse }
      * 
      */
@@ -230,11 +110,91 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CadastrarProjetoResponse }
+     * Create an instance of {@link AlterarStatusFuncionarioResponse }
      * 
      */
-    public CadastrarProjetoResponse createCadastrarProjetoResponse() {
-        return new CadastrarProjetoResponse();
+    public AlterarStatusFuncionarioResponse createAlterarStatusFuncionarioResponse() {
+        return new AlterarStatusFuncionarioResponse();
+    }
+
+    /**
+     * Create an instance of {@link AlterarStatusRegionalResponse }
+     * 
+     */
+    public AlterarStatusRegionalResponse createAlterarStatusRegionalResponse() {
+        return new AlterarStatusRegionalResponse();
+    }
+
+    /**
+     * Create an instance of {@link AlterarStatusCentroDeCustoResponse }
+     * 
+     */
+    public AlterarStatusCentroDeCustoResponse createAlterarStatusCentroDeCustoResponse() {
+        return new AlterarStatusCentroDeCustoResponse();
+    }
+
+    /**
+     * Create an instance of {@link InserirItemDespesaResponse }
+     * 
+     */
+    public InserirItemDespesaResponse createInserirItemDespesaResponse() {
+        return new InserirItemDespesaResponse();
+    }
+
+    /**
+     * Create an instance of {@link CadastrarFornecedorResponse }
+     * 
+     */
+    public CadastrarFornecedorResponse createCadastrarFornecedorResponse() {
+        return new CadastrarFornecedorResponse();
+    }
+
+    /**
+     * Create an instance of {@link PesquisarSolicitacaoResponse }
+     * 
+     */
+    public PesquisarSolicitacaoResponse createPesquisarSolicitacaoResponse() {
+        return new PesquisarSolicitacaoResponse();
+    }
+
+    /**
+     * Create an instance of {@link AlterarStatusTarifarioResponse }
+     * 
+     */
+    public AlterarStatusTarifarioResponse createAlterarStatusTarifarioResponse() {
+        return new AlterarStatusTarifarioResponse();
+    }
+
+    /**
+     * Create an instance of {@link CadastrarFuncionarioResponse }
+     * 
+     */
+    public CadastrarFuncionarioResponse createCadastrarFuncionarioResponse() {
+        return new CadastrarFuncionarioResponse();
+    }
+
+    /**
+     * Create an instance of {@link CadastrarTarifarioResponse }
+     * 
+     */
+    public CadastrarTarifarioResponse createCadastrarTarifarioResponse() {
+        return new CadastrarTarifarioResponse();
+    }
+
+    /**
+     * Create an instance of {@link PesquisarVendasConsolidadoraResponse }
+     * 
+     */
+    public PesquisarVendasConsolidadoraResponse createPesquisarVendasConsolidadoraResponse() {
+        return new PesquisarVendasConsolidadoraResponse();
+    }
+
+    /**
+     * Create an instance of {@link AlterarStatusContaContabilResponse }
+     * 
+     */
+    public AlterarStatusContaContabilResponse createAlterarStatusContaContabilResponse() {
+        return new AlterarStatusContaContabilResponse();
     }
 
     /**
@@ -246,11 +206,51 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link DeletarParametrizacaoCentroDeCustoResponse }
+     * Create an instance of {@link AlterarStatusFornecedorResponse }
      * 
      */
-    public DeletarParametrizacaoCentroDeCustoResponse createDeletarParametrizacaoCentroDeCustoResponse() {
-        return new DeletarParametrizacaoCentroDeCustoResponse();
+    public AlterarStatusFornecedorResponse createAlterarStatusFornecedorResponse() {
+        return new AlterarStatusFornecedorResponse();
+    }
+
+    /**
+     * Create an instance of {@link CadastrarSubCentroDeCustoResponse }
+     * 
+     */
+    public CadastrarSubCentroDeCustoResponse createCadastrarSubCentroDeCustoResponse() {
+        return new CadastrarSubCentroDeCustoResponse();
+    }
+
+    /**
+     * Create an instance of {@link DeletarParametrizacaoViajanteResponse }
+     * 
+     */
+    public DeletarParametrizacaoViajanteResponse createDeletarParametrizacaoViajanteResponse() {
+        return new DeletarParametrizacaoViajanteResponse();
+    }
+
+    /**
+     * Create an instance of {@link CadastrarCentroDeCustoResponse }
+     * 
+     */
+    public CadastrarCentroDeCustoResponse createCadastrarCentroDeCustoResponse() {
+        return new CadastrarCentroDeCustoResponse();
+    }
+
+    /**
+     * Create an instance of {@link CadastrarRegionalResponse }
+     * 
+     */
+    public CadastrarRegionalResponse createCadastrarRegionalResponse() {
+        return new CadastrarRegionalResponse();
+    }
+
+    /**
+     * Create an instance of {@link CadastrarProjetoResponse }
+     * 
+     */
+    public CadastrarProjetoResponse createCadastrarProjetoResponse() {
+        return new CadastrarProjetoResponse();
     }
 
 }

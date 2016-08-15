@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de deslocamento complex type.
+ * <p>Java class for deslocamento complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="deslocamento">
@@ -51,7 +51,7 @@ public class Deslocamento {
     protected double distanciaPercorrida;
 
     /**
-     * Obtém o valor da propriedade latitudeOrigem.
+     * Gets the value of the latitudeOrigem property.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class Deslocamento {
     }
 
     /**
-     * Define o valor da propriedade latitudeOrigem.
+     * Sets the value of the latitudeOrigem property.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class Deslocamento {
     }
 
     /**
-     * Obtém o valor da propriedade longitudeOrigem.
+     * Gets the value of the longitudeOrigem property.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class Deslocamento {
     }
 
     /**
-     * Define o valor da propriedade longitudeOrigem.
+     * Sets the value of the longitudeOrigem property.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class Deslocamento {
     }
 
     /**
-     * Obtém o valor da propriedade latitudeDestino.
+     * Gets the value of the latitudeDestino property.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class Deslocamento {
     }
 
     /**
-     * Define o valor da propriedade latitudeDestino.
+     * Sets the value of the latitudeDestino property.
      * 
      * @param value
      *     allowed object is
@@ -123,7 +123,7 @@ public class Deslocamento {
     }
 
     /**
-     * Obtém o valor da propriedade longitudeDestino.
+     * Gets the value of the longitudeDestino property.
      * 
      * @return
      *     possible object is
@@ -135,7 +135,7 @@ public class Deslocamento {
     }
 
     /**
-     * Define o valor da propriedade longitudeDestino.
+     * Sets the value of the longitudeDestino property.
      * 
      * @param value
      *     allowed object is
@@ -147,7 +147,7 @@ public class Deslocamento {
     }
 
     /**
-     * Obtém o valor da propriedade distanciaPercorrida.
+     * Gets the value of the distanciaPercorrida property.
      * 
      */
     public double getDistanciaPercorrida() {
@@ -155,7 +155,7 @@ public class Deslocamento {
     }
 
     /**
-     * Define o valor da propriedade distanciaPercorrida.
+     * Sets the value of the distanciaPercorrida property.
      * 
      */
     public void setDistanciaPercorrida(double value) {

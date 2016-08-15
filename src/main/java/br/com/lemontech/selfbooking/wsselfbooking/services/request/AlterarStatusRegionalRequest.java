@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.RegionalRef;
 
 
 /**
- * <p>Classe Java de alterarStatusRegionalRequest complex type.
+ * <p>Java class for alterarStatusRegionalRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="alterarStatusRegionalRequest">
@@ -40,7 +40,7 @@ public class AlterarStatusRegionalRequest {
     protected RegionalRef regionalRef;
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -48,7 +48,7 @@ public class AlterarStatusRegionalRequest {
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {
@@ -56,7 +56,7 @@ public class AlterarStatusRegionalRequest {
     }
 
     /**
-     * Obtém o valor da propriedade regionalRef.
+     * Gets the value of the regionalRef property.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class AlterarStatusRegionalRequest {
     }
 
     /**
-     * Define o valor da propriedade regionalRef.
+     * Sets the value of the regionalRef property.
      * 
      * @param value
      *     allowed object is

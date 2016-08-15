@@ -30,59 +30,19 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link Reemissao }
+     * 
+     */
+    public Reemissao createReemissao() {
+        return new Reemissao();
+    }
+
+    /**
      * Create an instance of {@link AereoBilhete }
      * 
      */
     public AereoBilhete createAereoBilhete() {
         return new AereoBilhete();
-    }
-
-    /**
-     * Create an instance of {@link Aereos }
-     * 
-     */
-    public Aereos createAereos() {
-        return new Aereos();
-    }
-
-    /**
-     * Create an instance of {@link AereoDetalheParada }
-     * 
-     */
-    public AereoDetalheParada createAereoDetalheParada() {
-        return new AereoDetalheParada();
-    }
-
-    /**
-     * Create an instance of {@link AereoDetalheBaseTarifa }
-     * 
-     */
-    public AereoDetalheBaseTarifa createAereoDetalheBaseTarifa() {
-        return new AereoDetalheBaseTarifa();
-    }
-
-    /**
-     * Create an instance of {@link AereoSeguimento }
-     * 
-     */
-    public AereoSeguimento createAereoSeguimento() {
-        return new AereoSeguimento();
-    }
-
-    /**
-     * Create an instance of {@link Cia }
-     * 
-     */
-    public Cia createCia() {
-        return new Cia();
-    }
-
-    /**
-     * Create an instance of {@link AereoVooAssento }
-     * 
-     */
-    public AereoVooAssento createAereoVooAssento() {
-        return new AereoVooAssento();
     }
 
     /**
@@ -94,11 +54,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link AereoTarifaPax }
+     * Create an instance of {@link Aereos }
      * 
      */
-    public AereoTarifaPax createAereoTarifaPax() {
-        return new AereoTarifaPax();
+    public Aereos createAereos() {
+        return new Aereos();
     }
 
     /**
@@ -110,6 +70,30 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link AereoVooAssento }
+     * 
+     */
+    public AereoVooAssento createAereoVooAssento() {
+        return new AereoVooAssento();
+    }
+
+    /**
+     * Create an instance of {@link Cia }
+     * 
+     */
+    public Cia createCia() {
+        return new Cia();
+    }
+
+    /**
+     * Create an instance of {@link AereoTarifaPax }
+     * 
+     */
+    public AereoTarifaPax createAereoTarifaPax() {
+        return new AereoTarifaPax();
+    }
+
+    /**
      * Create an instance of {@link AereoTarifa }
      * 
      */
@@ -118,11 +102,27 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Reemissao }
+     * Create an instance of {@link AereoDetalheBaseTarifa }
      * 
      */
-    public Reemissao createReemissao() {
-        return new Reemissao();
+    public AereoDetalheBaseTarifa createAereoDetalheBaseTarifa() {
+        return new AereoDetalheBaseTarifa();
+    }
+
+    /**
+     * Create an instance of {@link AereoDetalheParada }
+     * 
+     */
+    public AereoDetalheParada createAereoDetalheParada() {
+        return new AereoDetalheParada();
+    }
+
+    /**
+     * Create an instance of {@link AereoSeguimento }
+     * 
+     */
+    public AereoSeguimento createAereoSeguimento() {
+        return new AereoSeguimento();
     }
 
 }

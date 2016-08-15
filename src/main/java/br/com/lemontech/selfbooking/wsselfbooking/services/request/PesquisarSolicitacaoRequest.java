@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Classe Java de pesquisarSolicitacaoRequest complex type.
+ * <p>Java class for pesquisarSolicitacaoRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="pesquisarSolicitacaoRequest">
@@ -87,7 +87,7 @@ public class PesquisarSolicitacaoRequest {
     protected Boolean exibirRemarks;
 
     /**
-     * Obtém o valor da propriedade idSolicitacaoRef.
+     * Gets the value of the idSolicitacaoRef property.
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade idSolicitacaoRef.
+     * Sets the value of the idSolicitacaoRef property.
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade exibirCancelados.
+     * Gets the value of the exibirCancelados property.
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade exibirCancelados.
+     * Sets the value of the exibirCancelados property.
      * 
      * @param value
      *     allowed object is
@@ -135,7 +135,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade exibirPendentesAprovacao.
+     * Gets the value of the exibirPendentesAprovacao property.
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade exibirPendentesAprovacao.
+     * Sets the value of the exibirPendentesAprovacao property.
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade dataInicial.
+     * Gets the value of the dataInicial property.
      * 
      * @return
      *     possible object is
@@ -171,7 +171,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade dataInicial.
+     * Sets the value of the dataInicial property.
      * 
      * @param value
      *     allowed object is
@@ -183,7 +183,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade dataFinal.
+     * Gets the value of the dataFinal property.
      * 
      * @return
      *     possible object is
@@ -195,7 +195,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade dataFinal.
+     * Sets the value of the dataFinal property.
      * 
      * @param value
      *     allowed object is
@@ -207,7 +207,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade registroInicial.
+     * Gets the value of the registroInicial property.
      * 
      * @return
      *     possible object is
@@ -219,7 +219,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade registroInicial.
+     * Sets the value of the registroInicial property.
      * 
      * @param value
      *     allowed object is
@@ -231,7 +231,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade quantidadeRegistros.
+     * Gets the value of the quantidadeRegistros property.
      * 
      * @return
      *     possible object is
@@ -243,7 +243,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade quantidadeRegistros.
+     * Sets the value of the quantidadeRegistros property.
      * 
      * @param value
      *     allowed object is
@@ -255,7 +255,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade sincronizado.
+     * Gets the value of the sincronizado property.
      * 
      * @return
      *     possible object is
@@ -267,7 +267,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade sincronizado.
+     * Sets the value of the sincronizado property.
      * 
      * @param value
      *     allowed object is
@@ -279,7 +279,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade exibirRemarks.
+     * Gets the value of the exibirRemarks property.
      * 
      * @return
      *     possible object is
@@ -291,7 +291,7 @@ public class PesquisarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade exibirRemarks.
+     * Sets the value of the exibirRemarks property.
      * 
      * @param value
      *     allowed object is

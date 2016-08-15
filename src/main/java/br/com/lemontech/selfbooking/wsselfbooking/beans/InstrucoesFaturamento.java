@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de instrucoesFaturamento complex type.
+ * <p>Java class for instrucoesFaturamento complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="instrucoesFaturamento">
@@ -67,7 +67,7 @@ public class InstrucoesFaturamento {
     protected String emailPagtoCartao;
 
     /**
-     * Obtém o valor da propriedade caixaPostalPagtoFaturado.
+     * Gets the value of the caixaPostalPagtoFaturado property.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade caixaPostalPagtoFaturado.
+     * Sets the value of the caixaPostalPagtoFaturado property.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Obtém o valor da propriedade cidadePagtoFaturado.
+     * Gets the value of the cidadePagtoFaturado property.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade cidadePagtoFaturado.
+     * Sets the value of the cidadePagtoFaturado property.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Obtém o valor da propriedade estadoPagtoFaturado.
+     * Gets the value of the estadoPagtoFaturado property.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade estadoPagtoFaturado.
+     * Sets the value of the estadoPagtoFaturado property.
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Obtém o valor da propriedade paisPagtoFaturado.
+     * Gets the value of the paisPagtoFaturado property.
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade paisPagtoFaturado.
+     * Sets the value of the paisPagtoFaturado property.
      * 
      * @param value
      *     allowed object is
@@ -163,7 +163,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Obtém o valor da propriedade cepPagtoFaturado.
+     * Gets the value of the cepPagtoFaturado property.
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade cepPagtoFaturado.
+     * Sets the value of the cepPagtoFaturado property.
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Obtém o valor da propriedade emailPagtoFaturado.
+     * Gets the value of the emailPagtoFaturado property.
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade emailPagtoFaturado.
+     * Sets the value of the emailPagtoFaturado property.
      * 
      * @param value
      *     allowed object is
@@ -211,7 +211,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Obtém o valor da propriedade caixaPostalPagtoCartao.
+     * Gets the value of the caixaPostalPagtoCartao property.
      * 
      * @return
      *     possible object is
@@ -223,7 +223,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade caixaPostalPagtoCartao.
+     * Sets the value of the caixaPostalPagtoCartao property.
      * 
      * @param value
      *     allowed object is
@@ -235,7 +235,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Obtém o valor da propriedade cidadePagtoCartao.
+     * Gets the value of the cidadePagtoCartao property.
      * 
      * @return
      *     possible object is
@@ -247,7 +247,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade cidadePagtoCartao.
+     * Sets the value of the cidadePagtoCartao property.
      * 
      * @param value
      *     allowed object is
@@ -259,7 +259,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Obtém o valor da propriedade estadoPagtoCartao.
+     * Gets the value of the estadoPagtoCartao property.
      * 
      * @return
      *     possible object is
@@ -271,7 +271,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade estadoPagtoCartao.
+     * Sets the value of the estadoPagtoCartao property.
      * 
      * @param value
      *     allowed object is
@@ -283,7 +283,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Obtém o valor da propriedade paisPagtoCartao.
+     * Gets the value of the paisPagtoCartao property.
      * 
      * @return
      *     possible object is
@@ -295,7 +295,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade paisPagtoCartao.
+     * Sets the value of the paisPagtoCartao property.
      * 
      * @param value
      *     allowed object is
@@ -307,7 +307,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Obtém o valor da propriedade cepPagtoCartao.
+     * Gets the value of the cepPagtoCartao property.
      * 
      * @return
      *     possible object is
@@ -319,7 +319,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade cepPagtoCartao.
+     * Sets the value of the cepPagtoCartao property.
      * 
      * @param value
      *     allowed object is
@@ -331,7 +331,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Obtém o valor da propriedade emailPagtoCartao.
+     * Gets the value of the emailPagtoCartao property.
      * 
      * @return
      *     possible object is
@@ -343,7 +343,7 @@ public class InstrucoesFaturamento {
     }
 
     /**
-     * Define o valor da propriedade emailPagtoCartao.
+     * Sets the value of the emailPagtoCartao property.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de consolidadora complex type.
+ * <p>Java class for consolidadora complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="consolidadora">
@@ -51,7 +51,7 @@ public class Consolidadora {
     protected String unidadeOperacionalAdicional;
 
     /**
-     * Obtém o valor da propriedade nome.
+     * Gets the value of the nome property.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class Consolidadora {
     }
 
     /**
-     * Define o valor da propriedade nome.
+     * Sets the value of the nome property.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class Consolidadora {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorIntegracao.
+     * Gets the value of the identificadorIntegracao property.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class Consolidadora {
     }
 
     /**
-     * Define o valor da propriedade identificadorIntegracao.
+     * Sets the value of the identificadorIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class Consolidadora {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorIntegracaoAgencia.
+     * Gets the value of the identificadorIntegracaoAgencia property.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class Consolidadora {
     }
 
     /**
-     * Define o valor da propriedade identificadorIntegracaoAgencia.
+     * Sets the value of the identificadorIntegracaoAgencia property.
      * 
      * @param value
      *     allowed object is
@@ -123,7 +123,7 @@ public class Consolidadora {
     }
 
     /**
-     * Obtém o valor da propriedade usuario.
+     * Gets the value of the usuario property.
      * 
      * @return
      *     possible object is
@@ -135,7 +135,7 @@ public class Consolidadora {
     }
 
     /**
-     * Define o valor da propriedade usuario.
+     * Sets the value of the usuario property.
      * 
      * @param value
      *     allowed object is
@@ -147,7 +147,7 @@ public class Consolidadora {
     }
 
     /**
-     * Obtém o valor da propriedade unidadeOperacional.
+     * Gets the value of the unidadeOperacional property.
      * 
      * @return
      *     possible object is
@@ -159,7 +159,7 @@ public class Consolidadora {
     }
 
     /**
-     * Define o valor da propriedade unidadeOperacional.
+     * Sets the value of the unidadeOperacional property.
      * 
      * @param value
      *     allowed object is
@@ -171,7 +171,7 @@ public class Consolidadora {
     }
 
     /**
-     * Obtém o valor da propriedade unidadeOperacionalAdicional.
+     * Gets the value of the unidadeOperacionalAdicional property.
      * 
      * @return
      *     possible object is
@@ -183,7 +183,7 @@ public class Consolidadora {
     }
 
     /**
-     * Define o valor da propriedade unidadeOperacionalAdicional.
+     * Sets the value of the unidadeOperacionalAdicional property.
      * 
      * @param value
      *     allowed object is

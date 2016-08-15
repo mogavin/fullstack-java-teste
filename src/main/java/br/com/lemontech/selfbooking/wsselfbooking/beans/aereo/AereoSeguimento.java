@@ -12,9 +12,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Classe Java de aereoSeguimento complex type.
+ * <p>Java class for aereoSeguimento complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="aereoSeguimento">
@@ -78,7 +78,7 @@ public class AereoSeguimento {
     protected String cidadeDestino;
 
     /**
-     * Obtém o valor da propriedade origem.
+     * Gets the value of the origem property.
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade origem.
+     * Sets the value of the origem property.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Obtém o valor da propriedade dataSaida.
+     * Gets the value of the dataSaida property.
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade dataSaida.
+     * Sets the value of the dataSaida property.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Obtém o valor da propriedade destino.
+     * Gets the value of the destino property.
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade destino.
+     * Sets the value of the destino property.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +150,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Obtém o valor da propriedade dataChegada.
+     * Gets the value of the dataChegada property.
      * 
      * @return
      *     possible object is
@@ -162,7 +162,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade dataChegada.
+     * Sets the value of the dataChegada property.
      * 
      * @param value
      *     allowed object is
@@ -203,7 +203,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Obtém o valor da propriedade localizadorCia.
+     * Gets the value of the localizadorCia property.
      * 
      * @return
      *     possible object is
@@ -215,7 +215,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade localizadorCia.
+     * Sets the value of the localizadorCia property.
      * 
      * @param value
      *     allowed object is
@@ -227,7 +227,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Obtém o valor da propriedade milhas.
+     * Gets the value of the milhas property.
      * 
      * @return
      *     possible object is
@@ -239,7 +239,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade milhas.
+     * Sets the value of the milhas property.
      * 
      * @param value
      *     allowed object is
@@ -251,7 +251,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Obtém o valor da propriedade paisOrigem.
+     * Gets the value of the paisOrigem property.
      * 
      * @return
      *     possible object is
@@ -263,7 +263,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade paisOrigem.
+     * Sets the value of the paisOrigem property.
      * 
      * @param value
      *     allowed object is
@@ -275,7 +275,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Obtém o valor da propriedade estadoOrigem.
+     * Gets the value of the estadoOrigem property.
      * 
      * @return
      *     possible object is
@@ -287,7 +287,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade estadoOrigem.
+     * Sets the value of the estadoOrigem property.
      * 
      * @param value
      *     allowed object is
@@ -299,7 +299,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Obtém o valor da propriedade paisDestino.
+     * Gets the value of the paisDestino property.
      * 
      * @return
      *     possible object is
@@ -311,7 +311,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade paisDestino.
+     * Sets the value of the paisDestino property.
      * 
      * @param value
      *     allowed object is
@@ -323,7 +323,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Obtém o valor da propriedade estadoDestino.
+     * Gets the value of the estadoDestino property.
      * 
      * @return
      *     possible object is
@@ -335,7 +335,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade estadoDestino.
+     * Sets the value of the estadoDestino property.
      * 
      * @param value
      *     allowed object is
@@ -347,7 +347,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Obtém o valor da propriedade cidadeOrigem.
+     * Gets the value of the cidadeOrigem property.
      * 
      * @return
      *     possible object is
@@ -359,7 +359,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade cidadeOrigem.
+     * Sets the value of the cidadeOrigem property.
      * 
      * @param value
      *     allowed object is
@@ -371,7 +371,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Obtém o valor da propriedade cidadeDestino.
+     * Gets the value of the cidadeDestino property.
      * 
      * @return
      *     possible object is
@@ -383,7 +383,7 @@ public class AereoSeguimento {
     }
 
     /**
-     * Define o valor da propriedade cidadeDestino.
+     * Sets the value of the cidadeDestino property.
      * 
      * @param value
      *     allowed object is

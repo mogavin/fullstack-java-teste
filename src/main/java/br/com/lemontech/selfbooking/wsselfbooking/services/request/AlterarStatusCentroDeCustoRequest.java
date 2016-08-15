@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.CentroDeCustoRef;
 
 
 /**
- * <p>Classe Java de alterarStatusCentroDeCustoRequest complex type.
+ * <p>Java class for alterarStatusCentroDeCustoRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="alterarStatusCentroDeCustoRequest">
@@ -40,7 +40,7 @@ public class AlterarStatusCentroDeCustoRequest {
     protected CentroDeCustoRef centroDeCustoRef;
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -48,7 +48,7 @@ public class AlterarStatusCentroDeCustoRequest {
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {
@@ -56,7 +56,7 @@ public class AlterarStatusCentroDeCustoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade centroDeCustoRef.
+     * Gets the value of the centroDeCustoRef property.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class AlterarStatusCentroDeCustoRequest {
     }
 
     /**
-     * Define o valor da propriedade centroDeCustoRef.
+     * Sets the value of the centroDeCustoRef property.
      * 
      * @param value
      *     allowed object is

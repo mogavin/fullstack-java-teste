@@ -4,16 +4,15 @@ package br.com.lemontech.selfbooking.wsselfbooking.services.request;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.Deslocamento;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Moeda;
 
 
 /**
- * <p>Classe Java de inserirItemDespesaRequest complex type.
+ * <p>Java class for inserirItemDespesaRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="inserirItemDespesaRequest">
@@ -66,7 +65,6 @@ public class InserirItemDespesaRequest {
     protected String tipoDespesa;
     protected double valor;
     @XmlElement(required = true)
-    @XmlSchemaType(name = "string")
     protected Moeda moeda;
     @XmlElement(required = true)
     protected String imagem;
@@ -76,7 +74,7 @@ public class InserirItemDespesaRequest {
     protected String identificadorExterno;
 
     /**
-     * Obtém o valor da propriedade idSolicitacaoRef.
+     * Gets the value of the idSolicitacaoRef property.
      * 
      */
     public int getIdSolicitacaoRef() {
@@ -84,7 +82,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Define o valor da propriedade idSolicitacaoRef.
+     * Sets the value of the idSolicitacaoRef property.
      * 
      */
     public void setIdSolicitacaoRef(int value) {
@@ -92,7 +90,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Obtém o valor da propriedade tipoDespesa.
+     * Gets the value of the tipoDespesa property.
      * 
      * @return
      *     possible object is
@@ -104,7 +102,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Define o valor da propriedade tipoDespesa.
+     * Sets the value of the tipoDespesa property.
      * 
      * @param value
      *     allowed object is
@@ -116,7 +114,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Obtém o valor da propriedade valor.
+     * Gets the value of the valor property.
      * 
      */
     public double getValor() {
@@ -124,7 +122,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Define o valor da propriedade valor.
+     * Sets the value of the valor property.
      * 
      */
     public void setValor(double value) {
@@ -132,7 +130,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Obtém o valor da propriedade moeda.
+     * Gets the value of the moeda property.
      * 
      * @return
      *     possible object is
@@ -144,7 +142,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Define o valor da propriedade moeda.
+     * Sets the value of the moeda property.
      * 
      * @param value
      *     allowed object is
@@ -156,7 +154,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Obtém o valor da propriedade imagem.
+     * Gets the value of the imagem property.
      * 
      * @return
      *     possible object is
@@ -168,7 +166,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Define o valor da propriedade imagem.
+     * Sets the value of the imagem property.
      * 
      * @param value
      *     allowed object is
@@ -180,7 +178,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Obtém o valor da propriedade deslocamento.
+     * Gets the value of the deslocamento property.
      * 
      * @return
      *     possible object is
@@ -192,7 +190,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Define o valor da propriedade deslocamento.
+     * Sets the value of the deslocamento property.
      * 
      * @param value
      *     allowed object is
@@ -204,7 +202,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Obtém o valor da propriedade observacao.
+     * Gets the value of the observacao property.
      * 
      * @return
      *     possible object is
@@ -216,7 +214,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Define o valor da propriedade observacao.
+     * Sets the value of the observacao property.
      * 
      * @param value
      *     allowed object is
@@ -228,7 +226,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorExterno.
+     * Gets the value of the identificadorExterno property.
      * 
      * @return
      *     possible object is
@@ -240,7 +238,7 @@ public class InserirItemDespesaRequest {
     }
 
     /**
-     * Define o valor da propriedade identificadorExterno.
+     * Sets the value of the identificadorExterno property.
      * 
      * @param value
      *     allowed object is

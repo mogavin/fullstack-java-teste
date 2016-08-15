@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de aereoBilhete complex type.
+ * <p>Java class for aereoBilhete complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="aereoBilhete">
@@ -82,7 +82,7 @@ public class AereoBilhete {
     }
 
     /**
-     * Obtém o valor da propriedade bilhete.
+     * Gets the value of the bilhete property.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class AereoBilhete {
     }
 
     /**
-     * Define o valor da propriedade bilhete.
+     * Sets the value of the bilhete property.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class AereoBilhete {
     }
 
     /**
-     * Obtém o valor da propriedade bilheteOriginal.
+     * Gets the value of the bilheteOriginal property.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class AereoBilhete {
     }
 
     /**
-     * Define o valor da propriedade bilheteOriginal.
+     * Sets the value of the bilheteOriginal property.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class AereoBilhete {
     }
 
     /**
-     * Obtém o valor da propriedade isLocalizador.
+     * Gets the value of the isLocalizador property.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class AereoBilhete {
     }
 
     /**
-     * Define o valor da propriedade isLocalizador.
+     * Sets the value of the isLocalizador property.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class AereoBilhete {
     }
 
     /**
-     * Obtém o valor da propriedade numeroRecibo.
+     * Gets the value of the numeroRecibo property.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class AereoBilhete {
     }
 
     /**
-     * Define o valor da propriedade numeroRecibo.
+     * Sets the value of the numeroRecibo property.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class AereoBilhete {
     }
 
     /**
-     * Obtém o valor da propriedade tourCode.
+     * Gets the value of the tourCode property.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class AereoBilhete {
     }
 
     /**
-     * Define o valor da propriedade tourCode.
+     * Sets the value of the tourCode property.
      * 
      * @param value
      *     allowed object is

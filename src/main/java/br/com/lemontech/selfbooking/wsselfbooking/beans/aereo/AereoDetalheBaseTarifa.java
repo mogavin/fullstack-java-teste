@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de aereoDetalheBaseTarifa complex type.
+ * <p>Java class for aereoDetalheBaseTarifa complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="aereoDetalheBaseTarifa">
@@ -37,7 +37,7 @@ public class AereoDetalheBaseTarifa {
     protected String classeTarifaria;
 
     /**
-     * Obtém o valor da propriedade baseTarifaria.
+     * Gets the value of the baseTarifaria property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class AereoDetalheBaseTarifa {
     }
 
     /**
-     * Define o valor da propriedade baseTarifaria.
+     * Sets the value of the baseTarifaria property.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class AereoDetalheBaseTarifa {
     }
 
     /**
-     * Obtém o valor da propriedade classeTarifaria.
+     * Gets the value of the classeTarifaria property.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class AereoDetalheBaseTarifa {
     }
 
     /**
-     * Define o valor da propriedade classeTarifaria.
+     * Sets the value of the classeTarifaria property.
      * 
      * @param value
      *     allowed object is

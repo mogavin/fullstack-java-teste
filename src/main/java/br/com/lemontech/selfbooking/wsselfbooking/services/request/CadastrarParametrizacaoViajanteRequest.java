@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.ParametrizacaoViajanteAp
 
 
 /**
- * <p>Classe Java de cadastrarParametrizacaoViajanteRequest complex type.
+ * <p>Java class for cadastrarParametrizacaoViajanteRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="cadastrarParametrizacaoViajanteRequest">
@@ -37,7 +37,7 @@ public class CadastrarParametrizacaoViajanteRequest {
     protected ParametrizacaoViajanteAprovacao parametrizacaoViajanteAprovacao;
 
     /**
-     * Obtém o valor da propriedade parametrizacaoViajanteAprovacao.
+     * Gets the value of the parametrizacaoViajanteAprovacao property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class CadastrarParametrizacaoViajanteRequest {
     }
 
     /**
-     * Define o valor da propriedade parametrizacaoViajanteAprovacao.
+     * Sets the value of the parametrizacaoViajanteAprovacao property.
      * 
      * @param value
      *     allowed object is

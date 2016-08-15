@@ -4,7 +4,6 @@ package br.com.lemontech.selfbooking.wsselfbooking.beans;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.types.PerfilAereo;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.types.PerfilFuncionario;
@@ -13,9 +12,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoCadastroFuncio
 
 
 /**
- * <p>Classe Java de configuracaoFuncionario complex type.
+ * <p>Java class for configuracaoFuncionario complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="configuracaoFuncionario">
@@ -76,15 +75,11 @@ public class ConfiguracaoFuncionario {
     @XmlElement(defaultValue = "0")
     protected Integer nivelHierarquico;
     @XmlElement(defaultValue = "SELF_BOOKING")
-    @XmlSchemaType(name = "string")
     protected TipoCadastroFuncionario tipoCadastro;
     protected String categoriaHospedagem;
     @XmlElement(required = true)
-    @XmlSchemaType(name = "string")
     protected PerfilFuncionario perfilFuncionario;
-    @XmlSchemaType(name = "string")
     protected PerfilAereo perfilAereo;
-    @XmlSchemaType(name = "string")
     protected PerfilHospedagem perfilHospedagem;
     @XmlElement(defaultValue = "false")
     protected Boolean visualizaSaldoBudgetAprovacao;
@@ -92,7 +87,7 @@ public class ConfiguracaoFuncionario {
     protected Boolean aprovaBudgetNegativo;
 
     /**
-     * Obtém o valor da propriedade autoAprova.
+     * Gets the value of the autoAprova property.
      * 
      * @return
      *     possible object is
@@ -104,7 +99,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade autoAprova.
+     * Sets the value of the autoAprova property.
      * 
      * @param value
      *     allowed object is
@@ -116,7 +111,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Obtém o valor da propriedade solicitaParaTodos.
+     * Gets the value of the solicitaParaTodos property.
      * 
      * @return
      *     possible object is
@@ -128,7 +123,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade solicitaParaTodos.
+     * Sets the value of the solicitaParaTodos property.
      * 
      * @param value
      *     allowed object is
@@ -140,7 +135,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Obtém o valor da propriedade preAprovaTodos.
+     * Gets the value of the preAprovaTodos property.
      * 
      * @return
      *     possible object is
@@ -152,7 +147,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade preAprovaTodos.
+     * Sets the value of the preAprovaTodos property.
      * 
      * @param value
      *     allowed object is
@@ -164,7 +159,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Obtém o valor da propriedade forcaDeVenda.
+     * Gets the value of the forcaDeVenda property.
      * 
      * @return
      *     possible object is
@@ -176,7 +171,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade forcaDeVenda.
+     * Sets the value of the forcaDeVenda property.
      * 
      * @param value
      *     allowed object is
@@ -188,7 +183,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Obtém o valor da propriedade nivelHierarquico.
+     * Gets the value of the nivelHierarquico property.
      * 
      * @return
      *     possible object is
@@ -200,7 +195,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade nivelHierarquico.
+     * Sets the value of the nivelHierarquico property.
      * 
      * @param value
      *     allowed object is
@@ -212,7 +207,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Obtém o valor da propriedade tipoCadastro.
+     * Gets the value of the tipoCadastro property.
      * 
      * @return
      *     possible object is
@@ -224,7 +219,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade tipoCadastro.
+     * Sets the value of the tipoCadastro property.
      * 
      * @param value
      *     allowed object is
@@ -236,7 +231,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Obtém o valor da propriedade categoriaHospedagem.
+     * Gets the value of the categoriaHospedagem property.
      * 
      * @return
      *     possible object is
@@ -248,7 +243,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade categoriaHospedagem.
+     * Sets the value of the categoriaHospedagem property.
      * 
      * @param value
      *     allowed object is
@@ -260,7 +255,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Obtém o valor da propriedade perfilFuncionario.
+     * Gets the value of the perfilFuncionario property.
      * 
      * @return
      *     possible object is
@@ -272,7 +267,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade perfilFuncionario.
+     * Sets the value of the perfilFuncionario property.
      * 
      * @param value
      *     allowed object is
@@ -284,7 +279,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Obtém o valor da propriedade perfilAereo.
+     * Gets the value of the perfilAereo property.
      * 
      * @return
      *     possible object is
@@ -296,7 +291,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade perfilAereo.
+     * Sets the value of the perfilAereo property.
      * 
      * @param value
      *     allowed object is
@@ -308,7 +303,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Obtém o valor da propriedade perfilHospedagem.
+     * Gets the value of the perfilHospedagem property.
      * 
      * @return
      *     possible object is
@@ -320,7 +315,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade perfilHospedagem.
+     * Sets the value of the perfilHospedagem property.
      * 
      * @param value
      *     allowed object is
@@ -332,7 +327,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Obtém o valor da propriedade visualizaSaldoBudgetAprovacao.
+     * Gets the value of the visualizaSaldoBudgetAprovacao property.
      * 
      * @return
      *     possible object is
@@ -344,7 +339,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade visualizaSaldoBudgetAprovacao.
+     * Sets the value of the visualizaSaldoBudgetAprovacao property.
      * 
      * @param value
      *     allowed object is
@@ -356,7 +351,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Obtém o valor da propriedade aprovaBudgetNegativo.
+     * Gets the value of the aprovaBudgetNegativo property.
      * 
      * @return
      *     possible object is
@@ -368,7 +363,7 @@ public class ConfiguracaoFuncionario {
     }
 
     /**
-     * Define o valor da propriedade aprovaBudgetNegativo.
+     * Sets the value of the aprovaBudgetNegativo property.
      * 
      * @param value
      *     allowed object is

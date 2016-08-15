@@ -3,15 +3,14 @@ package br.com.lemontech.selfbooking.wsselfbooking.services.response;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.types.ResultadoAcao;
 
 
 /**
- * <p>Classe Java de sincronizarSolicitacaoResponse complex type.
+ * <p>Java class for sincronizarSolicitacaoResponse complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="sincronizarSolicitacaoResponse">
@@ -35,12 +34,11 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.ResultadoAcao;
 })
 public class SincronizarSolicitacaoResponse {
 
-    @XmlSchemaType(name = "string")
     protected ResultadoAcao resultadoAcao;
     protected String mensagemRetorno;
 
     /**
-     * Obtém o valor da propriedade resultadoAcao.
+     * Gets the value of the resultadoAcao property.
      * 
      * @return
      *     possible object is
@@ -52,7 +50,7 @@ public class SincronizarSolicitacaoResponse {
     }
 
     /**
-     * Define o valor da propriedade resultadoAcao.
+     * Sets the value of the resultadoAcao property.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +62,7 @@ public class SincronizarSolicitacaoResponse {
     }
 
     /**
-     * Obtém o valor da propriedade mensagemRetorno.
+     * Gets the value of the mensagemRetorno property.
      * 
      * @return
      *     possible object is
@@ -76,7 +74,7 @@ public class SincronizarSolicitacaoResponse {
     }
 
     /**
-     * Define o valor da propriedade mensagemRetorno.
+     * Sets the value of the mensagemRetorno property.
      * 
      * @param value
      *     allowed object is

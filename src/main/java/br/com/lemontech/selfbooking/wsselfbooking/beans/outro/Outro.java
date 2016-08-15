@@ -16,9 +16,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Remarks;
 
 
 /**
- * <p>Classe Java de outro complex type.
+ * <p>Java class for outro complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="outro">
@@ -150,7 +150,7 @@ public class Outro {
     protected String moeda;
 
     /**
-     * Obtém o valor da propriedade id.
+     * Gets the value of the id property.
      * 
      */
     public int getId() {
@@ -158,7 +158,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade id.
+     * Sets the value of the id property.
      * 
      */
     public void setId(int value) {
@@ -166,7 +166,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoEmissor.
+     * Gets the value of the codigoEmissor property.
      * 
      * @return
      *     possible object is
@@ -178,7 +178,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade codigoEmissor.
+     * Sets the value of the codigoEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -190,7 +190,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade nomeEmissor.
+     * Gets the value of the nomeEmissor property.
      * 
      * @return
      *     possible object is
@@ -202,7 +202,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade nomeEmissor.
+     * Sets the value of the nomeEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -214,7 +214,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoReservador.
+     * Gets the value of the codigoReservador property.
      * 
      * @return
      *     possible object is
@@ -226,7 +226,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade codigoReservador.
+     * Sets the value of the codigoReservador property.
      * 
      * @param value
      *     allowed object is
@@ -238,7 +238,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade nomeReservador.
+     * Gets the value of the nomeReservador property.
      * 
      * @return
      *     possible object is
@@ -250,7 +250,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade nomeReservador.
+     * Sets the value of the nomeReservador property.
      * 
      * @param value
      *     allowed object is
@@ -262,7 +262,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade descricao.
+     * Gets the value of the descricao property.
      * 
      * @return
      *     possible object is
@@ -274,7 +274,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade descricao.
+     * Sets the value of the descricao property.
      * 
      * @param value
      *     allowed object is
@@ -286,7 +286,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade valor.
+     * Gets the value of the valor property.
      * 
      * @return
      *     possible object is
@@ -298,7 +298,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade valor.
+     * Sets the value of the valor property.
      * 
      * @param value
      *     allowed object is
@@ -310,7 +310,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade dataInicial.
+     * Gets the value of the dataInicial property.
      * 
      * @return
      *     possible object is
@@ -322,7 +322,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade dataInicial.
+     * Sets the value of the dataInicial property.
      * 
      * @param value
      *     allowed object is
@@ -334,7 +334,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade dataFinal.
+     * Gets the value of the dataFinal property.
      * 
      * @return
      *     possible object is
@@ -346,7 +346,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade dataFinal.
+     * Sets the value of the dataFinal property.
      * 
      * @param value
      *     allowed object is
@@ -358,7 +358,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade dataReserva.
+     * Gets the value of the dataReserva property.
      * 
      * @return
      *     possible object is
@@ -370,7 +370,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade dataReserva.
+     * Sets the value of the dataReserva property.
      * 
      * @param value
      *     allowed object is
@@ -382,7 +382,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoFornecedor.
+     * Gets the value of the codigoFornecedor property.
      * 
      * @return
      *     possible object is
@@ -394,7 +394,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade codigoFornecedor.
+     * Sets the value of the codigoFornecedor property.
      * 
      * @param value
      *     allowed object is
@@ -406,7 +406,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade obsEmissor.
+     * Gets the value of the obsEmissor property.
      * 
      * @return
      *     possible object is
@@ -418,7 +418,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade obsEmissor.
+     * Sets the value of the obsEmissor property.
      * 
      * @param value
      *     allowed object is
@@ -430,7 +430,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade maiorTarifa.
+     * Gets the value of the maiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -442,7 +442,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade maiorTarifa.
+     * Sets the value of the maiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -454,7 +454,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade menorTarifa.
+     * Gets the value of the menorTarifa property.
      * 
      * @return
      *     possible object is
@@ -466,7 +466,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade menorTarifa.
+     * Sets the value of the menorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -478,7 +478,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade formaPagamento.
+     * Gets the value of the formaPagamento property.
      * 
      * @return
      *     possible object is
@@ -490,7 +490,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade formaPagamento.
+     * Sets the value of the formaPagamento property.
      * 
      * @param value
      *     allowed object is
@@ -531,7 +531,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade justificativaMaiorTarifa.
+     * Gets the value of the justificativaMaiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -543,7 +543,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade justificativaMaiorTarifa.
+     * Sets the value of the justificativaMaiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -555,7 +555,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade statusCancelamento.
+     * Gets the value of the statusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -567,7 +567,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade statusCancelamento.
+     * Sets the value of the statusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -579,7 +579,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade taxaCancelamento.
+     * Gets the value of the taxaCancelamento property.
      * 
      * @return
      *     possible object is
@@ -591,7 +591,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade taxaCancelamento.
+     * Sets the value of the taxaCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -603,7 +603,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade dataModificacaoStatusCancelamento.
+     * Gets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -615,7 +615,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade dataModificacaoStatusCancelamento.
+     * Sets the value of the dataModificacaoStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -627,7 +627,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade usuarioModificouStatusCancelamento.
+     * Gets the value of the usuarioModificouStatusCancelamento property.
      * 
      * @return
      *     possible object is
@@ -639,7 +639,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade usuarioModificouStatusCancelamento.
+     * Sets the value of the usuarioModificouStatusCancelamento property.
      * 
      * @param value
      *     allowed object is
@@ -651,7 +651,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade codigoJustificativaMaiorTarifa.
+     * Gets the value of the codigoJustificativaMaiorTarifa property.
      * 
      * @return
      *     possible object is
@@ -663,7 +663,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade codigoJustificativaMaiorTarifa.
+     * Sets the value of the codigoJustificativaMaiorTarifa property.
      * 
      * @param value
      *     allowed object is
@@ -675,7 +675,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorIntegracao.
+     * Gets the value of the identificadorIntegracao property.
      * 
      * @return
      *     possible object is
@@ -687,7 +687,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade identificadorIntegracao.
+     * Sets the value of the identificadorIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -699,7 +699,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade identificador.
+     * Gets the value of the identificador property.
      * 
      * @return
      *     possible object is
@@ -711,7 +711,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade identificador.
+     * Sets the value of the identificador property.
      * 
      * @param value
      *     allowed object is
@@ -723,7 +723,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade categoria.
+     * Gets the value of the categoria property.
      * 
      * @return
      *     possible object is
@@ -735,7 +735,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade categoria.
+     * Sets the value of the categoria property.
      * 
      * @param value
      *     allowed object is
@@ -747,7 +747,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Gets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @return
      *     possible object is
@@ -759,7 +759,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade identificadorBackOfficeTipoProduto.
+     * Sets the value of the identificadorBackOfficeTipoProduto property.
      * 
      * @param value
      *     allowed object is
@@ -771,7 +771,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade autorizacaoCartao.
+     * Gets the value of the autorizacaoCartao property.
      * 
      * @return
      *     possible object is
@@ -783,7 +783,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade autorizacaoCartao.
+     * Sets the value of the autorizacaoCartao property.
      * 
      * @param value
      *     allowed object is
@@ -795,7 +795,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade taxa.
+     * Gets the value of the taxa property.
      * 
      * @return
      *     possible object is
@@ -807,7 +807,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade taxa.
+     * Sets the value of the taxa property.
      * 
      * @param value
      *     allowed object is
@@ -819,7 +819,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade remarks.
+     * Gets the value of the remarks property.
      * 
      * @return
      *     possible object is
@@ -831,7 +831,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade remarks.
+     * Sets the value of the remarks property.
      * 
      * @param value
      *     allowed object is
@@ -843,7 +843,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade totalOutro.
+     * Gets the value of the totalOutro property.
      * 
      * @return
      *     possible object is
@@ -855,7 +855,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade totalOutro.
+     * Sets the value of the totalOutro property.
      * 
      * @param value
      *     allowed object is
@@ -867,7 +867,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade cancelado.
+     * Gets the value of the cancelado property.
      * 
      */
     public boolean isCancelado() {
@@ -875,7 +875,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade cancelado.
+     * Sets the value of the cancelado property.
      * 
      */
     public void setCancelado(boolean value) {
@@ -883,7 +883,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade identificadoresIntegracao.
+     * Gets the value of the identificadoresIntegracao property.
      * 
      * @return
      *     possible object is
@@ -895,7 +895,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade identificadoresIntegracao.
+     * Sets the value of the identificadoresIntegracao property.
      * 
      * @param value
      *     allowed object is
@@ -907,7 +907,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade taxaFee.
+     * Gets the value of the taxaFee property.
      * 
      * @return
      *     possible object is
@@ -919,7 +919,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade taxaFee.
+     * Sets the value of the taxaFee property.
      * 
      * @param value
      *     allowed object is
@@ -931,7 +931,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade consolidadora.
+     * Gets the value of the consolidadora property.
      * 
      * @return
      *     possible object is
@@ -943,7 +943,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade consolidadora.
+     * Sets the value of the consolidadora property.
      * 
      * @param value
      *     allowed object is
@@ -955,7 +955,7 @@ public class Outro {
     }
 
     /**
-     * Obtém o valor da propriedade moeda.
+     * Gets the value of the moeda property.
      * 
      * @return
      *     possible object is
@@ -967,7 +967,7 @@ public class Outro {
     }
 
     /**
-     * Define o valor da propriedade moeda.
+     * Sets the value of the moeda property.
      * 
      * @param value
      *     allowed object is

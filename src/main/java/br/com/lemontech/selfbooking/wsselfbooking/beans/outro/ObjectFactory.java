@@ -30,19 +30,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Outro }
-     * 
-     */
-    public Outro createOutro() {
-        return new Outro();
-    }
-
-    /**
      * Create an instance of {@link Outros }
      * 
      */
     public Outros createOutros() {
         return new Outros();
+    }
+
+    /**
+     * Create an instance of {@link Outro }
+     * 
+     */
+    public Outro createOutro() {
+        return new Outro();
     }
 
 }

@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de filial complex type.
+ * <p>Java class for filial complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="filial">
@@ -58,7 +58,7 @@ public class Filial {
     protected String numeroDk;
 
     /**
-     * Obtém o valor da propriedade nome.
+     * Gets the value of the nome property.
      * 
      * @return
      *     possible object is
@@ -70,7 +70,7 @@ public class Filial {
     }
 
     /**
-     * Define o valor da propriedade nome.
+     * Sets the value of the nome property.
      * 
      * @param value
      *     allowed object is
@@ -82,7 +82,7 @@ public class Filial {
     }
 
     /**
-     * Obtém o valor da propriedade razaoSocial.
+     * Gets the value of the razaoSocial property.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class Filial {
     }
 
     /**
-     * Define o valor da propriedade razaoSocial.
+     * Sets the value of the razaoSocial property.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class Filial {
     }
 
     /**
-     * Obtém o valor da propriedade endereco.
+     * Gets the value of the endereco property.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class Filial {
     }
 
     /**
-     * Define o valor da propriedade endereco.
+     * Sets the value of the endereco property.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class Filial {
     }
 
     /**
-     * Obtém o valor da propriedade cidade.
+     * Gets the value of the cidade property.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class Filial {
     }
 
     /**
-     * Define o valor da propriedade cidade.
+     * Sets the value of the cidade property.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class Filial {
     }
 
     /**
-     * Obtém o valor da propriedade estado.
+     * Gets the value of the estado property.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class Filial {
     }
 
     /**
-     * Define o valor da propriedade estado.
+     * Sets the value of the estado property.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class Filial {
     }
 
     /**
-     * Obtém o valor da propriedade pais.
+     * Gets the value of the pais property.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class Filial {
     }
 
     /**
-     * Define o valor da propriedade pais.
+     * Sets the value of the pais property.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +202,7 @@ public class Filial {
     }
 
     /**
-     * Obtém o valor da propriedade cep.
+     * Gets the value of the cep property.
      * 
      * @return
      *     possible object is
@@ -214,7 +214,7 @@ public class Filial {
     }
 
     /**
-     * Define o valor da propriedade cep.
+     * Sets the value of the cep property.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +226,7 @@ public class Filial {
     }
 
     /**
-     * Obtém o valor da propriedade cnpj.
+     * Gets the value of the cnpj property.
      * 
      * @return
      *     possible object is
@@ -238,7 +238,7 @@ public class Filial {
     }
 
     /**
-     * Define o valor da propriedade cnpj.
+     * Sets the value of the cnpj property.
      * 
      * @param value
      *     allowed object is
@@ -250,7 +250,7 @@ public class Filial {
     }
 
     /**
-     * Obtém o valor da propriedade numeroDk.
+     * Gets the value of the numeroDk property.
      * 
      * @return
      *     possible object is
@@ -262,7 +262,7 @@ public class Filial {
     }
 
     /**
-     * Define o valor da propriedade numeroDk.
+     * Sets the value of the numeroDk property.
      * 
      * @param value
      *     allowed object is

@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.fornecedor.Fornecedor;
 
 
 /**
- * <p>Classe Java de cadastrarFornecedorRequest complex type.
+ * <p>Java class for cadastrarFornecedorRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="cadastrarFornecedorRequest">
@@ -37,7 +37,7 @@ public class CadastrarFornecedorRequest {
     protected Fornecedor fornecedor;
 
     /**
-     * Obtém o valor da propriedade fornecedor.
+     * Gets the value of the fornecedor property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class CadastrarFornecedorRequest {
     }
 
     /**
-     * Define o valor da propriedade fornecedor.
+     * Sets the value of the fornecedor property.
      * 
      * @param value
      *     allowed object is

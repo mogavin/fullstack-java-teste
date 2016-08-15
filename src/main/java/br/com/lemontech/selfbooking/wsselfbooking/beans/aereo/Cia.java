@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de cia complex type.
+ * <p>Java class for cia complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="cia">
@@ -37,7 +37,7 @@ public class Cia {
     protected String sigla;
 
     /**
-     * Obtém o valor da propriedade codigoIata.
+     * Gets the value of the codigoIata property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class Cia {
     }
 
     /**
-     * Define o valor da propriedade codigoIata.
+     * Sets the value of the codigoIata property.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class Cia {
     }
 
     /**
-     * Obtém o valor da propriedade sigla.
+     * Gets the value of the sigla property.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class Cia {
     }
 
     /**
-     * Define o valor da propriedade sigla.
+     * Sets the value of the sigla property.
      * 
      * @param value
      *     allowed object is

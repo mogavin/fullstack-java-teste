@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.ProjetoRef;
 
 
 /**
- * <p>Classe Java de alterarStatusProjetoRequest complex type.
+ * <p>Java class for alterarStatusProjetoRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="alterarStatusProjetoRequest">
@@ -40,7 +40,7 @@ public class AlterarStatusProjetoRequest {
     protected ProjetoRef projetoRef;
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -48,7 +48,7 @@ public class AlterarStatusProjetoRequest {
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {
@@ -56,7 +56,7 @@ public class AlterarStatusProjetoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade projetoRef.
+     * Gets the value of the projetoRef property.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class AlterarStatusProjetoRequest {
     }
 
     /**
-     * Define o valor da propriedade projetoRef.
+     * Sets the value of the projetoRef property.
      * 
      * @param value
      *     allowed object is

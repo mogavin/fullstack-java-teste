@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de centroDeCustoRef complex type.
+ * <p>Java class for centroDeCustoRef complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="centroDeCustoRef">
@@ -44,7 +44,7 @@ public class CentroDeCustoRef {
     protected RegionalRef regionalRef;
 
     /**
-     * Obtém o valor da propriedade codigo.
+     * Gets the value of the codigo property.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class CentroDeCustoRef {
     }
 
     /**
-     * Define o valor da propriedade codigo.
+     * Sets the value of the codigo property.
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class CentroDeCustoRef {
     }
 
     /**
-     * Obtém o valor da propriedade regionalRef.
+     * Gets the value of the regionalRef property.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class CentroDeCustoRef {
     }
 
     /**
-     * Define o valor da propriedade regionalRef.
+     * Sets the value of the regionalRef property.
      * 
      * @param value
      *     allowed object is

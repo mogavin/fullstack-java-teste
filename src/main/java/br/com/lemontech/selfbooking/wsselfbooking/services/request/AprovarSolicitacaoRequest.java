@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.FuncionarioRef;
 
 
 /**
- * <p>Classe Java de aprovarSolicitacaoRequest complex type.
+ * <p>Java class for aprovarSolicitacaoRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="aprovarSolicitacaoRequest">
@@ -50,7 +50,7 @@ public class AprovarSolicitacaoRequest {
     protected String controleCliente;
 
     /**
-     * Obtém o valor da propriedade idSolicitacaoRef.
+     * Gets the value of the idSolicitacaoRef property.
      * 
      */
     public int getIdSolicitacaoRef() {
@@ -58,7 +58,7 @@ public class AprovarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade idSolicitacaoRef.
+     * Sets the value of the idSolicitacaoRef property.
      * 
      */
     public void setIdSolicitacaoRef(int value) {
@@ -66,7 +66,7 @@ public class AprovarSolicitacaoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade aprovador.
+     * Gets the value of the aprovador property.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class AprovarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade aprovador.
+     * Sets the value of the aprovador property.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class AprovarSolicitacaoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade controleCliente.
+     * Gets the value of the controleCliente property.
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class AprovarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade controleCliente.
+     * Sets the value of the controleCliente property.
      * 
      * @param value
      *     allowed object is

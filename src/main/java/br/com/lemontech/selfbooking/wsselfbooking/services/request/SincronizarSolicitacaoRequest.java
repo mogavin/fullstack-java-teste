@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de sincronizarSolicitacaoRequest complex type.
+ * <p>Java class for sincronizarSolicitacaoRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="sincronizarSolicitacaoRequest">
@@ -43,7 +43,7 @@ public class SincronizarSolicitacaoRequest {
     protected boolean sincronizado;
 
     /**
-     * Obtém o valor da propriedade idSolicitacao.
+     * Gets the value of the idSolicitacao property.
      * 
      */
     public int getIdSolicitacao() {
@@ -51,7 +51,7 @@ public class SincronizarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade idSolicitacao.
+     * Sets the value of the idSolicitacao property.
      * 
      */
     public void setIdSolicitacao(int value) {
@@ -59,7 +59,7 @@ public class SincronizarSolicitacaoRequest {
     }
 
     /**
-     * Obtém o valor da propriedade sincronizado.
+     * Gets the value of the sincronizado property.
      * 
      */
     public boolean isSincronizado() {
@@ -67,7 +67,7 @@ public class SincronizarSolicitacaoRequest {
     }
 
     /**
-     * Define o valor da propriedade sincronizado.
+     * Sets the value of the sincronizado property.
      * 
      */
     public void setSincronizado(boolean value) {

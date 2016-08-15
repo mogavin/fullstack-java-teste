@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.fornecedor.FornecedorRef
 
 
 /**
- * <p>Classe Java de alterarStatusFornecedorRequest complex type.
+ * <p>Java class for alterarStatusFornecedorRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="alterarStatusFornecedorRequest">
@@ -40,7 +40,7 @@ public class AlterarStatusFornecedorRequest {
     protected FornecedorRef fornecedorRef;
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -48,7 +48,7 @@ public class AlterarStatusFornecedorRequest {
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {
@@ -56,7 +56,7 @@ public class AlterarStatusFornecedorRequest {
     }
 
     /**
-     * Obtém o valor da propriedade fornecedorRef.
+     * Gets the value of the fornecedorRef property.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class AlterarStatusFornecedorRequest {
     }
 
     /**
-     * Define o valor da propriedade fornecedorRef.
+     * Sets the value of the fornecedorRef property.
      * 
      * @param value
      *     allowed object is

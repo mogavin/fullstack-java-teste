@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.IdentificadorIntegracaoR
 
 
 /**
- * <p>Classe Java de inserirIdentificadorIntegracaoRequest complex type.
+ * <p>Java class for inserirIdentificadorIntegracaoRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="inserirIdentificadorIntegracaoRequest">
@@ -37,7 +37,7 @@ public class InserirIdentificadorIntegracaoRequest {
     protected IdentificadorIntegracaoRef identificadorIntegracaoRef;
 
     /**
-     * Obtém o valor da propriedade identificadorIntegracaoRef.
+     * Gets the value of the identificadorIntegracaoRef property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class InserirIdentificadorIntegracaoRequest {
     }
 
     /**
-     * Define o valor da propriedade identificadorIntegracaoRef.
+     * Sets the value of the identificadorIntegracaoRef property.
      * 
      * @param value
      *     allowed object is

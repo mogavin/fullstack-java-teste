@@ -3,14 +3,13 @@ package br.com.lemontech.selfbooking.wsselfbooking.beans.types;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de cobertura complex type.
+ * <p>Java class for cobertura complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="cobertura">
@@ -38,11 +37,10 @@ public class Cobertura {
 
     protected String descricao;
     protected String limite;
-    @XmlSchemaType(name = "string")
     protected TipoCobertura tipoCobertura;
 
     /**
-     * Obtém o valor da propriedade descricao.
+     * Gets the value of the descricao property.
      * 
      * @return
      *     possible object is
@@ -54,7 +52,7 @@ public class Cobertura {
     }
 
     /**
-     * Define o valor da propriedade descricao.
+     * Sets the value of the descricao property.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +64,7 @@ public class Cobertura {
     }
 
     /**
-     * Obtém o valor da propriedade limite.
+     * Gets the value of the limite property.
      * 
      * @return
      *     possible object is
@@ -78,7 +76,7 @@ public class Cobertura {
     }
 
     /**
-     * Define o valor da propriedade limite.
+     * Sets the value of the limite property.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +88,7 @@ public class Cobertura {
     }
 
     /**
-     * Obtém o valor da propriedade tipoCobertura.
+     * Gets the value of the tipoCobertura property.
      * 
      * @return
      *     possible object is
@@ -102,7 +100,7 @@ public class Cobertura {
     }
 
     /**
-     * Define o valor da propriedade tipoCobertura.
+     * Sets the value of the tipoCobertura property.
      * 
      * @param value
      *     allowed object is

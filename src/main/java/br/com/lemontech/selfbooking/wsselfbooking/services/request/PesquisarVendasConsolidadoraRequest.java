@@ -11,9 +11,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoProduto;
 
 
 /**
- * <p>Classe Java de pesquisarVendasConsolidadoraRequest complex type.
+ * <p>Java class for pesquisarVendasConsolidadoraRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="pesquisarVendasConsolidadoraRequest">
@@ -57,7 +57,6 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoProduto;
 public class PesquisarVendasConsolidadoraRequest {
 
     @XmlElement(required = true)
-    @XmlSchemaType(name = "string")
     protected TipoProduto produto;
     @XmlElement(required = true)
     @XmlSchemaType(name = "dateTime")
@@ -70,7 +69,7 @@ public class PesquisarVendasConsolidadoraRequest {
     protected Integer quantidadeRegistros;
 
     /**
-     * Obtém o valor da propriedade produto.
+     * Gets the value of the produto property.
      * 
      * @return
      *     possible object is
@@ -82,7 +81,7 @@ public class PesquisarVendasConsolidadoraRequest {
     }
 
     /**
-     * Define o valor da propriedade produto.
+     * Sets the value of the produto property.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +93,7 @@ public class PesquisarVendasConsolidadoraRequest {
     }
 
     /**
-     * Obtém o valor da propriedade dataInicial.
+     * Gets the value of the dataInicial property.
      * 
      * @return
      *     possible object is
@@ -106,7 +105,7 @@ public class PesquisarVendasConsolidadoraRequest {
     }
 
     /**
-     * Define o valor da propriedade dataInicial.
+     * Sets the value of the dataInicial property.
      * 
      * @param value
      *     allowed object is
@@ -118,7 +117,7 @@ public class PesquisarVendasConsolidadoraRequest {
     }
 
     /**
-     * Obtém o valor da propriedade dataFinal.
+     * Gets the value of the dataFinal property.
      * 
      * @return
      *     possible object is
@@ -130,7 +129,7 @@ public class PesquisarVendasConsolidadoraRequest {
     }
 
     /**
-     * Define o valor da propriedade dataFinal.
+     * Sets the value of the dataFinal property.
      * 
      * @param value
      *     allowed object is
@@ -142,7 +141,7 @@ public class PesquisarVendasConsolidadoraRequest {
     }
 
     /**
-     * Obtém o valor da propriedade registroInicial.
+     * Gets the value of the registroInicial property.
      * 
      */
     public int getRegistroInicial() {
@@ -150,7 +149,7 @@ public class PesquisarVendasConsolidadoraRequest {
     }
 
     /**
-     * Define o valor da propriedade registroInicial.
+     * Sets the value of the registroInicial property.
      * 
      */
     public void setRegistroInicial(int value) {
@@ -158,7 +157,7 @@ public class PesquisarVendasConsolidadoraRequest {
     }
 
     /**
-     * Obtém o valor da propriedade quantidadeRegistros.
+     * Gets the value of the quantidadeRegistros property.
      * 
      * @return
      *     possible object is
@@ -170,7 +169,7 @@ public class PesquisarVendasConsolidadoraRequest {
     }
 
     /**
-     * Define o valor da propriedade quantidadeRegistros.
+     * Sets the value of the quantidadeRegistros property.
      * 
      * @param value
      *     allowed object is

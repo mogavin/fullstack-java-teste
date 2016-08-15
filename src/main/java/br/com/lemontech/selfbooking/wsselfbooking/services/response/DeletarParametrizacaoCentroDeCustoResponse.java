@@ -8,9 +8,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.ResultadoOperacao;
 
 
 /**
- * <p>Classe Java de deletarParametrizacaoCentroDeCustoResponse complex type.
+ * <p>Java class for deletarParametrizacaoCentroDeCustoResponse complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="deletarParametrizacaoCentroDeCustoResponse">
@@ -35,7 +35,7 @@ public class DeletarParametrizacaoCentroDeCustoResponse {
     protected ResultadoOperacao resultadoOperacao;
 
     /**
-     * Obtém o valor da propriedade resultadoOperacao.
+     * Gets the value of the resultadoOperacao property.
      * 
      * @return
      *     possible object is
@@ -47,7 +47,7 @@ public class DeletarParametrizacaoCentroDeCustoResponse {
     }
 
     /**
-     * Define o valor da propriedade resultadoOperacao.
+     * Sets the value of the resultadoOperacao property.
      * 
      * @param value
      *     allowed object is

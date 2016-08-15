@@ -9,9 +9,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.SubCentroDeCusto;
 
 
 /**
- * <p>Classe Java de cadastrarSubCentroDeCustoRequest complex type.
+ * <p>Java class for cadastrarSubCentroDeCustoRequest complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="cadastrarSubCentroDeCustoRequest">
@@ -37,7 +37,7 @@ public class CadastrarSubCentroDeCustoRequest {
     protected SubCentroDeCusto subCentroDeCusto;
 
     /**
-     * Obtém o valor da propriedade subCentroDeCusto.
+     * Gets the value of the subCentroDeCusto property.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class CadastrarSubCentroDeCustoRequest {
     }
 
     /**
-     * Define o valor da propriedade subCentroDeCusto.
+     * Sets the value of the subCentroDeCusto property.
      * 
      * @param value
      *     allowed object is

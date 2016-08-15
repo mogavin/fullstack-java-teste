@@ -11,9 +11,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.Moeda;
 
 
 /**
- * <p>Classe Java de tarifarioFornecedorHotel complex type.
+ * <p>Java class for tarifarioFornecedorHotel complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="tarifarioFornecedorHotel">
@@ -52,12 +52,11 @@ public class TarifarioFornecedorHotel
     protected String descricao;
     protected double tarifa;
     @XmlElement(required = true)
-    @XmlSchemaType(name = "string")
     protected Moeda moeda;
     protected boolean ativo;
 
     /**
-     * Obtém o valor da propriedade vencimento.
+     * Gets the value of the vencimento property.
      * 
      * @return
      *     possible object is
@@ -69,7 +68,7 @@ public class TarifarioFornecedorHotel
     }
 
     /**
-     * Define o valor da propriedade vencimento.
+     * Sets the value of the vencimento property.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +80,7 @@ public class TarifarioFornecedorHotel
     }
 
     /**
-     * Obtém o valor da propriedade descricao.
+     * Gets the value of the descricao property.
      * 
      * @return
      *     possible object is
@@ -93,7 +92,7 @@ public class TarifarioFornecedorHotel
     }
 
     /**
-     * Define o valor da propriedade descricao.
+     * Sets the value of the descricao property.
      * 
      * @param value
      *     allowed object is
@@ -105,7 +104,7 @@ public class TarifarioFornecedorHotel
     }
 
     /**
-     * Obtém o valor da propriedade tarifa.
+     * Gets the value of the tarifa property.
      * 
      */
     public double getTarifa() {
@@ -113,7 +112,7 @@ public class TarifarioFornecedorHotel
     }
 
     /**
-     * Define o valor da propriedade tarifa.
+     * Sets the value of the tarifa property.
      * 
      */
     public void setTarifa(double value) {
@@ -121,7 +120,7 @@ public class TarifarioFornecedorHotel
     }
 
     /**
-     * Obtém o valor da propriedade moeda.
+     * Gets the value of the moeda property.
      * 
      * @return
      *     possible object is
@@ -133,7 +132,7 @@ public class TarifarioFornecedorHotel
     }
 
     /**
-     * Define o valor da propriedade moeda.
+     * Sets the value of the moeda property.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +144,7 @@ public class TarifarioFornecedorHotel
     }
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -153,7 +152,7 @@ public class TarifarioFornecedorHotel
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {

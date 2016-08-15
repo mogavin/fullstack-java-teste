@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de contato complex type.
+ * <p>Java class for contato complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="contato">
@@ -56,7 +56,7 @@ public class Contato {
     protected String celular;
 
     /**
-     * Obtém o valor da propriedade email.
+     * Gets the value of the email property.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class Contato {
     }
 
     /**
-     * Define o valor da propriedade email.
+     * Sets the value of the email property.
      * 
      * @param value
      *     allowed object is
@@ -80,7 +80,7 @@ public class Contato {
     }
 
     /**
-     * Obtém o valor da propriedade ddiTelefone.
+     * Gets the value of the ddiTelefone property.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class Contato {
     }
 
     /**
-     * Define o valor da propriedade ddiTelefone.
+     * Sets the value of the ddiTelefone property.
      * 
      * @param value
      *     allowed object is
@@ -104,7 +104,7 @@ public class Contato {
     }
 
     /**
-     * Obtém o valor da propriedade dddTelefone.
+     * Gets the value of the dddTelefone property.
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class Contato {
     }
 
     /**
-     * Define o valor da propriedade dddTelefone.
+     * Sets the value of the dddTelefone property.
      * 
      * @param value
      *     allowed object is
@@ -128,7 +128,7 @@ public class Contato {
     }
 
     /**
-     * Obtém o valor da propriedade telefone.
+     * Gets the value of the telefone property.
      * 
      * @return
      *     possible object is
@@ -140,7 +140,7 @@ public class Contato {
     }
 
     /**
-     * Define o valor da propriedade telefone.
+     * Sets the value of the telefone property.
      * 
      * @param value
      *     allowed object is
@@ -152,7 +152,7 @@ public class Contato {
     }
 
     /**
-     * Obtém o valor da propriedade ddiCelular.
+     * Gets the value of the ddiCelular property.
      * 
      * @return
      *     possible object is
@@ -164,7 +164,7 @@ public class Contato {
     }
 
     /**
-     * Define o valor da propriedade ddiCelular.
+     * Sets the value of the ddiCelular property.
      * 
      * @param value
      *     allowed object is
@@ -176,7 +176,7 @@ public class Contato {
     }
 
     /**
-     * Obtém o valor da propriedade dddCelular.
+     * Gets the value of the dddCelular property.
      * 
      * @return
      *     possible object is
@@ -188,7 +188,7 @@ public class Contato {
     }
 
     /**
-     * Define o valor da propriedade dddCelular.
+     * Sets the value of the dddCelular property.
      * 
      * @param value
      *     allowed object is
@@ -200,7 +200,7 @@ public class Contato {
     }
 
     /**
-     * Obtém o valor da propriedade celular.
+     * Gets the value of the celular property.
      * 
      * @return
      *     possible object is
@@ -212,7 +212,7 @@ public class Contato {
     }
 
     /**
-     * Define o valor da propriedade celular.
+     * Sets the value of the celular property.
      * 
      * @param value
      *     allowed object is

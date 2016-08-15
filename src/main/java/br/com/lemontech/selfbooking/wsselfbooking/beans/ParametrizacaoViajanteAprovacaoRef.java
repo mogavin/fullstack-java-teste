@@ -12,9 +12,9 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.types.TipoViagem;
 
 
 /**
- * <p>Classe Java de parametrizacaoViajanteAprovacaoRef complex type.
+ * <p>Java class for parametrizacaoViajanteAprovacaoRef complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="parametrizacaoViajanteAprovacaoRef">
@@ -56,7 +56,6 @@ public class ParametrizacaoViajanteAprovacaoRef {
     @XmlElement(defaultValue = "0")
     protected Integer nivelDeAprovacao;
     @XmlElement(defaultValue = "TODOS")
-    @XmlSchemaType(name = "string")
     protected TipoViagem tipoDeViagemDaAprocacao;
     @XmlElement(defaultValue = "false")
     protected Boolean aprovaSomenteDentroDaPolitica;
@@ -64,7 +63,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     protected XMLGregorianCalendar periodoViagemInicial;
 
     /**
-     * Obtém o valor da propriedade funcionarioRef.
+     * Gets the value of the funcionarioRef property.
      * 
      * @return
      *     possible object is
@@ -76,7 +75,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade funcionarioRef.
+     * Sets the value of the funcionarioRef property.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +87,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade viajanteRef.
+     * Gets the value of the viajanteRef property.
      * 
      * @return
      *     possible object is
@@ -100,7 +99,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade viajanteRef.
+     * Sets the value of the viajanteRef property.
      * 
      * @param value
      *     allowed object is
@@ -112,7 +111,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade nivelDeAprovacao.
+     * Gets the value of the nivelDeAprovacao property.
      * 
      * @return
      *     possible object is
@@ -124,7 +123,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade nivelDeAprovacao.
+     * Sets the value of the nivelDeAprovacao property.
      * 
      * @param value
      *     allowed object is
@@ -136,7 +135,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade tipoDeViagemDaAprocacao.
+     * Gets the value of the tipoDeViagemDaAprocacao property.
      * 
      * @return
      *     possible object is
@@ -148,7 +147,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade tipoDeViagemDaAprocacao.
+     * Sets the value of the tipoDeViagemDaAprocacao property.
      * 
      * @param value
      *     allowed object is
@@ -160,7 +159,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade aprovaSomenteDentroDaPolitica.
+     * Gets the value of the aprovaSomenteDentroDaPolitica property.
      * 
      * @return
      *     possible object is
@@ -172,7 +171,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade aprovaSomenteDentroDaPolitica.
+     * Sets the value of the aprovaSomenteDentroDaPolitica property.
      * 
      * @param value
      *     allowed object is
@@ -184,7 +183,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     }
 
     /**
-     * Obtém o valor da propriedade periodoViagemInicial.
+     * Gets the value of the periodoViagemInicial property.
      * 
      * @return
      *     possible object is
@@ -196,7 +195,7 @@ public class ParametrizacaoViajanteAprovacaoRef {
     }
 
     /**
-     * Define o valor da propriedade periodoViagemInicial.
+     * Sets the value of the periodoViagemInicial property.
      * 
      * @param value
      *     allowed object is

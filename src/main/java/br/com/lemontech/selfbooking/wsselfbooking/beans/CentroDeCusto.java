@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de centroDeCusto complex type.
+ * <p>Java class for centroDeCusto complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="centroDeCusto">
@@ -45,7 +45,7 @@ public class CentroDeCusto
     protected boolean ativo;
 
     /**
-     * Obtém o valor da propriedade descricao.
+     * Gets the value of the descricao property.
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class CentroDeCusto
     }
 
     /**
-     * Define o valor da propriedade descricao.
+     * Sets the value of the descricao property.
      * 
      * @param value
      *     allowed object is
@@ -69,7 +69,7 @@ public class CentroDeCusto
     }
 
     /**
-     * Obtém o valor da propriedade configuracao.
+     * Gets the value of the configuracao property.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class CentroDeCusto
     }
 
     /**
-     * Define o valor da propriedade configuracao.
+     * Sets the value of the configuracao property.
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class CentroDeCusto
     }
 
     /**
-     * Obtém o valor da propriedade ativo.
+     * Gets the value of the ativo property.
      * 
      */
     public boolean isAtivo() {
@@ -101,7 +101,7 @@ public class CentroDeCusto
     }
 
     /**
-     * Define o valor da propriedade ativo.
+     * Sets the value of the ativo property.
      * 
      */
     public void setAtivo(boolean value) {

@@ -30,19 +30,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Hoteis }
-     * 
-     */
-    public Hoteis createHoteis() {
-        return new Hoteis();
-    }
-
-    /**
      * Create an instance of {@link Hotel }
      * 
      */
     public Hotel createHotel() {
         return new Hotel();
+    }
+
+    /**
+     * Create an instance of {@link Hoteis }
+     * 
+     */
+    public Hoteis createHoteis() {
+        return new Hoteis();
     }
 
 }

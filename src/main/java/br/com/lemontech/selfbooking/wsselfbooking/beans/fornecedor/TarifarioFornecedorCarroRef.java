@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de tarifarioFornecedorCarroRef complex type.
+ * <p>Java class for tarifarioFornecedorCarroRef complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="tarifarioFornecedorCarroRef">
@@ -49,7 +49,7 @@ public class TarifarioFornecedorCarroRef {
     protected String categoria;
 
     /**
-     * Obtém o valor da propriedade identificadorBackofficeFornecedor.
+     * Gets the value of the identificadorBackofficeFornecedor property.
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class TarifarioFornecedorCarroRef {
     }
 
     /**
-     * Define o valor da propriedade identificadorBackofficeFornecedor.
+     * Sets the value of the identificadorBackofficeFornecedor property.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class TarifarioFornecedorCarroRef {
     }
 
     /**
-     * Obtém o valor da propriedade identificadorBackofficeCliente.
+     * Gets the value of the identificadorBackofficeCliente property.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class TarifarioFornecedorCarroRef {
     }
 
     /**
-     * Define o valor da propriedade identificadorBackofficeCliente.
+     * Sets the value of the identificadorBackofficeCliente property.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class TarifarioFornecedorCarroRef {
     }
 
     /**
-     * Obtém o valor da propriedade modelo.
+     * Gets the value of the modelo property.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class TarifarioFornecedorCarroRef {
     }
 
     /**
-     * Define o valor da propriedade modelo.
+     * Sets the value of the modelo property.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class TarifarioFornecedorCarroRef {
     }
 
     /**
-     * Obtém o valor da propriedade categoria.
+     * Gets the value of the categoria property.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class TarifarioFornecedorCarroRef {
     }
 
     /**
-     * Define o valor da propriedade categoria.
+     * Sets the value of the categoria property.
      * 
      * @param value
      *     allowed object is
