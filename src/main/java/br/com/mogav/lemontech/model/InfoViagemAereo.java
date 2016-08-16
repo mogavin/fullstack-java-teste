@@ -10,18 +10,27 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereo;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.AereoSeguimento;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereos;
 
-public class InfoViagemAereo {
+public class InfoViagemAereo extends Persistivel{
 	
 	private final String nomePassageiro; 
 	private final String ciaAerea;
 	private final Long timestampSaida; 
 	private final Long timestampChegada; 
 	private final String cidadeOrigem; 
-	private final String cidadeDestino;
-
-		
+	private final String cidadeDestino;	
+	
+	
 	public InfoViagemAereo(String nomePassageiro, String ciaAerea, Long timestampSaida, 
 						Long timestampChegada, String cidadeOrigem, String cidadeDestino){
+		this(null, nomePassageiro, ciaAerea, timestampSaida, timestampChegada, cidadeOrigem, cidadeDestino);
+	}
+	
+	/**
+	 * Construtor para persistência
+	 */
+	public InfoViagemAereo(Long id, String nomePassageiro, String ciaAerea, Long timestampSaida, 
+						Long timestampChegada, String cidadeOrigem, String cidadeDestino){
+		super(id);
 		this.nomePassageiro = nomePassageiro;
 		this.ciaAerea = ciaAerea;
 		this.timestampSaida = timestampSaida;
@@ -48,6 +57,7 @@ public class InfoViagemAereo {
 		return new InfoViagemAereo(nomePassageiro, ciaAerea, timestampSaida, timestampChegada, cidadeOrigem, cidadeDestino);
 	}
 
+	
 	public String getNomePassageiro() {
 		return this.nomePassageiro;
 	}
