@@ -1,32 +1,29 @@
 package br.com.mogav.lemontech.model;
 
+import static br.com.mogav.lemontech.fixture.XMLCalendarFixture.converterParaXMLGregorianCalendar;
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 import java.util.Date;
-import java.util.GregorianCalendar;
 
-import javax.xml.datatype.DatatypeConfigurationException;
-import javax.xml.datatype.DatatypeFactory;
-import javax.xml.datatype.XMLGregorianCalendar;
+import nl.jqno.equalsverifier.EqualsVerifier;
 
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.google.common.collect.Lists;
-
 import br.com.lemontech.selfbooking.wsselfbooking.beans.Passageiro;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.Solicitacao;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereo;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.AereoSeguimento;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereos;
-import nl.jqno.equalsverifier.EqualsVerifier;
 
-public class TesteInfoViagem {
+import com.google.common.collect.Lists;
+
+public class TesteInfoViagemAereo {
 	
 	private static final DateTimeFormatter DTF = DateTimeFormat.forPattern("dd/MM/yyyy");
 	
@@ -42,7 +39,7 @@ public class TesteInfoViagem {
 	private AereoSeguimento mockAereoSeguimento;
 
 	@Before
-	public void setup() throws DatatypeConfigurationException{
+	public void setup(){
 		this.mockSolicitacaoComAereos = mock(Solicitacao.class, RETURNS_DEEP_STUBS);
 		this.mockAereo = mock(Aereo.class);
 		Aereos mockAereos = mock(Aereos.class); when(mockSolicitacaoComAereos.getAereos()).thenReturn(mockAereos);
@@ -80,7 +77,7 @@ public class TesteInfoViagem {
 	}
 	
 	@Test
-	public void obterDataSaida() throws DatatypeConfigurationException{
+	public void obterDataSaida(){
 		Date dataHoraSaida = new Date(TIMESTAMP_SAIDA);		
 		when(mockAereoSeguimento.getDataSaida()).thenReturn(converterParaXMLGregorianCalendar(TIMESTAMP_SAIDA));
 
@@ -90,7 +87,7 @@ public class TesteInfoViagem {
 	}
 	
 	@Test
-	public void obterDataChegada() throws DatatypeConfigurationException{
+	public void obterDataChegada(){
 		Date dataHoraChegada = new Date(TIMESTAMP_CHEGADA);		
 		when(mockAereoSeguimento.getDataChegada()).thenReturn(converterParaXMLGregorianCalendar(TIMESTAMP_CHEGADA));
 		
@@ -130,16 +127,5 @@ public class TesteInfoViagem {
 	@Test
 	public void verificaEqualsEHashcode(){
 		EqualsVerifier.forClass(InfoViagemAereo.class).verify();
-	}
-	
-	
-	/**
-	 * Método auxiliar para converter um timestamp em uma instância de XMLGregorianCalendar.
-	 * 
-	 */
-	private static final XMLGregorianCalendar converterParaXMLGregorianCalendar(Long timestamp)
-																	throws DatatypeConfigurationException{		
-		GregorianCalendar data = new GregorianCalendar(); data.setTimeInMillis(timestamp);		
-		return DatatypeFactory.newInstance().newXMLGregorianCalendar(data);
-	}
+	}	
 }
