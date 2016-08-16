@@ -16,7 +16,7 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereos;
 import br.com.lemontech.selfbooking.wsselfbooking.services.request.PesquisarSolicitacaoRequest;
 import br.com.lemontech.selfbooking.wsselfbooking.services.response.PesquisarSolicitacaoResponse;
 
-public class PesquisaSolicitacaoClient {
+public class TesteClient {
 
 	public static void main(String[] args) throws DatatypeConfigurationException {
 		
