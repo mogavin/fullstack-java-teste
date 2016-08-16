@@ -1,5 +1,6 @@
 package br.com.lemontech.selfbooking.wsselfbooking.services;
 
+import java.util.Collection;
 import java.util.GregorianCalendar;
 
 import javax.xml.datatype.DatatypeConfigurationException;
@@ -8,6 +9,10 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 import org.joda.time.DateTime;
 
+import br.com.lemontech.selfbooking.wsselfbooking.beans.Solicitacao;
+import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereo;
+import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.AereoSeguimento;
+import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereos;
 import br.com.lemontech.selfbooking.wsselfbooking.services.request.PesquisarSolicitacaoRequest;
 import br.com.lemontech.selfbooking.wsselfbooking.services.response.PesquisarSolicitacaoResponse;
 
@@ -38,11 +43,23 @@ public class PesquisaSolicitacaoClient {
 												"a23b66e93a17759937046c0cc190d9e0", 
 												"738c0d4bd196432fe90f091af8816674", 
 												pesquisarSolicitacao);
-		
+		Collection<Solicitacao> solicitacoes = response.getSolicitacao();
 		System.out.println(response.getResultadoAcao());
 		System.out.println(response.getNumeroSolicitacoes());
-		System.out.println(response.getSolicitacao());
-		System.out.println(response.getMensagemRetorno());
+//		System.out.println(solicitacoes);
+//		System.out.println(response.getMensagemRetorno());
+		
+		for(Solicitacao solicitacao : solicitacoes){
+			Aereos aereos = solicitacao.getAereos();
+			if(aereos != null){
+				for(Aereo aereo : solicitacao.getAereos().getAereo()){
+					//System.err.println(aereo.getSource());
+					for(AereoSeguimento aereoSeguimento : aereo.getAereoSeguimento()){
+						System.err.println(aereoSeguimento.getOrigem());
+					}
+				}
+			}
+		}
     }
 	
 	private static XMLGregorianCalendar converterParaXMLGregorianCalendar(GregorianCalendar data)
