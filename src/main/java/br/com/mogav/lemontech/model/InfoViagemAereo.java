@@ -20,7 +20,7 @@ public class InfoViagemAereo {
 	private final String cidadeDestino;
 
 		
-	InfoViagemAereo(String nomePassageiro, String ciaAerea, Long timestampSaida, 
+	public InfoViagemAereo(String nomePassageiro, String ciaAerea, Long timestampSaida, 
 						Long timestampChegada, String cidadeOrigem, String cidadeDestino){
 		this.nomePassageiro = nomePassageiro;
 		this.ciaAerea = ciaAerea;

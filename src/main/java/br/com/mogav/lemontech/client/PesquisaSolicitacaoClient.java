@@ -16,6 +16,7 @@ import br.com.mogav.lemontech.model.InfoViagemAereo;
 
 import com.google.common.base.Predicate;
 import com.google.common.collect.Collections2;
+import com.google.common.collect.Sets;
 
 public class PesquisaSolicitacaoClient {
 
@@ -31,7 +32,13 @@ public class PesquisaSolicitacaoClient {
 	
 	
 	public Collection<InfoViagemAereo> obterInfosViagemAereo(Date dataInicial, Date dataFinal) {
-		return null;
+		Collection<InfoViagemAereo> infosViagem = Sets.newHashSet();
+		
+		Collection<Solicitacao> comAereos = this.obterSolicitacoesComAereos(dataInicial, dataFinal);
+		for(Solicitacao comProdutoAereo : comAereos)
+			infosViagem.add(InfoViagemAereo.extrairInfoViagemAereo(comProdutoAereo));
+		
+		return infosViagem;
 	}
 	
 	Collection<Solicitacao> obterSolicitacoesComAereos(Date dataInicial, Date dataFinal) {

@@ -1,8 +1,13 @@
 package br.com.mogav.lemontech.client;
 
 import static br.com.mogav.lemontech.fixture.XMLCalendarFixture.converterParaXMLGregorianCalendar;
-import static org.junit.Assert.*;
-import static org.mockito.Mockito.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.when;
 
 import java.util.Collection;
 import java.util.Date;
@@ -14,7 +19,10 @@ import org.joda.time.format.DateTimeFormatter;
 import org.junit.Before;
 import org.junit.Test;
 
+import br.com.lemontech.selfbooking.wsselfbooking.beans.Passageiro;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.Solicitacao;
+import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereo;
+import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.AereoSeguimento;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereos;
 import br.com.lemontech.selfbooking.wsselfbooking.services.WsSelfBooking;
 import br.com.lemontech.selfbooking.wsselfbooking.services.WsSelfBookingService;
@@ -23,6 +31,7 @@ import br.com.lemontech.selfbooking.wsselfbooking.services.response.PesquisarSol
 import br.com.mogav.lemontech.model.InfoViagemAereo;
 
 import com.google.common.collect.Lists;
+import com.google.common.collect.Sets;
 
 public class TestePesquisaSolicitacaoClient {
 	
@@ -101,13 +110,46 @@ public class TestePesquisaSolicitacaoClient {
 	}
 	
 	@Test
-	public void obterInformacoesDeViagensAereas(){
+	public void obterInformacoesDeViagensAereas(){		
+		//Parametrização
 		Date dataInicial = new Date(TIMESTAMP_INICIAL);
-		Date dataFinal = new Date(TIMESTAMP_FINAL);
+		Date dataFinal = new Date(TIMESTAMP_FINAL);		
+		String nomePassageiro = "nomePassageiro";
+		String ciaAerea = "ciaAerea";
+		Long timestampSaida = 1L;
+		Long timestampChegada = 5L;
+		String cidadeOrigem = "cidadeOrigem";
+		String cidadeDestino = "cidadeDestino";
+		InfoViagemAereo infoViagem = new InfoViagemAereo(nomePassageiro, ciaAerea, timestampSaida,
+														timestampChegada, cidadeOrigem, cidadeDestino);
+		Collection<InfoViagemAereo> respostaEsperada = Sets.newHashSet(infoViagem);
+
+		
+		//Mocks necessários para o teste
+		AereoSeguimento seguimento = new AereoSeguimento();
+		seguimento.setDataSaida(converterParaXMLGregorianCalendar(timestampSaida));
+		seguimento.setDataChegada(converterParaXMLGregorianCalendar(timestampChegada));
+		seguimento.setCidadeOrigem(cidadeOrigem);
+		seguimento.setCidadeDestino(cidadeDestino);
+		
+		Aereo mockProdAereo = mock(Aereo.class);
+		when(mockProdAereo.getSource()).thenReturn(ciaAerea);
+		when(mockProdAereo.getAereoSeguimento()).thenReturn(Lists.newArrayList(seguimento));
+		
+		Aereos mockAereos = mock(Aereos.class);		
+		when(mockAereos.getAereo()).thenReturn(Lists.newArrayList(mockProdAereo));
+		
+		Solicitacao solicitacao = new Solicitacao();
+		Passageiro passageiro = new Passageiro(); passageiro.setNomeCompleto(nomePassageiro);
+		solicitacao.setSolicitante(passageiro);
+		solicitacao.setAereos(mockAereos);
+		
+		doReturn(Lists.newArrayList(solicitacao)).when(spyClient).obterSolicitacoesComAereos(dataInicial, dataFinal);
+		
 		
 		//Executamos o método a ser testado
 		Collection<InfoViagemAereo> respostaObtida = spyClient.obterInfosViagemAereo(dataInicial, dataFinal);
 		
-		fail();
+		assertEquals(respostaEsperada, respostaObtida);
 	}
 }
