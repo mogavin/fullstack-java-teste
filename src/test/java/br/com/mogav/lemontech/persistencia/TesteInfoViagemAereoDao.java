@@ -1,7 +1,10 @@
 package br.com.mogav.lemontech.persistencia;
 
+import static br.com.mogav.lemontech.fixture.XMLCalendarFixture.converterParaXMLGregorianCalendar;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 import java.util.List;
 
@@ -10,9 +13,15 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import br.com.lemontech.selfbooking.wsselfbooking.beans.Passageiro;
+import br.com.lemontech.selfbooking.wsselfbooking.beans.Solicitacao;
+import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereo;
+import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.AereoSeguimento;
+import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereos;
 import br.com.mogav.lemontech.model.InfoViagemAereo;
 
 import com.google.common.collect.ImmutableList;
+import com.google.common.collect.Lists;
 
 public class TesteInfoViagemAereoDao {
  
@@ -49,17 +58,52 @@ public class TesteInfoViagemAereoDao {
 		InfoViagemAereo salvo = dao.salvar(infosViagens.get(0));
 		InfoViagemAereo recuperado = dao.buscarPorId(salvo.getId());
 		
-		InfoViagemAereo atualizado = new InfoViagemAereo(recuperado.getId(), recuperado.getNomePassageiro(), "AVIANCA",
-										recuperado.getDataSaida().getTime(), recuperado.getDataChegada().getTime(),
-										recuperado.getCidadeOrigem(), recuperado.getCidadeDestino());
+		String novaCiaAerea = "AVIANCA";		
+		Solicitacao solicitacao = criarSolicitacao(recuperado.getId(), recuperado.getNomePassageiro(), novaCiaAerea,
+									recuperado.getDataSaida().getTime(), recuperado.getDataChegada().getTime(), 
+									recuperado.getCidadeOrigem(), recuperado.getCidadeDestino());
+		
+		//Utilizamos o construtor estático para testar se o id da Solicitacao é repassado para a InfoViagemAereo
+		InfoViagemAereo atualizado = InfoViagemAereo.extrairInfoViagemAereo(solicitacao);
 		dao.salvar(atualizado);
 		
-		assertEquals(atualizado, dao.buscarPorId(atualizado.getId()));
+		assertEquals(1, dao.listarTodos().size());
+		assertEquals(atualizado.getCiaAerea(), dao.buscarPorId(atualizado.getId()).getCiaAerea());
 	}
 	
 	
 	@After
 	public void clean(){
 		this.dao.apagarTodos();
+	}
+	
+	
+	
+	/**
+	 * Método de testes auxiliar para criar uma instância de 'Solicitacao'.
+	 * 
+	 */
+	private static final Solicitacao criarSolicitacao(Long id, String nomePassageiro, String ciaAerea, Long timestampSaida, 
+														Long timestampChegada, String cidadeOrigem, String cidadeDestino){
+		AereoSeguimento seguimento = new AereoSeguimento();
+		seguimento.setDataSaida(converterParaXMLGregorianCalendar(timestampSaida));
+		seguimento.setDataChegada(converterParaXMLGregorianCalendar(timestampChegada));
+		seguimento.setCidadeOrigem(cidadeOrigem);
+		seguimento.setCidadeDestino(cidadeDestino);
+		
+		Aereo mockProdAereo = mock(Aereo.class);
+		when(mockProdAereo.getSource()).thenReturn(ciaAerea);
+		when(mockProdAereo.getAereoSeguimento()).thenReturn(Lists.newArrayList(seguimento));
+		
+		Aereos mockAereos = mock(Aereos.class);		
+		when(mockAereos.getAereo()).thenReturn(Lists.newArrayList(mockProdAereo));
+		
+		Solicitacao solicitacao = new Solicitacao();
+		Passageiro passageiro = new Passageiro(); passageiro.setNomeCompleto(nomePassageiro);
+		solicitacao.setIdSolicitacao(id.intValue());
+		solicitacao.setSolicitante(passageiro);
+		solicitacao.setAereos(mockAereos);
+		
+		return solicitacao;
 	}
 }
