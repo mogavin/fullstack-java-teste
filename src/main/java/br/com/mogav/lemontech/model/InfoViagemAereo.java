@@ -3,6 +3,9 @@ package br.com.mogav.lemontech.model;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 import com.google.common.base.Preconditions;
 
 import br.com.lemontech.selfbooking.wsselfbooking.beans.Solicitacao;
@@ -10,6 +13,8 @@ import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereo;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.AereoSeguimento;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereos;
 
+@Entity
+@Table(name="info_viagem_aereo")
 public class InfoViagemAereo extends Persistivel{
 	
 	private final String nomePassageiro; 
@@ -20,6 +25,14 @@ public class InfoViagemAereo extends Persistivel{
 	private final String cidadeDestino;	
 	
 	
+	/**
+	 * @deprecated JPA eyes only
+	 */
+	@Deprecated
+	InfoViagemAereo(){
+		this(null, null, null, null, null, null);
+	}
+	
 	public InfoViagemAereo(String nomePassageiro, String ciaAerea, Long timestampSaida, 
 						Long timestampChegada, String cidadeOrigem, String cidadeDestino){
 		this(null, nomePassageiro, ciaAerea, timestampSaida, timestampChegada, cidadeOrigem, cidadeDestino);
@@ -28,7 +41,7 @@ public class InfoViagemAereo extends Persistivel{
 	/**
 	 * Construtor para persistência
 	 */
-	public InfoViagemAereo(Long id, String nomePassageiro, String ciaAerea, Long timestampSaida, 
+	InfoViagemAereo(Long id, String nomePassageiro, String ciaAerea, Long timestampSaida, 
 						Long timestampChegada, String cidadeOrigem, String cidadeDestino){
 		super(id);
 		this.nomePassageiro = nomePassageiro;

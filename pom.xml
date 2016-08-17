@@ -5,6 +5,42 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   
+  <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  
+  <!-- Valores default para persistence.xml - Banco de dados em memória --> 
+		<javax.persistence.jdbc.user>sa</javax.persistence.jdbc.user>
+		<javax.persistence.jdbc.password></javax.persistence.jdbc.password>
+		<javax.persistence.jdbc.driver>org.hsqldb.jdbcDriver</javax.persistence.jdbc.driver>
+		<javax.persistence.jdbc.url>jdbc:hsqldb:mem:.</javax.persistence.jdbc.url>
+		<hibernate.cache.provider_class>org.hibernate.cache.NoCacheProvider</hibernate.cache.provider_class>
+		<hibernate.hbm2ddl.auto>create-drop</hibernate.hbm2ddl.auto>
+		<hibernate.dialect>org.hibernate.dialect.HSQLDialect</hibernate.dialect>
+		<hibernate.show_sql>true</hibernate.show_sql>
+		<hibernate.format_sql>true</hibernate.format_sql>			    
+  </properties>
+  
+  <!-- Valores de producao para persistence.xml - Banco de dados real -->
+	<!-- Para ativar, buildar com o maven com o comando  mvn -(ambiente) -->
+	<!-- ex: mvn -local -->
+	<!-- http://stackoverflow.com/questions/7353585/maven-include-resource-file-based-on-profile -->
+	<profiles>
+	  <profile>
+	    <id>lemontech</id>
+	    <properties>
+	      <javax.persistence.jdbc.user>adminFsrTVRH</javax.persistence.jdbc.user>
+	      <javax.persistence.jdbc.password>m8Rzzbd9rzPq</javax.persistence.jdbc.password>
+	      <javax.persistence.jdbc.driver>com.mysql.jdbc.Driver</javax.persistence.jdbc.driver>
+	      <javax.persistence.jdbc.url>jdbc:mysql://127.7.94.130:3306/desafiolemontech</javax.persistence.jdbc.url>
+	      <hibernate.cache.provider_class>org.hibernate.cache.NoCacheProvider</hibernate.cache.provider_class>
+	      <hibernate.hbm2ddl.auto>update</hibernate.hbm2ddl.auto>
+	      <hibernate.dialect>org.hibernate.dialect.MySQL5InnoDBDialect</hibernate.dialect>
+	      <hibernate.show_sql>false</hibernate.show_sql>
+	      <hibernate.format_sql>false</hibernate.format_sql>
+	    </properties>
+	  </profile>
+	</profiles>
+    
   <dependencies>
   	<dependency>
           <groupId>br.com.caelum</groupId>
@@ -100,6 +136,60 @@
 	    <groupId>com.google.guava</groupId>
 	    <artifactId>guava</artifactId>
 	    <version>19.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.mchange</groupId>
+		<artifactId>c3p0</artifactId>
+		<version>0.9.5.2</version>
+	</dependency>		
+	
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-c3p0</artifactId>
+		<version>5.0.6.Final</version>
+	</dependency>
+	
+	<!-- Injeta EntityManager e EntityManagerFactory, além de implementar Open EntityManager in View -->
+	<dependency>
+	    <groupId>br.com.caelum.vraptor</groupId>
+	    <artifactId>vraptor-jpa</artifactId>
+	    <version>4.0.4</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-entitymanager</artifactId>
+		<version>5.0.0.Final</version>
+	</dependency>
+	
+	<!-- Evita erro "NoClassDefFoundError: org/w3c/dom/ElementTraversal" devido ao persistence.xml -->
+	<dependency>
+	    <groupId>xml-apis</groupId>
+	    <artifactId>xml-apis</artifactId>
+	    <version>1.4.01</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>5.1.36</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.hsqldb</groupId>
+		<artifactId>hsqldb</artifactId>
+		<version>2.3.3</version>
+	</dependency>
+	
+	<!--
+	Evita o aviso de erro na IDE:
+	"The superclass “javax.servlet.http.HttpServlet” was not found on the Java Build Path" 
+	-->
+	<dependency>
+	  <groupId>javax.servlet</groupId>
+	  <artifactId>javax.servlet-api</artifactId>
+	  <version>3.1.0</version>
+	  <scope>provided</scope>
 	</dependency>		
   </dependencies>
   
@@ -114,6 +204,15 @@
 		            <target>1.7</target>
 		        </configuration>
 		    </plugin>
-		</plugins>		
+		</plugins>
+		
+		<!-- Recursos default - Por padrão move para webapp/WEB-INF/classes -->		
+		<resources>
+		  <!-- Substitui as variáveis do persistence.xml pelos valores determinados no início deste POM -->	
+		  <resource>
+		    <directory>src/main/resources</directory>
+		    <filtering>true</filtering>
+		  </resource>		  
+		</resources>
 	</build>  
 </project>

@@ -5,7 +5,7 @@ import java.util.Collection;
 import br.com.mogav.lemontech.model.Persistivel;
 
 interface Dao<T extends Persistivel> {
-	T salvarEAtualizar(T t);
+	T salvarOuAtualizar(T t);
 	T buscarPorId(Long id);
 	Collection<T> listarTodos();
 	boolean apagarTodos();
