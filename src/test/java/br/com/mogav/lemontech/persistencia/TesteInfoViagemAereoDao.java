@@ -1,8 +1,7 @@
 package br.com.mogav.lemontech.persistencia;
 
 import static br.com.mogav.lemontech.fixture.XMLCalendarFixture.converterParaXMLGregorianCalendar;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -13,15 +12,15 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.Lists;
+
 import br.com.lemontech.selfbooking.wsselfbooking.beans.Passageiro;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.Solicitacao;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereo;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.AereoSeguimento;
 import br.com.lemontech.selfbooking.wsselfbooking.beans.aereo.Aereos;
 import br.com.mogav.lemontech.model.InfoViagemAereo;
-
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Lists;
 
 public class TesteInfoViagemAereoDao {
  
@@ -40,22 +39,20 @@ public class TesteInfoViagemAereoDao {
 	
 	@Test
 	public void recuperarPorId(){		
-		InfoViagemAereo salvo = dao.salvar(infosViagens.get(0));
+		InfoViagemAereo salvo = dao.salvarEAtualizar(infosViagens.get(0));
 		InfoViagemAereo recuperado = dao.buscarPorId(salvo.getId());
 		assertNotNull(recuperado);
 	}
 	
 	@Test
 	public void listarTodos(){
-		dao.salvar(infosViagens.get(0));
-		dao.salvar(infosViagens.get(1));
-		
-		CollectionUtils.isEqualCollection(infosViagens, dao.listarTodos());
+		dao.salvarEAtualizarTodos(infosViagens);
+		assertTrue(CollectionUtils.isEqualCollection(infosViagens, dao.listarTodos()));
 	}
 	
 	@Test
 	public void editar(){
-		InfoViagemAereo salvo = dao.salvar(infosViagens.get(0));
+		InfoViagemAereo salvo = dao.salvarEAtualizar(infosViagens.get(0));
 		InfoViagemAereo recuperado = dao.buscarPorId(salvo.getId());
 		
 		String novaCiaAerea = "AVIANCA";		
@@ -65,7 +62,7 @@ public class TesteInfoViagemAereoDao {
 		
 		//Utilizamos o construtor estático para testar se o id da Solicitacao é repassado para a InfoViagemAereo
 		InfoViagemAereo atualizado = InfoViagemAereo.extrairInfoViagemAereo(solicitacao);
-		dao.salvar(atualizado);
+		dao.salvarEAtualizar(atualizado);
 		
 		assertEquals(1, dao.listarTodos().size());
 		assertEquals(atualizado.getCiaAerea(), dao.buscarPorId(atualizado.getId()).getCiaAerea());

@@ -4,9 +4,9 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Map;
 
-import br.com.mogav.lemontech.model.InfoViagemAereo;
-
 import com.google.common.collect.Maps;
+
+import br.com.mogav.lemontech.model.InfoViagemAereo;
 
 public class InfoViagemAereoDao implements Dao<InfoViagemAereo>{
 
@@ -14,7 +14,7 @@ public class InfoViagemAereoDao implements Dao<InfoViagemAereo>{
 	private static final Map<Long, InfoViagemAereo> TABELA = Maps.newHashMap();
 	
 	@Override
-	public InfoViagemAereo salvar(InfoViagemAereo infoViagem) {
+	public InfoViagemAereo salvarEAtualizar(InfoViagemAereo infoViagem) {
 		Long chave = (infoViagem.getId() == null) ? CHAVE_DISPONIVEL : infoViagem.getId();
 		
 		InfoViagemAereo aSalvar = 
@@ -40,5 +40,11 @@ public class InfoViagemAereoDao implements Dao<InfoViagemAereo>{
 	@Override
 	public boolean apagarTodos() {
 		TABELA.clear(); return true;
-	}	
+	}
+
+	public boolean salvarEAtualizarTodos(Collection<InfoViagemAereo> infosViagens) {
+		for(InfoViagemAereo infoViagem : infosViagens)
+			this.salvarEAtualizar(infoViagem);		
+		return true;
+	}
 }
