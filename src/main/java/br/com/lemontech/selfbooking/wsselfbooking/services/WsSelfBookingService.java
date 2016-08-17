@@ -3,6 +3,8 @@ package br.com.lemontech.selfbooking.wsselfbooking.services;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+
+import javax.enterprise.context.RequestScoped;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 import javax.xml.ws.WebEndpoint;
@@ -17,6 +19,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
+@RequestScoped
 @WebServiceClient(name = "WsSelfBookingService", targetNamespace = "http://lemontech.com.br/selfbooking/wsselfbooking/services", wsdlLocation = "https://treinamento.lemontech.com.br/wsselfbooking/WsSelfBookingService?wsdl")
 public class WsSelfBookingService
     extends Service

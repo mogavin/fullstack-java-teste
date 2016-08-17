@@ -40,7 +40,7 @@ public class TesteInfoViagemService {
 		when(mockDao.listarTodos()).thenReturn(INFOS_VIAGENS);		
 		
 		//Executamos o método a ser testado
-		Collection<InfoViagemAereo> respostaObtida = spyService.consultarEAtualizarInfos();
+		Collection<InfoViagemAereo> respostaObtida = spyService.atualizarERetornarInfos();
 		
 		verify(spyService).atualizarBase();		
 		assertEquals(INFOS_VIAGENS, respostaObtida);
@@ -48,9 +48,11 @@ public class TesteInfoViagemService {
 	
 	@Test
 	public void atualizarBase(){
-		Date dataInicial = InfoViagemService.getDataInicialConsultaWebservice();
-		Date dataFinal = InfoViagemService.getDataFinalConsultaWebservice();
+		Date dataInicial = new Date(10L);
+		Date dataFinal = new Date(500L);
 		
+		doReturn(dataInicial).when(spyService).getDataInicialConsultaWebservice();
+		doReturn(dataFinal).when(spyService).getDataFinalConsultaWebservice();
 		when(mockClient.obterInfosViagemAereo(dataInicial, dataFinal))
 			.thenReturn(INFOS_VIAGENS);
 		

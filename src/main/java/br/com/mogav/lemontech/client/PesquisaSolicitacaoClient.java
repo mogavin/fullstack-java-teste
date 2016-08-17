@@ -5,6 +5,8 @@ import static br.com.mogav.lemontech.fixture.XMLCalendarFixture.converterParaXML
 import java.util.Collection;
 import java.util.Date;
 
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Inject;
 import javax.xml.datatype.XMLGregorianCalendar;
 
 import br.com.lemontech.selfbooking.wsselfbooking.beans.Solicitacao;
@@ -18,6 +20,7 @@ import com.google.common.base.Predicate;
 import com.google.common.collect.Collections2;
 import com.google.common.collect.Sets;
 
+@RequestScoped
 public class PesquisaSolicitacaoClient {
 
 	static final String KEY_CLIENT = "base_teste_qa";
@@ -25,7 +28,15 @@ public class PesquisaSolicitacaoClient {
 	static final String USER_PASSWORD = "738c0d4bd196432fe90f091af8816674";
 	
 	private final WsSelfBookingService service;
+	
+	 /**
+     * @deprecated CDI eyes only
+     */
+	PesquisaSolicitacaoClient() {
+		this(null);
+	}
 
+	@Inject
 	public PesquisaSolicitacaoClient(WsSelfBookingService service) {
 		this.service = service;
 	}

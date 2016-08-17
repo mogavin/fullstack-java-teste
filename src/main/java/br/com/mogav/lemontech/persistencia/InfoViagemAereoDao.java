@@ -4,10 +4,13 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Map;
 
+import javax.enterprise.context.RequestScoped;
+
 import com.google.common.collect.Maps;
 
 import br.com.mogav.lemontech.model.InfoViagemAereo;
 
+@RequestScoped
 public class InfoViagemAereoDao implements Dao<InfoViagemAereo>{
 
 	private static Long CHAVE_DISPONIVEL = 1L;

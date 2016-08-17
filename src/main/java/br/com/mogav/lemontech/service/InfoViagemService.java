@@ -3,20 +3,29 @@ package br.com.mogav.lemontech.service;
 import java.util.Collection;
 import java.util.Date;
 
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Inject;
+
 import org.joda.time.DateTime;
 
 import br.com.mogav.lemontech.client.PesquisaSolicitacaoClient;
 import br.com.mogav.lemontech.model.InfoViagemAereo;
 import br.com.mogav.lemontech.persistencia.InfoViagemAereoDao;
 
+@RequestScoped
 public class InfoViagemService {
-
-	private static final Long TMSP_INICIAL_ATUALIZACAO = new DateTime().minusYears(2).getMillis();
-	private static final Long TMSP_FINAL_ATUALIZACAO = new Date().getTime();
 	
 	private final PesquisaSolicitacaoClient client;
 	private final InfoViagemAereoDao dao;
 	
+	/**
+     * @deprecated CDI eyes only
+     */
+	InfoViagemService() {
+		this(null, null);
+	}
+	
+	@Inject
 	public InfoViagemService(PesquisaSolicitacaoClient client, InfoViagemAereoDao dao) {
 		this.client = client;
 		this.dao = dao;
@@ -30,7 +39,7 @@ public class InfoViagemService {
 	 * {@link #getDataFinalConsultaWebservice() getDataFinalConsultaWebservice}
 	 * 
 	 */
-	public Collection<InfoViagemAereo> consultarEAtualizarInfos() {
+	public Collection<InfoViagemAereo> atualizarERetornarInfos() {
 		this.atualizarBase();
 		return this.dao.listarTodos();
 	}
@@ -49,11 +58,11 @@ public class InfoViagemService {
 		return this.dao.salvarEAtualizarTodos(infosViagensPeriodo);
 	}
 	
-	public static final Date getDataInicialConsultaWebservice(){
-		return new Date(TMSP_INICIAL_ATUALIZACAO);
+	public Date getDataInicialConsultaWebservice(){
+		return new DateTime().minusYears(2).toDate();
 	}
 	
-	public static final Date getDataFinalConsultaWebservice(){
-		return new Date(TMSP_FINAL_ATUALIZACAO);
+	public Date getDataFinalConsultaWebservice(){
+		return new Date();
 	}
 }
