@@ -10,6 +10,10 @@ import org.joda.time.DateTime;
 import br.com.lemontech.selfbooking.wsselfbooking.services.WsSelfBookingService;
 import br.com.mogav.lemontech.model.InfoViagemAereo;
 
+/**
+ * Classe para testes de integração com o webservice da Lemontech.
+ *
+ */
 public class ITTesteClient {
 
 	public static void main(String[] args) throws DatatypeConfigurationException {		
