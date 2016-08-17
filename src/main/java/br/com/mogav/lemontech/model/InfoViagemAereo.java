@@ -41,7 +41,7 @@ public class InfoViagemAereo extends Persistivel{
 	/**
 	 * Construtor para persistência
 	 */
-	InfoViagemAereo(Long id, String nomePassageiro, String ciaAerea, Long timestampSaida, 
+	public InfoViagemAereo(Long id, String nomePassageiro, String ciaAerea, Long timestampSaida, 
 						Long timestampChegada, String cidadeOrigem, String cidadeDestino){
 		super(id);
 		this.nomePassageiro = nomePassageiro;
@@ -57,7 +57,7 @@ public class InfoViagemAereo extends Persistivel{
 	 * 
 	 */
 	public static final InfoViagemAereo extrairInfoViagemAereo(Solicitacao solicitacao){
-		Long idSolicitacao = Long.valueOf(solicitacao.getIdCliente());		
+		Long idSolicitacao = Long.valueOf(solicitacao.getIdSolicitacao());		
 		Aereo aereo = analisaSePossuiAereos(solicitacao);
 		String nomePassageiro = solicitacao.getSolicitante().getNomeCompleto();
 		String ciaAerea = aereo.getSource();

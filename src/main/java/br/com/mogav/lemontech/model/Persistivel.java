@@ -1,7 +1,5 @@
 package br.com.mogav.lemontech.model;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
@@ -13,7 +11,6 @@ import javax.persistence.MappedSuperclass;
 public abstract class Persistivel {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	protected Long id;
 	
 	/**

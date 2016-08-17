@@ -32,8 +32,8 @@ public class TesteInfoViagemAereoDao extends BaseTesteDAO<InfoViagemAereo>{
 	@Before
 	public void setup(){
 		this.infosViagens = ImmutableList.of(
-			new InfoViagemAereo("Daniella Thiemi Suzuki", "GOL_V2", 40L, 50L, "SAO PAULO", "VITORIA"),
-			new InfoViagemAereo("Roger Fontella", "SABRE", 60L, 70L, "PORTO ALEGRE", "SAO PAULO")
+			new InfoViagemAereo(1L,"Daniella Thiemi Suzuki", "GOL_V2", 40L, 50L, "SAO PAULO", "VITORIA"),
+			new InfoViagemAereo(2L,"Roger Fontella", "SABRE", 60L, 70L, "PORTO ALEGRE", "SAO PAULO")
 		);
 		this.dao = new InfoViagemAereoDao(this.entityManager);
 	}
@@ -104,7 +104,7 @@ public class TesteInfoViagemAereoDao extends BaseTesteDAO<InfoViagemAereo>{
 		
 		Solicitacao solicitacao = new Solicitacao();
 		Passageiro passageiro = new Passageiro(); passageiro.setNomeCompleto(nomePassageiro);
-		solicitacao.setIdCliente(id.intValue());
+		solicitacao.setIdSolicitacao(id.intValue());
 		solicitacao.setSolicitante(passageiro);
 		solicitacao.setAereos(mockAereos);
 		
