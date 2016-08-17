@@ -57,7 +57,7 @@ public class InfoViagemAereo extends Persistivel{
 	 * 
 	 */
 	public static final InfoViagemAereo extrairInfoViagemAereo(Solicitacao solicitacao){
-		Long idSolicitacao = Long.valueOf(solicitacao.getIdSolicitacao());		
+		Long idSolicitacao = Long.valueOf(solicitacao.getIdCliente());		
 		Aereo aereo = analisaSePossuiAereos(solicitacao);
 		String nomePassageiro = solicitacao.getSolicitante().getNomeCompleto();
 		String ciaAerea = aereo.getSource();

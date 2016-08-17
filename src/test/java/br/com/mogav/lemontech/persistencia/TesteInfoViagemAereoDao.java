@@ -104,7 +104,7 @@ public class TesteInfoViagemAereoDao extends BaseTesteDAO<InfoViagemAereo>{
 		
 		Solicitacao solicitacao = new Solicitacao();
 		Passageiro passageiro = new Passageiro(); passageiro.setNomeCompleto(nomePassageiro);
-		solicitacao.setIdSolicitacao(id.intValue());
+		solicitacao.setIdCliente(id.intValue());
 		solicitacao.setSolicitante(passageiro);
 		solicitacao.setAereos(mockAereos);
 		
