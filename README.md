@@ -1,52 +1,20 @@
-# Por que trabalhar na Lemontech
+# Consulta de viagens com produtos aéreos
 
-A Lemontech é uma empresa especializada no desenvolvimento de softwares que contribuem na Gestão das Viagens Corporativas.
-Têm como principais objetivos, reduzir custos e tornar os processos mais dinâmicos.
-O Sistema Lemontech, é utilizado por corporações e agências de viagens que buscam economia, eficiência e automação dos seus negócios.ditamos no poder da tecnologia para melhorar continuamente a vida das pessoas. 
+Ao acessar a aplicação é efetuada uma consulta ao webservice da Lemontech pelas solicitações de viagens aéreas dos últimos 2 anos e, após efetuar a consulta, os dados são persistidos na base. Caso os dados tenham sofrido alguma alteração, a base é atualizada.
 
-Se você tem espírito e comportamento empreendedor, muita disposição e proatividade para trabalhar em uma empresa em franca expansão, você é um forte candidato :)
 
-Como Desenvolvedor Full-stack você irá atuar no desenvolvimento de soluções em arquitetura Java Web MVC, Java EE, integrações com outros sistemas (SOAP, REST, JMS) e soluções escaláveis, participando de todo o processo de desenvolvimento, desde tomadas de decisões à codificação e testes.
+# Arquitetura da solução
 
-# O que preciso fazer?
+A arquitetura utilizada para o projeto web foi a MVC, utilizando o  framework VRaptor4 e a linguagem Java no servidor (Tomcat), com testes unitários localizados no pacote src/test/java. Devido a falta de tempo não foi possível implementar uma lógica que perceba a existência de dados atualizados na base e ignore a consulta ao webservice e nem a ordenação das viagens por data, no entanto a modelagem permite o acréscimo destas funcionalidades sem maiores problemas.
 
-Vamos ser práticos e diretos, se você quer trabalhar conosco siga os passos abaixo:
 
-* Faça um "fork" desse projeto para sua conta GitHub.
-* Implemente o desafio descrito no tópico abaixo.
-* Faça um push para seu repositório com o desafio implementado.
-* Envie um email para (rh@lemontech.com.br) avisando que finalizou o desafio com a url do seu fork.
-* Cruze os dedos e aguarde nosso contato.
+# Como gerar o war para deploy
 
-# O desafio (Consulta de Solicitações de Viagens)
+O projeto foi feito utilizando a ferramenta de build Maven e o seu war é gerado com o seguinte comando:
 
-Você deverá criar uma aplicação consumidora de nossa API de webservice para consultar viagens e persistir em banco de dados:
+mvn clean package -P lemontech
 
-Endpoint: https://treinamento.lemontech.com.br/wsselfbooking/WsSelfBookingService?wsdl
 
-Arquitetura: Pode-se utilizar qualquer recurso da especificação JavaEE.
+# Link da aplicação em produção
 
-Consultar as viagens dos últimos 3 meses (utilizar método pesquisarSolicitacao).
-
-Criar banco de dados / tabela para persistir as informações da viagem: Nome do Passageiro, CIA Aérea, Data/Hora de saida e Chegada, Cidades de origem e destino.
-
-Segregar os Serviços de consulta ao WS e o de persistência no BD, imaginando que poderiam estar em ambiente distribuído e após consulta ao Webservice a viagem possa ser enviada de alguma forma para um local onde o serviço de persistência tenha acesso posteriormente para que possa efetivar a gravação na tabela. 
-
-Propor solução utilizando padrões e funcionalidades JavaEE.
-
-### Arquitetura e documentação
-
-No arquivo README do projeto explique o funcionamento e a arquitetura da solução adotada na sua implementação. Descreva também os passos para executar corretamente seu projeto.
-
-### Avaliação
-
-Entre os critérios de avaliação estão:
-
-* Facilidade de configuração do projeto
-* Performance
-* Código limpo e organização
-* Documentação de código
-* Documentação do projeto (readme)
-* Arquitetura
-* Boas práticas de desenvolvimento
-* Design Patterns
+http://desafiolemontech-mogav.rhcloud.com/fullstack-java-teste/
